@@ -1,0 +1,9 @@
+en:
+  locale: en
+  label: "English"
+  weight: 1
+
+# shaw:
+  # locale: en
+  # label: "Shavian"
+  # weight: 3

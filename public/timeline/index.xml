@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Timeline Demo on Senwa.space</title>
+		<link>http://localhost:1313/timeline/</link>
+		<description>Recent content in Timeline Demo on Senwa.space</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/timeline/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>时间线示例</title>
+				<link>http://localhost:1313/timeline/_index.zh-hans/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/timeline/_index.zh-hans/</guid>
+				<description>&lt;p&gt;这个示例展示了时间线模板如何把每个 &lt;code&gt;##&lt;/code&gt; 标题识别为一个时间线区块，同时仍然保持原生 Markdown 的写作体验。&lt;/p&gt;&#xA;&lt;h2 id=&#34;最初规划&#34;&gt;最初规划&lt;a href=&#34;#%e6%9c%80%e5%88%9d%e8%a7%84%e5%88%92&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;我们先明确主题范围、收集参考案例，并梳理希望呈现给读者的整体体验。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

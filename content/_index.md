@@ -1,4 +1,5 @@
-+++
-title = 'Welcome'
-featured_image = '/images/feat.jpg'
-+++
+---
+dismissible: true
+date: 2025-12-31
+title: "Home"
+---

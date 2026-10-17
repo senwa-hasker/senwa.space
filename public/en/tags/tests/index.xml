@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tests on Senwa.space</title>
+		<link>http://localhost:1313/en/tags/tests/</link>
+		<description>Recent content in Tests on Senwa.space</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 16 Oct 2026 18:43:01 -0300</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/en/tags/tests/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>2026 10 16 Test</title>
+				<link>http://localhost:1313/en/posts/2026-10-16-test/</link>
+				<pubDate>Fri, 16 Oct 2026 18:43:01 -0300</pubDate>
+				<guid>http://localhost:1313/en/posts/2026-10-16-test/</guid>
+				<description>&lt;p&gt;Hello i am testing out a new post!&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&lt;figure&#xA;  class=&#34;image-figure not-prose my-8&#34;&#xA;  data-lightbox-enabled=&#34;&#xA;    true&#xA;  &#34;&#xA;  data-gallery-type=&#34;auto&#34;&#xA;  data-image-width=&#34;0&#34;&#xA;  data-image-height=&#34;0&#34;&#xA;  data-image-src=&#34;http://localhost:1313/images/pfp.jpg&#34;&#xA;&gt;&#xA;  &lt;div class=&#34;image-container&#34;&gt;&#xA;    &lt;img&#xA;    src=&#34;http://localhost:1313/images/pfp.jpg&#34;&#xA;    alt=&#34;&#34;&#xA;    title=&#34;hi&#34;&#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    data-gallery-src=&#34;http://localhost:1313/images/pfp.jpg&#34;&#xA;    data-gallery-alt=&#34;&#34;&#xA;    data-gallery-title=&#34;hi&#34;&#xA;  /&gt;&lt;/div&gt;&#xA;&#xA;  &lt;figcaption class=&#34;image-caption&#34;&gt;&#xA;      hi&#xA;    &lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;oh i see&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&lt;figure&#xA;  class=&#34;image-figure not-prose my-8&#34;&#xA;  data-lightbox-enabled=&#34;&#xA;    true&#xA;  &#34;&#xA;  data-gallery-type=&#34;auto&#34;&#xA;  data-image-width=&#34;0&#34;&#xA;  data-image-height=&#34;0&#34;&#xA;  data-image-src=&#34;http://localhost:1313/images/pfp.jpg&#34;&#xA;&gt;&#xA;  &lt;div class=&#34;image-container&#34;&gt;&#xA;    &lt;img&#xA;    src=&#34;http://localhost:1313/images/pfp.jpg&#34;&#xA;    alt=&#34;&#34;&#xA;    title=&#34;hi&#34;&#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    data-gallery-src=&#34;http://localhost:1313/images/pfp.jpg&#34;&#xA;    data-gallery-alt=&#34;&#34;&#xA;    data-gallery-title=&#34;hi&#34;&#xA;  /&gt;&lt;/div&gt;&#xA;&#xA;  &lt;figcaption class=&#34;image-caption&#34;&gt;&#xA;      hi&#xA;    &lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
