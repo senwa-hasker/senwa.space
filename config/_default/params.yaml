@@ -111,7 +111,7 @@ post:
   showRelated: true # show related posts
   relatedPostsCount: 3 # posts number
   license:
-    show: true
+    show: false
     author: "Hugo Narrow"
     name: "CC BY-NC-SA 4.0"
     description: "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license."
@@ -119,12 +119,13 @@ post:
     displayName: "CC BY-NC-SA 4.0"
 
 # Comments
+
 comments:
   enabled: false
   # giscus, disqus, utterances, waline, artalk, twikoo, comentario
-  system: "giscus"
+  system: "disqus"
   giscus:
-    repo: "tom2almighty/hugo-narrow-giscus"
+    repo: "senwa-hasker/senwa.space"
     repoId: "R_kgDOO2gwLg"
     category: "General"
     categoryId: "DIC_kwDOO2gwLs4CrEaf"
@@ -136,7 +137,7 @@ comments:
     theme: "preferred_color_scheme"
     lang: "en"
   disqus:
-    shortname: ""
+    shortname: "senwahasker"
   utterances:
     repo: ""
     issueTerm: "pathname"
@@ -159,7 +160,7 @@ comments:
     lang: "zh-CN"
   comentario:
     server: ""
-    lang: "zh-CN"
+    lang: "en"
     theme: "" # light, dark, or empty to follow browser preference
     domainId: ""
     cssOverride: ""

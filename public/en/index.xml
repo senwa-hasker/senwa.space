@@ -10,64 +10,183 @@
 		
 		
 		
-			<lastBuildDate>Fri, 16 Oct 2026 21:51:14 -0300</lastBuildDate>
+			<lastBuildDate>Sat, 17 Oct 2026 02:59:17 -0300</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Introduction</title>
+				<link>http://localhost:1313/en/books/ideal-scenario/is0/</link>
+				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/ideal-scenario/is0/</guid>
+				<description>Ideal Scenario is a wholesome, easygoing smut book on the works. Enjoy!</description>
+			</item>
+			<item>
+				<title>Chapter 1: Your Way</title>
+				<link>http://localhost:1313/en/books/ideal-scenario/is1/</link>
+				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/ideal-scenario/is1/</guid>
+				<description>My personal classic, rewritten. Girl with a crush really wants to get with this person but in their own way of doing things (no spoilers!)</description>
+			</item>
+			<item>
+				<title>Chapter 2: No One&#39;s Looking</title>
+				<link>http://localhost:1313/en/books/ideal-scenario/is2/</link>
+				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/ideal-scenario/is2/</guid>
+				<description>In a park at night, watching stars, the whole shebang.</description>
+			</item>
+			<item>
+				<title>Chapter 3: House Party I</title>
+				<link>http://localhost:1313/en/books/ideal-scenario/is3/</link>
+				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/ideal-scenario/is3/</guid>
+				<description>Strangers find love in a crowd and substances only kind of play a part.</description>
+			</item>
+			<item>
+				<title>Chapter 4: Painterly</title>
+				<link>http://localhost:1313/en/books/ideal-scenario/is4/</link>
+				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/ideal-scenario/is4/</guid>
+				<description>Ella meets Markus in an art class, and they end up having to clean a mess together after it.</description>
+			</item>
+			<item>
+				<title>Chapter 5: Badlands</title>
+				<link>http://localhost:1313/en/books/ideal-scenario/is5/</link>
+				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/ideal-scenario/is5/</guid>
+				<description>On a trip to Brazil, Maya, Elsa and Aubrey find a little piece of nowhere, and a taste of home.</description>
+			</item>
+			<item>
+				<title>Chapter 6: Community Involvement</title>
+				<link>http://localhost:1313/en/books/ideal-scenario/is6/</link>
+				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/ideal-scenario/is6/</guid>
+				<description>Valerie gets a scholarship in Canada, and makes a friend.</description>
+			</item>
+			<item>
+				<title>Chapter 7: Expression</title>
+				<link>http://localhost:1313/en/books/ideal-scenario/is7/</link>
+				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/ideal-scenario/is7/</guid>
+				<description>A friend sees another in a state of dysphoria, and wishes to turn that into feeling free.</description>
+			</item>
+			<item>
+				<title>Chapter 8: Flower Boy</title>
+				<link>http://localhost:1313/en/books/ideal-scenario/is8/</link>
+				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/ideal-scenario/is8/</guid>
+				<description>An act of courage turns to a life changing moment. Picked the right flowers.</description>
+			</item>
+			<item>
+				<title>Chapter 9: The Sun on My Body</title>
+				<link>http://localhost:1313/en/books/ideal-scenario/is9/</link>
+				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/ideal-scenario/is9/</guid>
+				<description>Samia finds an unlikely bit of love in a chaotic environment.</description>
+			</item>
+			<item>
+				<title>Chapter 10: Home-like</title>
+				<link>http://localhost:1313/en/books/ideal-scenario/is10/</link>
+				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/ideal-scenario/is10/</guid>
+				<description>Leia goes on a trip and comes back with a soulmate, and quickly learns a friend had a secret.</description>
+			</item>
+			<item>
+				<title>Chapter 11: A Dove Dressed in Rain</title>
+				<link>http://localhost:1313/en/books/ideal-scenario/is11/</link>
+				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/ideal-scenario/is11/</guid>
+				<description>A beautiful spark ignited in a poetry class.</description>
+			</item>
+			<item>
+				<title>Chapter 12: House Party II</title>
+				<link>http://localhost:1313/en/books/ideal-scenario/is12/</link>
+				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/ideal-scenario/is12/</guid>
+				<description>A bunch of lipstick colours turns into a sitch.</description>
+			</item>
+			<item>
+				<title>Autism, Adhd &amp; Me</title>
+				<link>http://localhost:1313/en/articles/autism-adhd-and-me/</link>
+				<pubDate>Sat, 17 Oct 2026 02:59:17 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/autism-adhd-and-me/</guid>
+				<description>thingundertitleinpost</description>
+			</item>
+			<item>
+				<title>The Art of Language</title>
+				<link>http://localhost:1313/en/articles/the-art-of-language/</link>
+				<pubDate>Sat, 17 Oct 2026 02:58:39 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/the-art-of-language/</guid>
+				<description>thingundertitleinpost</description>
+			</item>
+			<item>
+				<title>On Religion</title>
+				<link>http://localhost:1313/en/articles/on-religion/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/on-religion/</guid>
+				<description>thingundertitleinpost</description>
+			</item>
+			<item>
+				<title>Knowing by Parallel</title>
+				<link>http://localhost:1313/en/articles/knowing-by-parallel/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:46 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/knowing-by-parallel/</guid>
+				<description>thingundertitleinpost</description>
+			</item>
+			<item>
+				<title>The Personality of Air</title>
+				<link>http://localhost:1313/en/articles/the-personality-of-air/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:34 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/the-personality-of-air/</guid>
+				<description>thingundertitleinpost</description>
+			</item>
+			<item>
+				<title>Lateralism</title>
+				<link>http://localhost:1313/en/articles/lateralism/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:08 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/lateralism/</guid>
+				<description>thingundertitleinpost</description>
+			</item>
+			<item>
+				<title>On Morality</title>
+				<link>http://localhost:1313/en/articles/on-morality/</link>
+				<pubDate>Sat, 17 Oct 2026 02:49:02 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/on-morality/</guid>
+				<description>thingundertitleinpost</description>
+			</item>
+			<item>
+				<title>Test</title>
+				<link>http://localhost:1313/en/projects/test/</link>
+				<pubDate>Sat, 17 Oct 2026 02:45:19 -0300</pubDate>
+				<guid>http://localhost:1313/en/projects/test/</guid>
+				<description>thingundertitleinpost</description>
+			</item>
+			<item>
+				<title>2026 10 17 Favorite Games</title>
+				<link>http://localhost:1313/en/blog/2026-10-17-favorite-games/</link>
+				<pubDate>Sat, 17 Oct 2026 00:28:10 -0300</pubDate>
+				<guid>http://localhost:1313/en/blog/2026-10-17-favorite-games/</guid>
+				<description>thingundertitleinpost</description>
+			</item>
+			<item>
+				<title>2026 10 17 Favorite Albums</title>
+				<link>http://localhost:1313/en/blog/2026-10-17-favorite-albums/</link>
+				<pubDate>Sat, 17 Oct 2026 00:28:06 -0300</pubDate>
+				<guid>http://localhost:1313/en/blog/2026-10-17-favorite-albums/</guid>
+				<description>thingundertitleinpost</description>
+			</item>
+			<item>
+				<title>2026 10 17 Favorite Movies</title>
+				<link>http://localhost:1313/en/blog/2026-10-17-favorite-movies/</link>
+				<pubDate>Sat, 17 Oct 2026 00:27:56 -0300</pubDate>
+				<guid>http://localhost:1313/en/blog/2026-10-17-favorite-movies/</guid>
+				<description>thingundertitleinpost</description>
+			</item>
 			<item>
 				<title>My Favorite Actors</title>
 				<link>http://localhost:1313/en/blog/2026-10-16-favorite-actors/</link>
 				<pubDate>Fri, 16 Oct 2026 21:51:14 -0300</pubDate>
 				<guid>http://localhost:1313/en/blog/2026-10-16-favorite-actors/</guid>
 				<description>My favorite actors in no order whatsoever</description>
-			</item>
-			<item>
-				<title>2026 10 16 New</title>
-				<link>http://localhost:1313/en/posts/2026-10-16-new/</link>
-				<pubDate>Fri, 16 Oct 2026 18:57:35 -0300</pubDate>
-				<guid>http://localhost:1313/en/posts/2026-10-16-new/</guid>
-				<description>&lt;p&gt;hello&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>2026 10 16 Test</title>
-				<link>http://localhost:1313/en/posts/2026-10-16-test/</link>
-				<pubDate>Fri, 16 Oct 2026 18:43:01 -0300</pubDate>
-				<guid>http://localhost:1313/en/posts/2026-10-16-test/</guid>
-				<description>&lt;p&gt;Hello i am testing out a new post!&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&lt;figure&#xA;  class=&#34;image-figure not-prose my-8&#34;&#xA;  data-lightbox-enabled=&#34;&#xA;    true&#xA;  &#34;&#xA;  data-gallery-type=&#34;auto&#34;&#xA;  data-image-width=&#34;0&#34;&#xA;  data-image-height=&#34;0&#34;&#xA;  data-image-src=&#34;http://localhost:1313/images/pfp.jpg&#34;&#xA;&gt;&#xA;  &lt;div class=&#34;image-container&#34;&gt;&#xA;    &lt;img&#xA;    src=&#34;http://localhost:1313/images/pfp.jpg&#34;&#xA;    alt=&#34;&#34;&#xA;    title=&#34;hi&#34;&#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    data-gallery-src=&#34;http://localhost:1313/images/pfp.jpg&#34;&#xA;    data-gallery-alt=&#34;&#34;&#xA;    data-gallery-title=&#34;hi&#34;&#xA;  /&gt;&lt;/div&gt;&#xA;&#xA;  &lt;figcaption class=&#34;image-caption&#34;&gt;&#xA;      hi&#xA;    &lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;oh i see&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&lt;figure&#xA;  class=&#34;image-figure not-prose my-8&#34;&#xA;  data-lightbox-enabled=&#34;&#xA;    true&#xA;  &#34;&#xA;  data-gallery-type=&#34;auto&#34;&#xA;  data-image-width=&#34;0&#34;&#xA;  data-image-height=&#34;0&#34;&#xA;  data-image-src=&#34;http://localhost:1313/images/pfp.jpg&#34;&#xA;&gt;&#xA;  &lt;div class=&#34;image-container&#34;&gt;&#xA;    &lt;img&#xA;    src=&#34;http://localhost:1313/images/pfp.jpg&#34;&#xA;    alt=&#34;&#34;&#xA;    title=&#34;hi&#34;&#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    data-gallery-src=&#34;http://localhost:1313/images/pfp.jpg&#34;&#xA;    data-gallery-alt=&#34;&#34;&#xA;    data-gallery-title=&#34;hi&#34;&#xA;  /&gt;&lt;/div&gt;&#xA;&#xA;  &lt;figcaption class=&#34;image-caption&#34;&gt;&#xA;      hi&#xA;    &lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Shortcodes</title>
-				<link>http://localhost:1313/en/posts/shortcodes/</link>
-				<pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/posts/shortcodes/</guid>
-				<description>&lt;p&gt;This page demonstrates all available shortcodes in the Hugo Narrow theme.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hugo-built-in-shortcodes&#34;&gt;Hugo Built-in Shortcodes&lt;a href=&#34;#hugo-built-in-shortcodes&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Hugo provides several &lt;a&#xA;    href=&#34;https://gohugo.io/shortcodes/&#34;target=&#34;_blank&#34;&#xA;    class=&#34;inline-flex items-center gap-1&#34;&#xA;  &gt;built-in shortcodes&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;. The content of these shortcodes is subject to change without notice, so you can visit the official page for detailed usage instructions.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Hugo - The World&#39;s Fastest Framework</title>
-				<link>http://localhost:1313/en/projects/hugo-framework/</link>
-				<pubDate>Tue, 20 Feb 2024 14:30:00 +0800</pubDate>
-				<guid>http://localhost:1313/en/projects/hugo-framework/</guid>
-				<description>A fast and flexible static site generator built with Go, powering thousands of websites worldwide.</description>
-			</item>
-			<item>
-				<title>Image Gallery</title>
-				<link>http://localhost:1313/en/posts/image-gallery/</link>
-				<pubDate>Tue, 16 Jan 2024 22:30:00 +0800</pubDate>
-				<guid>http://localhost:1313/en/posts/image-gallery/</guid>
-				<description>&lt;h1 id=&#34;image-rendering-test&#34;&gt;Image Rendering Test&lt;a href=&#34;#image-rendering-test&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;The Demo comes from &lt;a&#xA;    href=&#34;https://www.lightgalleryjs.com/demos/thumbnails/&#34;target=&#34;_blank&#34;&#xA;    class=&#34;inline-flex items-center gap-1&#34;&#xA;  &gt;LightGallery&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;All images are from &lt;a&#xA;    href=&#34;https://unsplash.com/&#34;target=&#34;_blank&#34;&#xA;    class=&#34;inline-flex items-center gap-1&#34;&#xA;  &gt;Unsplash&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Hugo Narrow Theme</title>
-				<link>http://localhost:1313/en/projects/hugo-narrow-theme/</link>
-				<pubDate>Mon, 15 Jan 2024 10:00:00 +0800</pubDate>
-				<guid>http://localhost:1313/en/projects/hugo-narrow-theme/</guid>
-				<description>A modern Hugo theme with multiple color schemes, dark mode support, and responsive design built on TailwindCSS 4.</description>
-			</item>
-			<item>
-				<title>Markdown Syntax Guide</title>
-				<link>http://localhost:1313/en/posts/markdown-syntax-guide/</link>
-				<pubDate>Mon, 15 Jan 2024 10:00:00 +0800</pubDate>
-				<guid>http://localhost:1313/en/posts/markdown-syntax-guide/</guid>
-				<description>This is a post which includes all available Markdown syntax.</description>
 			</item>
 			<item>
 				<title>Alex Rivera</title>

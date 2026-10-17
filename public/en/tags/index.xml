@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Fri, 16 Oct 2026 21:51:14 -0300</lastBuildDate>
+			<lastBuildDate>Sat, 17 Oct 2026 00:28:10 -0300</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Changethis</title>
+				<link>http://localhost:1313/en/tags/changethis/</link>
+				<pubDate>Sat, 17 Oct 2026 00:28:10 -0300</pubDate>
+				<guid>http://localhost:1313/en/tags/changethis/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Celebrities</title>
 				<link>http://localhost:1313/en/tags/celebrities/</link>
@@ -32,62 +39,6 @@
 				<link>http://localhost:1313/en/tags/people/</link>
 				<pubDate>Fri, 16 Oct 2026 21:51:14 -0300</pubDate>
 				<guid>http://localhost:1313/en/tags/people/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Changethis</title>
-				<link>http://localhost:1313/en/tags/changethis/</link>
-				<pubDate>Fri, 16 Oct 2026 18:57:35 -0300</pubDate>
-				<guid>http://localhost:1313/en/tags/changethis/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Tests</title>
-				<link>http://localhost:1313/en/tags/tests/</link>
-				<pubDate>Fri, 16 Oct 2026 18:43:01 -0300</pubDate>
-				<guid>http://localhost:1313/en/tags/tests/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Shortcode</title>
-				<link>http://localhost:1313/en/tags/shortcode/</link>
-				<pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/tags/shortcode/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Go</title>
-				<link>http://localhost:1313/en/tags/go/</link>
-				<pubDate>Tue, 20 Feb 2024 14:30:00 +0800</pubDate>
-				<guid>http://localhost:1313/en/tags/go/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Hugo</title>
-				<link>http://localhost:1313/en/tags/hugo/</link>
-				<pubDate>Tue, 20 Feb 2024 14:30:00 +0800</pubDate>
-				<guid>http://localhost:1313/en/tags/hugo/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Gallery</title>
-				<link>http://localhost:1313/en/tags/gallery/</link>
-				<pubDate>Tue, 16 Jan 2024 22:30:00 +0800</pubDate>
-				<guid>http://localhost:1313/en/tags/gallery/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Markdown</title>
-				<link>http://localhost:1313/en/tags/markdown/</link>
-				<pubDate>Mon, 15 Jan 2024 10:00:00 +0800</pubDate>
-				<guid>http://localhost:1313/en/tags/markdown/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Tailwind CSS</title>
-				<link>http://localhost:1313/en/tags/tailwind-css/</link>
-				<pubDate>Mon, 15 Jan 2024 10:00:00 +0800</pubDate>
-				<guid>http://localhost:1313/en/tags/tailwind-css/</guid>
 				<description></description>
 			</item>
 	</channel>

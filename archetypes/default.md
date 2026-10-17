@@ -21,5 +21,4 @@ lightbox:
   enabled: true
 justified_gallery:
   enabled: true
-slug: { { substr .File.UniqueID 0 7 } }
 ---

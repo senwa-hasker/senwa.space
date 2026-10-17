@@ -5,7 +5,7 @@ featured: false
 title: 'My Favorite Actors'
 description: "My favorite actors in no order whatsoever"
 summary: "My favorite actors in no order whatsoever"
-cover: cover.jpg
+cover: images/blog/placeholder.jpg
 tags:
     - People
     - Celebrities
@@ -17,7 +17,7 @@ justified_gallery:
   enabled: true
 ---
 
-These are my favorite actors, I have no idea what order.
+These are my favorite actors, I have no idea what order. Gonna expand on the list and write about them soon!
 
 ## Gallery
 

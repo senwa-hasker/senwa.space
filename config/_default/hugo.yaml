@@ -12,7 +12,7 @@ enableEmoji: true
 # Main Section Configuration (Optional)
 # If not configured, Hugo will automatically select the section with the most pages
 # This configuration affects functions such as recent articles on the homepage, search index, and archive pages
-mainSections: ["articles", "posts", "books", "projects"]  # Multiple values can be configured, e.g. ["posts", "blog", "articles"]
+mainSections: ["blog", "projects"]  # Multiple values can be configured, e.g. ["posts", "blog", "articles"]
 
 permalinks:
   posts: /posts/:slug/
@@ -26,10 +26,12 @@ pagination:
 
 taxonomies:
   archetype: archetypes
+  book: books
+  chapter: chapters
   category: categories
   tag: tags
-  saga: sagas
   topic: topics
+  character: characters
 
 markup:
   tableOfContents:

@@ -23,48 +23,6 @@ main:
     params:
       icon: projects
 
-  # Example: parent item with dropdown submenu children
-  - name: More
-    weight: 50
-    params:
-      icon: layers
-
-  - name: Categories
-    weight: 1
-    pageRef: /categories
-    parent: More
-    params:
-      icon: categories
-
-  - name: Tags
-    weight: 2
-    pageRef: /tags
-    parent: More
-    params:
-      icon: tags
-
-  - name: Books
-    weight: 3
-    pageRef: /books
-    parent: More
-    params:
-      icon: book-open
-
-  - name: Book Collections
-    weight: 4
-    pageRef: /collections
-    parent: More
-    params:
-      icon: projects
-
-  - name: Coding Projects
-    weight: 5
-    pageRef: /projects
-    parent: More
-    params:
-      icon: projects
-
-
 # footer menu
 footer:
   - name: Archives
@@ -85,31 +43,15 @@ footer:
     params:
       icon: file-text
 
-  - name: RSS Feed
-    url: /index.xml
-    weight: 30
-    params:
-      icon: rss
-
 # footer social link
 social:
   - name: GitHub
-    url: https://github.com/username
+    url: https://github.com/senwa-hasker
     weight: 10
     params:
       icon: github
   - name: Twitter
-    url: https://twitter.com/username
+    url: https://twitter.com/TinyMotorcycles
     weight: 20
     params:
       icon: twitter
-  - name: LinkedIn
-    url: https://linkedin.com/in/username
-    weight: 30
-    params:
-      icon: linkedin
-  - name: Email
-    url: mailto:your.email@example.com
-    weight: 40
-    params:
-      icon: email

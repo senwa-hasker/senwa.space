@@ -2,8 +2,119 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/en/books/ideal-scenario/is0/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/books/ideal-scenario/is1/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/books/ideal-scenario/is2/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/books/ideal-scenario/is3/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/books/ideal-scenario/is4/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/books/ideal-scenario/is5/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/books/ideal-scenario/is6/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/books/ideal-scenario/is7/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/books/ideal-scenario/is8/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/books/ideal-scenario/is9/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/books/ideal-scenario/is10/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/books/ideal-scenario/is11/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/books/ideal-scenario/is12/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/articles/autism-adhd-and-me/</loc>
+    <lastmod>2026-10-17T02:59:17-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/changethis/</loc>
+    <lastmod>2026-10-17T02:59:17-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/</loc>
+    <lastmod>2026-10-17T02:59:17-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/articles/the-art-of-language/</loc>
+    <lastmod>2026-10-17T02:58:39-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/articles/on-religion/</loc>
+    <lastmod>2026-10-17T02:57:53-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/articles/knowing-by-parallel/</loc>
+    <lastmod>2026-10-17T02:57:46-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/articles/the-personality-of-air/</loc>
+    <lastmod>2026-10-17T02:57:34-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/articles/lateralism/</loc>
+    <lastmod>2026-10-17T02:57:08-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/articles/on-morality/</loc>
+    <lastmod>2026-10-17T02:49:02-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/categories/</loc>
+    <lastmod>2026-10-17T02:45:19-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/categories/changethis/</loc>
+    <lastmod>2026-10-17T02:45:19-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/projects/</loc>
+    <lastmod>2026-10-17T02:45:19-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/projects/test/</loc>
+    <lastmod>2026-10-17T02:45:19-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/characters/aubrey-snelling/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/books/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/characters/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/books/ideal-scenario/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/characters/maya-miller/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/blog/2026-10-17-favorite-games/</loc>
+    <lastmod>2026-10-17T00:28:10-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/en/blog/</loc>
-    <lastmod>2026-10-16T21:51:14-03:00</lastmod>
+    <lastmod>2026-10-17T00:28:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/changethis/</loc>
+    <lastmod>2026-10-17T00:28:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/</loc>
+    <lastmod>2026-10-17T00:28:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/blog/2026-10-17-favorite-albums/</loc>
+    <lastmod>2026-10-17T00:28:06-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/articles/</loc>
+    <lastmod>2026-10-17T00:28:06-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/blog/2026-10-17-favorite-movies/</loc>
+    <lastmod>2026-10-17T00:27:56-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/celebrities/</loc>
     <lastmod>2026-10-16T21:51:14-03:00</lastmod>
@@ -17,83 +128,8 @@
     <loc>http://localhost:1313/en/tags/people/</loc>
     <lastmod>2026-10-16T21:51:14-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
-    <lastmod>2026-10-16T21:51:14-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/posts/2026-10-16-new/</loc>
-    <lastmod>2026-10-16T18:57:35-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
-    <lastmod>2026-10-16T18:57:35-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/categories/changethis/</loc>
-    <lastmod>2026-10-16T18:57:35-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/changethis/</loc>
-    <lastmod>2026-10-16T18:57:35-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2026-10-16T18:57:35-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/posts/2026-10-16-test/</loc>
-    <lastmod>2026-10-16T18:43:01-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/categories/test/</loc>
-    <lastmod>2026-10-16T18:43:01-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/tests/</loc>
-    <lastmod>2026-10-16T18:43:01-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/en/</loc>
     <lastmod>2025-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/categories/shortcode/</loc>
-    <lastmod>2025-12-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/shortcode/</loc>
-    <lastmod>2025-12-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/posts/shortcodes/</loc>
-    <lastmod>2025-12-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/go/</loc>
-    <lastmod>2024-02-20T14:30:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/hugo/</loc>
-    <lastmod>2024-02-20T14:30:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/projects/hugo-framework/</loc>
-    <lastmod>2024-02-20T14:30:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/categories/projects/</loc>
-    <lastmod>2024-02-20T14:30:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/projects/</loc>
-    <lastmod>2024-02-20T14:30:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/categories/gallery/</loc>
-    <lastmod>2024-01-16T22:30:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/gallery/</loc>
-    <lastmod>2024-01-16T22:30:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/posts/image-gallery/</loc>
-    <lastmod>2024-01-16T22:30:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/projects/hugo-narrow-theme/</loc>
-    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/categories/markdown/</loc>
-    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/markdown/</loc>
-    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/posts/markdown-syntax-guide/</loc>
-    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/tailwind-css/</loc>
-    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/about/</loc>
     <lastmod>2024-01-01T00:00:00+08:00</lastmod>
@@ -104,14 +140,10 @@
   </url><url>
     <loc>http://localhost:1313/en/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/books/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/sagas/</loc>
+    <loc>http://localhost:1313/en/chapters/</loc>
   </url><url>
     <loc>http://localhost:1313/en/series/</loc>
   </url><url>
     <loc>http://localhost:1313/en/series/test/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/topics/</loc>
   </url>
 </urlset>
