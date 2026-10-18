@@ -5,7 +5,7 @@ featured: false
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 description: "thingincardpreviews"
 summary: "thingundertitleinpost"
-cover: cover.jpg
+cover: images/books/booktitle/cover.jpg
 books:
     - changethis
 status: "in_progress"

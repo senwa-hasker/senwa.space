@@ -1,4 +1,4 @@
 ---
 title: "Blog Posts"
-description: "By most recent"
+description: "My blog will mostly have random pieces of information and me writing about everything and nothing."
 ---

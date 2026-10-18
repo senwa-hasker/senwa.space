@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/books/ideal-scenario/is0/</loc>
+    <loc>http://localhost:1313/en/books/ideal-scenario/</loc>
     <lastmod>2026-10-17T00:58:47-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/books/ideal-scenario/is1/</loc>
@@ -41,44 +41,74 @@
     <loc>http://localhost:1313/en/books/ideal-scenario/is12/</loc>
     <lastmod>2026-10-17T00:58:47-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/articles/autism-adhd-and-me/</loc>
-    <lastmod>2026-10-17T02:59:17-03:00</lastmod>
+    <loc>http://localhost:1313/en/guide/</loc>
+    <lastmod>2026-10-17T17:27:51-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/articles/12axes-in-depth/</loc>
+    <lastmod>2026-10-17T21:59:42-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/topics/changethis/</loc>
-    <lastmod>2026-10-17T02:59:17-03:00</lastmod>
+    <lastmod>2026-10-18T02:28:52-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/articles/the-beauty-of-fantasy/</loc>
+    <lastmod>2026-10-18T02:28:52-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/topics/</loc>
-    <lastmod>2026-10-17T02:59:17-03:00</lastmod>
+    <lastmod>2026-10-18T02:28:52-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/articles/the-art-of-language/</loc>
-    <lastmod>2026-10-17T02:58:39-03:00</lastmod>
+    <loc>http://localhost:1313/en/topics/abuse/</loc>
+    <lastmod>2026-10-18T01:55:37-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/articles/on-religion/</loc>
-    <lastmod>2026-10-17T02:57:53-03:00</lastmod>
+    <loc>http://localhost:1313/en/articles/defining-predation/</loc>
+    <lastmod>2026-10-18T01:55:37-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/articles/knowing-by-parallel/</loc>
-    <lastmod>2026-10-17T02:57:46-03:00</lastmod>
+    <loc>http://localhost:1313/en/topics/deontology/</loc>
+    <lastmod>2026-10-18T01:55:37-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/articles/the-personality-of-air/</loc>
-    <lastmod>2026-10-17T02:57:34-03:00</lastmod>
+    <loc>http://localhost:1313/en/topics/law/</loc>
+    <lastmod>2026-10-18T01:55:37-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/morality/</loc>
+    <lastmod>2026-10-18T01:55:37-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/pedophilia/</loc>
+    <lastmod>2026-10-18T01:55:37-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/predation/</loc>
+    <lastmod>2026-10-18T01:55:37-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/relationships/</loc>
+    <lastmod>2026-10-18T01:55:37-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/12axes/</loc>
+    <lastmod>2026-10-17T21:59:42-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/government/</loc>
+    <lastmod>2026-10-17T21:59:42-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/philosophy/</loc>
+    <lastmod>2026-10-17T21:59:42-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/politics/</loc>
+    <lastmod>2026-10-17T21:59:42-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/religion/</loc>
+    <lastmod>2026-10-17T21:59:42-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/test/</loc>
+    <lastmod>2026-10-17T21:59:42-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/intention/</loc>
+    <lastmod>2026-10-17T02:57:08-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/articles/lateralism/</loc>
     <lastmod>2026-10-17T02:57:08-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/articles/on-morality/</loc>
-    <lastmod>2026-10-17T02:49:02-03:00</lastmod>
+    <loc>http://localhost:1313/en/topics/lateralism/</loc>
+    <lastmod>2026-10-17T02:57:08-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
-    <lastmod>2026-10-17T02:45:19-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/categories/changethis/</loc>
-    <lastmod>2026-10-17T02:45:19-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/projects/</loc>
-    <lastmod>2026-10-17T02:45:19-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/projects/test/</loc>
-    <lastmod>2026-10-17T02:45:19-03:00</lastmod>
+    <loc>http://localhost:1313/en/topics/logic/</loc>
+    <lastmod>2026-10-17T02:57:08-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/characters/aubrey-snelling/</loc>
     <lastmod>2026-10-17T00:58:47-03:00</lastmod>
@@ -89,32 +119,20 @@
     <loc>http://localhost:1313/en/characters/</loc>
     <lastmod>2026-10-17T00:58:47-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/books/ideal-scenario/</loc>
+    <loc>http://localhost:1313/en/characters/hirano-kouta/</loc>
     <lastmod>2026-10-17T00:58:47-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/characters/maya-miller/</loc>
     <lastmod>2026-10-17T00:58:47-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/2026-10-17-favorite-games/</loc>
-    <lastmod>2026-10-17T00:28:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/</loc>
-    <lastmod>2026-10-17T00:28:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/changethis/</loc>
-    <lastmod>2026-10-17T00:28:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
-    <lastmod>2026-10-17T00:28:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/2026-10-17-favorite-albums/</loc>
-    <lastmod>2026-10-17T00:28:06-03:00</lastmod>
+    <loc>http://localhost:1313/en/characters/yamada-saki/</loc>
+    <lastmod>2026-10-17T00:58:47-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/articles/</loc>
     <lastmod>2026-10-17T00:28:06-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/2026-10-17-favorite-movies/</loc>
-    <lastmod>2026-10-17T00:27:56-03:00</lastmod>
+    <loc>http://localhost:1313/en/blog/</loc>
+    <lastmod>2026-10-16T21:51:14-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/celebrities/</loc>
     <lastmod>2026-10-16T21:51:14-03:00</lastmod>
@@ -128,6 +146,9 @@
     <loc>http://localhost:1313/en/tags/people/</loc>
     <lastmod>2026-10-16T21:51:14-03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/en/tags/</loc>
+    <lastmod>2026-10-16T21:51:14-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/en/</loc>
     <lastmod>2025-12-31T00:00:00+00:00</lastmod>
   </url><url>
@@ -136,11 +157,11 @@
   </url><url>
     <loc>http://localhost:1313/en/resume/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/archetypes/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/archives/</loc>
+    <loc>http://localhost:1313/en/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/en/chapters/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/projects/</loc>
   </url><url>
     <loc>http://localhost:1313/en/series/</loc>
   </url><url>

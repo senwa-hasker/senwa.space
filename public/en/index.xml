@@ -10,16 +10,9 @@
 		
 		
 		
-			<lastBuildDate>Sat, 17 Oct 2026 02:59:17 -0300</lastBuildDate>
+			<lastBuildDate>Sun, 18 Oct 2026 01:55:37 -0300</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Introduction</title>
-				<link>http://localhost:1313/en/books/ideal-scenario/is0/</link>
-				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
-				<guid>http://localhost:1313/en/books/ideal-scenario/is0/</guid>
-				<description>Ideal Scenario is a wholesome, easygoing smut book on the works. Enjoy!</description>
-			</item>
 			<item>
 				<title>Chapter 1: Your Way</title>
 				<link>http://localhost:1313/en/books/ideal-scenario/is1/</link>
@@ -105,81 +98,25 @@
 				<description>A bunch of lipstick colours turns into a sitch.</description>
 			</item>
 			<item>
-				<title>Autism, Adhd &amp; Me</title>
-				<link>http://localhost:1313/en/articles/autism-adhd-and-me/</link>
-				<pubDate>Sat, 17 Oct 2026 02:59:17 -0300</pubDate>
-				<guid>http://localhost:1313/en/articles/autism-adhd-and-me/</guid>
-				<description>thingundertitleinpost</description>
+				<title>12axes in Depth</title>
+				<link>http://localhost:1313/en/articles/12axes-in-depth/</link>
+				<pubDate>Sat, 17 Oct 2026 21:59:42 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/12axes-in-depth/</guid>
+				<description>My 12axes answers!</description>
 			</item>
 			<item>
-				<title>The Art of Language</title>
-				<link>http://localhost:1313/en/articles/the-art-of-language/</link>
-				<pubDate>Sat, 17 Oct 2026 02:58:39 -0300</pubDate>
-				<guid>http://localhost:1313/en/articles/the-art-of-language/</guid>
-				<description>thingundertitleinpost</description>
-			</item>
-			<item>
-				<title>On Religion</title>
-				<link>http://localhost:1313/en/articles/on-religion/</link>
-				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
-				<guid>http://localhost:1313/en/articles/on-religion/</guid>
-				<description>thingundertitleinpost</description>
-			</item>
-			<item>
-				<title>Knowing by Parallel</title>
-				<link>http://localhost:1313/en/articles/knowing-by-parallel/</link>
-				<pubDate>Sat, 17 Oct 2026 02:57:46 -0300</pubDate>
-				<guid>http://localhost:1313/en/articles/knowing-by-parallel/</guid>
-				<description>thingundertitleinpost</description>
-			</item>
-			<item>
-				<title>The Personality of Air</title>
-				<link>http://localhost:1313/en/articles/the-personality-of-air/</link>
-				<pubDate>Sat, 17 Oct 2026 02:57:34 -0300</pubDate>
-				<guid>http://localhost:1313/en/articles/the-personality-of-air/</guid>
-				<description>thingundertitleinpost</description>
+				<title>Defining Pedophilia &amp; Predation</title>
+				<link>http://localhost:1313/en/articles/defining-predation/</link>
+				<pubDate>Sun, 18 Oct 2026 01:55:37 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/defining-predation/</guid>
+				<description>I can&amp;rsquo;t believe I have to write about some of this. Some of yall&amp;hellip;</description>
 			</item>
 			<item>
 				<title>Lateralism</title>
 				<link>http://localhost:1313/en/articles/lateralism/</link>
 				<pubDate>Sat, 17 Oct 2026 02:57:08 -0300</pubDate>
 				<guid>http://localhost:1313/en/articles/lateralism/</guid>
-				<description>thingundertitleinpost</description>
-			</item>
-			<item>
-				<title>On Morality</title>
-				<link>http://localhost:1313/en/articles/on-morality/</link>
-				<pubDate>Sat, 17 Oct 2026 02:49:02 -0300</pubDate>
-				<guid>http://localhost:1313/en/articles/on-morality/</guid>
-				<description>thingundertitleinpost</description>
-			</item>
-			<item>
-				<title>Test</title>
-				<link>http://localhost:1313/en/projects/test/</link>
-				<pubDate>Sat, 17 Oct 2026 02:45:19 -0300</pubDate>
-				<guid>http://localhost:1313/en/projects/test/</guid>
-				<description>thingundertitleinpost</description>
-			</item>
-			<item>
-				<title>2026 10 17 Favorite Games</title>
-				<link>http://localhost:1313/en/blog/2026-10-17-favorite-games/</link>
-				<pubDate>Sat, 17 Oct 2026 00:28:10 -0300</pubDate>
-				<guid>http://localhost:1313/en/blog/2026-10-17-favorite-games/</guid>
-				<description>thingundertitleinpost</description>
-			</item>
-			<item>
-				<title>2026 10 17 Favorite Albums</title>
-				<link>http://localhost:1313/en/blog/2026-10-17-favorite-albums/</link>
-				<pubDate>Sat, 17 Oct 2026 00:28:06 -0300</pubDate>
-				<guid>http://localhost:1313/en/blog/2026-10-17-favorite-albums/</guid>
-				<description>thingundertitleinpost</description>
-			</item>
-			<item>
-				<title>2026 10 17 Favorite Movies</title>
-				<link>http://localhost:1313/en/blog/2026-10-17-favorite-movies/</link>
-				<pubDate>Sat, 17 Oct 2026 00:27:56 -0300</pubDate>
-				<guid>http://localhost:1313/en/blog/2026-10-17-favorite-movies/</guid>
-				<description>thingundertitleinpost</description>
+				<description>An attempt to describe a core philosophy of mine</description>
 			</item>
 			<item>
 				<title>My Favorite Actors</title>

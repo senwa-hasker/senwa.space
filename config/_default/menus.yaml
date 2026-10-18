@@ -1,4 +1,9 @@
 main:
+  - name: About
+    pageRef: /about
+    weight: 5
+    params:
+      icon: about
   - name: Articles
     pageRef: /articles
     weight: 10
@@ -17,31 +22,11 @@ main:
     params:
       icon: book-open
 
-  - name: Coding Projects
+  - name: Projects
     pageRef: /projects
     weight: 40
     params:
       icon: projects
-
-# footer menu
-footer:
-  - name: Archives
-    pageRef: /archives
-    weight: 10
-    params:
-      icon: chart
-
-  - name: About
-    pageRef: /about
-    weight: 20
-    params:
-      icon: about
-
-  - name: Resume
-    pageRef: /resume
-    weight: 25
-    params:
-      icon: file-text
 
 # footer social link
 social:

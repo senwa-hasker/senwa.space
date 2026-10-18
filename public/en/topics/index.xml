@@ -10,14 +10,126 @@
 		
 		
 		
-			<lastBuildDate>Sat, 17 Oct 2026 02:59:17 -0300</lastBuildDate>
+			<lastBuildDate>Sun, 18 Oct 2026 02:28:52 -0300</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/topics/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Changethis</title>
 				<link>http://localhost:1313/en/topics/changethis/</link>
-				<pubDate>Sat, 17 Oct 2026 02:59:17 -0300</pubDate>
+				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
 				<guid>http://localhost:1313/en/topics/changethis/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Abuse</title>
+				<link>http://localhost:1313/en/topics/abuse/</link>
+				<pubDate>Sun, 18 Oct 2026 01:55:37 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/abuse/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Deontology</title>
+				<link>http://localhost:1313/en/topics/deontology/</link>
+				<pubDate>Sun, 18 Oct 2026 01:55:37 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/deontology/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Law</title>
+				<link>http://localhost:1313/en/topics/law/</link>
+				<pubDate>Sun, 18 Oct 2026 01:55:37 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/law/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Morality</title>
+				<link>http://localhost:1313/en/topics/morality/</link>
+				<pubDate>Sun, 18 Oct 2026 01:55:37 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/morality/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Pedophilia</title>
+				<link>http://localhost:1313/en/topics/pedophilia/</link>
+				<pubDate>Sun, 18 Oct 2026 01:55:37 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/pedophilia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Predation</title>
+				<link>http://localhost:1313/en/topics/predation/</link>
+				<pubDate>Sun, 18 Oct 2026 01:55:37 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/predation/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Relationships</title>
+				<link>http://localhost:1313/en/topics/relationships/</link>
+				<pubDate>Sun, 18 Oct 2026 01:55:37 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/relationships/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>12axes</title>
+				<link>http://localhost:1313/en/topics/12axes/</link>
+				<pubDate>Sat, 17 Oct 2026 21:59:42 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/12axes/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Government</title>
+				<link>http://localhost:1313/en/topics/government/</link>
+				<pubDate>Sat, 17 Oct 2026 21:59:42 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/government/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Philosophy</title>
+				<link>http://localhost:1313/en/topics/philosophy/</link>
+				<pubDate>Sat, 17 Oct 2026 21:59:42 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/philosophy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Politics</title>
+				<link>http://localhost:1313/en/topics/politics/</link>
+				<pubDate>Sat, 17 Oct 2026 21:59:42 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/politics/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Religion</title>
+				<link>http://localhost:1313/en/topics/religion/</link>
+				<pubDate>Sat, 17 Oct 2026 21:59:42 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/religion/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Test</title>
+				<link>http://localhost:1313/en/topics/test/</link>
+				<pubDate>Sat, 17 Oct 2026 21:59:42 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/test/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Intention</title>
+				<link>http://localhost:1313/en/topics/intention/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:08 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/intention/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Lateralism</title>
+				<link>http://localhost:1313/en/topics/lateralism/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:08 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/lateralism/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Logic</title>
+				<link>http://localhost:1313/en/topics/logic/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:08 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/logic/</guid>
 				<description></description>
 			</item>
 	</channel>

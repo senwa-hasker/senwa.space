@@ -10,6 +10,8 @@ tags:
     - People
     - Celebrities
     - Movies
+links:
+    - https://google.com
 status: "in_progress"
 lightbox:
   enabled: true

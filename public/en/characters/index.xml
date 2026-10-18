@@ -21,10 +21,24 @@
 				<description></description>
 			</item>
 			<item>
+				<title>Hirano Kouta</title>
+				<link>http://localhost:1313/en/characters/hirano-kouta/</link>
+				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/characters/hirano-kouta/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Maya Miller</title>
 				<link>http://localhost:1313/en/characters/maya-miller/</link>
 				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
 				<guid>http://localhost:1313/en/characters/maya-miller/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Yamada Saki</title>
+				<link>http://localhost:1313/en/characters/yamada-saki/</link>
+				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/characters/yamada-saki/</guid>
 				<description></description>
 			</item>
 	</channel>

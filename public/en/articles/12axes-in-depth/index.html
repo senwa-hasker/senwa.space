@@ -1,0 +1,1557 @@
+<!doctype html><html
+  lang="en"
+  data-theme="Default"
+  data-toc-pinned="true"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<title>12axes in Depth |
+    Senwa.space</title>
+
+<meta
+  name="description"
+  content="My 12axes answers!"
+/>
+<meta
+  name="keywords"
+  content="Hugo, Blog, Theme, Technology, Programming"
+/>
+<meta
+  name="author"
+  content="Senwa Hasker"
+/>
+<meta name="language" content="en" />
+
+<meta
+  name="robots"
+  content="index, follow"
+/>
+<link rel="canonical" href="http://localhost:1313/en/articles/12axes-in-depth/" />
+
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<meta property="og:url" content="http://localhost:1313/en/articles/12axes-in-depth/">
+	<meta property="og:site_name" content="Senwa.space">
+	<meta property="og:title" content="12axes in Depth">
+	<meta property="og:description" content="My 12axes answers!">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="articles">
+		<meta property="article:published_time" content="2026-10-17T21:59:42-03:00">
+		<meta property="article:modified_time" content="2026-10-17T21:59:42-03:00">
+		<meta property="og:image" content="http://localhost:1313/images/og-default.avif">
+
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="http://localhost:1313/images/og-default.avif">
+	<meta name="twitter:title" content="12axes in Depth">
+	<meta name="twitter:description" content="My 12axes answers!">
+
+
+	<meta itemprop="name" content="12axes in Depth">
+	<meta itemprop="description" content="My 12axes answers!">
+	<meta itemprop="datePublished" content="2026-10-17T21:59:42-03:00">
+	<meta itemprop="dateModified" content="2026-10-17T21:59:42-03:00">
+	<meta itemprop="wordCount" content="2120">
+	<meta itemprop="image" content="http://localhost:1313/images/og-default.avif">
+	<meta itemprop="keywords" content="Politics,Test,12axes,Government,Philosophy,Religion">
+
+
+
+
+
+<script id="search-config" type="application/json">"{\"searchIndexURL\":\"/en/index.json\"}"</script>
+
+
+  <script id="gallery-config" type="application/json">"{\"gallery\":true,\"galleryOptions\":{\"columns\":4,\"columnwidth\":200,\"defaultlayout\":\"justified\",\"gap\":10,\"lastrowbehavior\":\"center\",\"targetrowheight\":200},\"lightbox\":true}"</script>
+
+
+
+
+
+
+  
+    <link rel="stylesheet" href="/css/compiled.css" />
+  
+
+
+
+
+  
+    <link rel="stylesheet" href="/css/chroma.css" />
+  
+
+
+
+
+  
+    <link rel="stylesheet" href="/css/custom/shavian.css" />
+  
+
+  
+    <link rel="stylesheet" href="/css/custom/themes.css" />
+  
+
+
+
+      <script src="/js/main.js" defer></script>
+
+
+
+          <script src="/js/toc.js" defer></script>
+
+
+
+      <script src="/js/search.js" defer></script>
+
+
+
+      <script src="/js/dock.js" defer></script>
+
+
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/smart-gallery@latest/dist/smart-gallery.umd.js"
+    defer
+  ></script>
+
+
+
+        <script src="/js/gallery.js" defer></script>
+
+
+
+
+
+
+
+
+
+
+    
+    <script>(function(){const e=document.documentElement,o=localStorage.getItem("theme")||"system",m=localStorage.getItem("colorScheme")||"Default",n=Number.parseInt(localStorage.getItem("contentWidth"),10),d=Number.isInteger(n)&&n>=40&&n<=90;d&&e.style.setProperty("--content-width",`${n}rem`),e.setAttribute("data-theme",m);const s=localStorage.getItem("tocPinned");(s==="true"||s==="false")&&e.setAttribute("data-toc-pinned",s);const t=Number.parseFloat(getComputedStyle(e).fontSize)||16,u="64rem",i=Number.parseFloat(u);let a=56*t;Number.isFinite(i)&&(a=/r?em\s*$/.test(u)?i*t:i),d&&(a=n*t);const r=e.clientWidth,c=Math.max(0,(r-Math.min(a,r))/2);let l="narrow";r>=64*t&&(c>=13*t?l="wide":c>=2*t&&(l="tight")),e.setAttribute("data-toc-space",l),e.style.setProperty("--toc-gutter",`${Math.round(c)}px`);function h(){o==="dark"||o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches?e.classList.add("dark"):e.classList.remove("dark")}h(),o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",h)})()</script>
+  </head><body class="bg-background text-foreground min-h-screen antialiased">
+    <main
+      id="page-container"
+      class="mx-auto w-full"
+      style="--content-width-base: 64rem; max-width: var(--content-width, var(--content-width-base))"
+    >
+      <div
+    id="reading-progress-bar"
+    class="from-primary to-primary/80 pointer-events-none fixed top-0 left-0 z-50 h-[3px] w-0 bg-linear-to-r transition-[width] duration-150 ease-out"
+  ></div>
+
+  <script>
+    (function () {
+      const bar = document.getElementById("reading-progress-bar");
+      if (!bar) return;
+
+      function update() {
+        const scrolled = window.scrollY;
+        const total = document.documentElement.scrollHeight - window.innerHeight;
+        bar.style.width = total > 0 ? (scrolled / total) * 100 + "%" : "0%";
+      }
+
+      let ticking = false;
+      window.addEventListener(
+        "scroll",
+        () => {
+          if (!ticking) {
+            requestAnimationFrame(() => {
+              update();
+              ticking = false;
+            });
+            ticking = true;
+          }
+        },
+        { passive: true }
+      );
+
+      update();
+    })();
+  </script>
+
+      <header class="sticky top-0 z-50 px-4 py-6">
+  <div
+    class="border-border bg-card/80 flex items-center rounded-xl border px-6 py-4 shadow-sm backdrop-blur-sm"
+  >
+    
+    <div class="hidden w-full items-center md:flex md:min-w-0">
+      
+      <div class="flex items-center">
+        
+          <a
+            href="
+              /en/
+            "
+            class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full transition-transform duration-200 hover:scale-105"
+            aria-label="Senwa.space"
+          >
+            <img
+              src="/images/logo.png"
+              alt="Senwa.space"
+              class="h-full w-full object-cover"
+            />
+          </a>
+        
+      </div>
+
+      
+      <nav class="mx-8 flex min-w-0 flex-1 items-center justify-center">
+        <div class="flex flex-wrap items-center justify-center space-x-1">
+          
+          
+            
+            
+            
+              
+                
+              
+            
+            
+              
+              <a
+                href="/en/about/"
+                class="nav-link 
+                  text-muted-foreground hover:text-primary hover:bg-primary/10
+                 focus:ring-primary/20 relative flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+              >
+                
+                  <svg class="h-5 w-5" aria-label="About" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+</svg>
+
+                
+                <span>About</span>
+              </a>
+            
+          
+            
+            
+            
+              
+                
+              
+            
+            
+              
+              <a
+                href="/en/articles/"
+                class="nav-link 
+                  text-muted-foreground hover:text-primary hover:bg-primary/10
+                 focus:ring-primary/20 relative flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+              >
+                
+                  <svg class="h-5 w-5" aria-label="Articles" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+</svg>
+
+                
+                <span>Articles</span>
+              </a>
+            
+          
+            
+            
+            
+              
+                
+              
+            
+            
+              
+              <a
+                href="/en/blog/"
+                class="nav-link 
+                  text-muted-foreground hover:text-primary hover:bg-primary/10
+                 focus:ring-primary/20 relative flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+              >
+                
+                  <svg class="h-5 w-5" aria-label="Blog" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+</svg>
+
+                
+                <span>Blog</span>
+              </a>
+            
+          
+            
+            
+            
+              
+                
+              
+            
+            
+              
+              <a
+                href="/en/books/"
+                class="nav-link 
+                  text-muted-foreground hover:text-primary hover:bg-primary/10
+                 focus:ring-primary/20 relative flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+              >
+                
+                  <svg class="h-5 w-5" aria-label="Books" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4H3a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M3 19V6h8v13zm18 0h-8V6h8zm-7-9.5h6V11h-6zm0 2.5h6v1.5h-6zm0 2.5h6V16h-6z"/></svg>
+                
+                <span>Books</span>
+              </a>
+            
+          
+            
+            
+            
+              
+                
+              
+            
+            
+              
+              <a
+                href="/en/projects/"
+                class="nav-link 
+                  text-muted-foreground hover:text-primary hover:bg-primary/10
+                 focus:ring-primary/20 relative flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+              >
+                
+                  <svg class="h-5 w-5" aria-label="Projects" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="6" r="1" fill="currentColor"/><path fill="currentColor" d="M6 17h12v2H6zm4-5.17l2.792 2.794l3.932-3.935L18 12V8h-4l1.31 1.275l-2.519 2.519L10 9l-4 4l1.414 1.414z"/><path fill="currentColor" d="M19 3h-3.298a5 5 0 0 0-.32-.425l-.01-.012a4.43 4.43 0 0 0-2.89-1.518a2.6 2.6 0 0 0-.964 0a4.43 4.43 0 0 0-2.89 1.518l-.01.012a5 5 0 0 0-.32.424V3H5a3.003 3.003 0 0 0-3 3v14a3.003 3.003 0 0 0 3 3h14a3.003 3.003 0 0 0 3-3V6a3.003 3.003 0 0 0-3-3m1 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h4.55a2.5 2.5 0 0 1 4.9 0H19a1 1 0 0 1 1 1Z"/></svg>
+
+
+                
+                <span>Projects</span>
+              </a>
+            
+          
+        </div>
+      </nav>
+
+      
+      <div class="flex items-center space-x-2">
+        
+        <div class="hidden lg:block"><div class="relative">
+    <button
+      id="content-width-toggle"
+      class="dropdown-toggle border-border bg-background text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border transition-all duration-300 ease-out hover:scale-105 focus:ring-2 focus:outline-none active:scale-95"
+      data-dropdown-type="content-width"
+      aria-label="Adjust page width"
+      aria-expanded="false"
+      aria-haspopup="true"
+    ><svg class="h-5 w-5 relative z-10" aria-label="Adjust page width" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 12H3l3-3m0 6l-3-3m11 0h7l-3-3m0 6l3-3M3 6V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v1M3 18v1a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-1" />
+</svg>
+</button>
+
+    <div
+      id="content-width-dropdown"
+      class="dropdown-menu border-border bg-popover/95 w-64 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
+      data-dropdown-type="content-width"
+      
+    >
+    <div class="space-y-3 p-3">
+    <div class="flex items-center justify-between gap-4">
+    <label for="content-width-range" class="text-foreground text-sm font-medium">Page width</label>
+    <output id="content-width-value" for="content-width-range" class="text-muted-foreground min-w-12 text-right text-sm tabular-nums"></output>
+    </div>
+    <input id="content-width-range" class="accent-primary w-full cursor-pointer" type="range" min="40" max="90" step="1" aria-label="Page width" />
+    <button id="content-width-reset" type="button" class="border-border text-muted-foreground hover:bg-accent hover:text-accent-foreground focus:ring-primary/20 w-full rounded-md border px-3 py-2 text-sm transition-colors focus:ring-2 focus:outline-none">Restore default</button>
+    </div></div>
+  </div></div>
+
+
+        
+        
+
+
+        
+        <div class="relative">
+    <button
+      id="color-scheme-toggle"
+      class="dropdown-toggle border-border bg-background text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border transition-all duration-300 ease-out hover:scale-105 focus:ring-2 focus:outline-none active:scale-95"
+      data-dropdown-type="color-scheme"
+      aria-label="Toggle theme"
+      aria-expanded="false"
+      aria-haspopup="true"
+    ><svg class="h-5 w-5 relative z-10" aria-label="Toggle theme" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v6a2 2 0 002 2h4a2 2 0 002-2V5z" />
+</svg>
+</button>
+
+    <div
+      id="color-scheme-dropdown"
+      class="dropdown-menu border-border bg-popover/95 w-44 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
+      data-dropdown-type="color-scheme"
+      
+    ><button data-color-scheme="default" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Default</span></button><button data-color-scheme="claude" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Claude</span></button><button data-color-scheme="bumblebee" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Bumblebee</span></button><button data-color-scheme="emerald" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Emerald</span></button><button data-color-scheme="nord" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Nord</span></button><button data-color-scheme="sunset" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Sunset</span></button><button data-color-scheme="abyss" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Abyss</span></button><button data-color-scheme="dracula" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Dracula</span></button><button data-color-scheme="amethyst" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Amethyst</span></button><button data-color-scheme="slate" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Slate</span></button><button data-color-scheme="twitter" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Twitter</span></button><button data-color-scheme="minimal" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Minimal</span></button></div>
+  </div>
+
+
+        
+        <div class="relative">
+    <button
+      id="theme-toggle"
+      class="dropdown-toggle border-border bg-background text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border transition-all duration-300 ease-out hover:scale-105 focus:ring-2 focus:outline-none active:scale-95"
+      data-dropdown-type="theme"
+      aria-label="Toggle theme"
+      aria-expanded="false"
+      aria-haspopup="true"
+    ><svg class="h-5 w-5 sun-icon hidden relative z-10" aria-label="Light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+</svg>
+
+        <svg class="h-5 w-5 moon-icon hidden relative z-10" aria-label="Dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+</svg>
+
+        <svg class="h-5 w-5 system-icon hidden relative z-10" aria-label="System" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+</svg>
+</button>
+
+    <div
+      id="theme-dropdown"
+      class="dropdown-menu border-border bg-popover/95 w-40 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
+      data-dropdown-type="theme"
+      
+    ><button data-theme="light" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="Light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+</svg>
+<span>Light</span></button><button data-theme="dark" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="Dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+</svg>
+<span>Dark</span></button><button data-theme="system" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="System" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+</svg>
+<span>System</span></button></div>
+  </div>
+      </div>
+    </div>
+
+    
+    <div class="flex w-full items-center justify-between md:hidden">
+      
+      
+<button
+  id="mobile-nav-toggle"
+  class="nav-panel-toggle border-border bg-background text-muted-foreground hover:bg-accent hover:text-foreground flex h-10 w-10 items-center justify-center rounded-lg border transition-colors duration-200"
+  aria-label="Menu"
+  aria-expanded="false"
+  aria-controls="mobile-nav-panel"
+>
+  <svg class="h-5 w-5" aria-label="Menu" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+</svg>
+
+</button>
+
+
+
+      
+      <div class="flex items-center space-x-2">
+        
+        
+
+
+        
+        <div class="relative">
+    <button
+      id="color-scheme-toggle"
+      class="dropdown-toggle border-border bg-background text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border transition-all duration-300 ease-out hover:scale-105 focus:ring-2 focus:outline-none active:scale-95"
+      data-dropdown-type="color-scheme"
+      aria-label="Toggle theme"
+      aria-expanded="false"
+      aria-haspopup="true"
+    ><svg class="h-5 w-5 relative z-10" aria-label="Toggle theme" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v6a2 2 0 002 2h4a2 2 0 002-2V5z" />
+</svg>
+</button>
+
+    <div
+      id="color-scheme-dropdown"
+      class="dropdown-menu border-border bg-popover/95 w-44 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
+      data-dropdown-type="color-scheme"
+      
+    ><button data-color-scheme="default" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Default</span></button><button data-color-scheme="claude" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Claude</span></button><button data-color-scheme="bumblebee" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Bumblebee</span></button><button data-color-scheme="emerald" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Emerald</span></button><button data-color-scheme="nord" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Nord</span></button><button data-color-scheme="sunset" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Sunset</span></button><button data-color-scheme="abyss" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Abyss</span></button><button data-color-scheme="dracula" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Dracula</span></button><button data-color-scheme="amethyst" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Amethyst</span></button><button data-color-scheme="slate" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Slate</span></button><button data-color-scheme="twitter" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Twitter</span></button><button data-color-scheme="minimal" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Minimal</span></button></div>
+  </div>
+
+
+        
+        <div class="relative">
+    <button
+      id="theme-toggle"
+      class="dropdown-toggle border-border bg-background text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border transition-all duration-300 ease-out hover:scale-105 focus:ring-2 focus:outline-none active:scale-95"
+      data-dropdown-type="theme"
+      aria-label="Toggle theme"
+      aria-expanded="false"
+      aria-haspopup="true"
+    ><svg class="h-5 w-5 sun-icon hidden relative z-10" aria-label="Light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+</svg>
+
+        <svg class="h-5 w-5 moon-icon hidden relative z-10" aria-label="Dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+</svg>
+
+        <svg class="h-5 w-5 system-icon hidden relative z-10" aria-label="System" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+</svg>
+</button>
+
+    <div
+      id="theme-dropdown"
+      class="dropdown-menu border-border bg-popover/95 w-40 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
+      data-dropdown-type="theme"
+      
+    ><button data-theme="light" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="Light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+</svg>
+<span>Light</span></button><button data-theme="dark" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="Dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+</svg>
+<span>Dark</span></button><button data-theme="system" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="System" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+</svg>
+<span>System</span></button></div>
+  </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+<div
+  id="mobile-nav-panel"
+  class="mt-2 hidden md:hidden"
+  role="navigation"
+  aria-label="Menu"
+  aria-hidden="true"
+  tabindex="-1"
+>
+  <div
+    class="border-border bg-popover/95 overflow-hidden rounded-xl border shadow-lg backdrop-blur-sm"
+  >
+    
+    <nav class="flex flex-col p-2">
+      
+      
+        
+        
+        
+          
+            
+          
+        
+        
+          
+          <a
+            href="/en/about/"
+            class="nav-panel-link 
+              text-muted-foreground hover:text-primary hover:bg-primary/10
+             focus:ring-primary/20 flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none"
+            role="menuitem"
+            
+          >
+            
+              <svg class="h-5 w-5" aria-label="About" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+</svg>
+
+            
+            <span>About</span>
+          </a>
+        
+      
+        
+        
+        
+          
+            
+          
+        
+        
+          
+          <a
+            href="/en/articles/"
+            class="nav-panel-link 
+              text-muted-foreground hover:text-primary hover:bg-primary/10
+             focus:ring-primary/20 flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none"
+            role="menuitem"
+            
+          >
+            
+              <svg class="h-5 w-5" aria-label="Articles" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+</svg>
+
+            
+            <span>Articles</span>
+          </a>
+        
+      
+        
+        
+        
+          
+            
+          
+        
+        
+          
+          <a
+            href="/en/blog/"
+            class="nav-panel-link 
+              text-muted-foreground hover:text-primary hover:bg-primary/10
+             focus:ring-primary/20 flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none"
+            role="menuitem"
+            
+          >
+            
+              <svg class="h-5 w-5" aria-label="Blog" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+</svg>
+
+            
+            <span>Blog</span>
+          </a>
+        
+      
+        
+        
+        
+          
+            
+          
+        
+        
+          
+          <a
+            href="/en/books/"
+            class="nav-panel-link 
+              text-muted-foreground hover:text-primary hover:bg-primary/10
+             focus:ring-primary/20 flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none"
+            role="menuitem"
+            
+          >
+            
+              <svg class="h-5 w-5" aria-label="Books" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4H3a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M3 19V6h8v13zm18 0h-8V6h8zm-7-9.5h6V11h-6zm0 2.5h6v1.5h-6zm0 2.5h6V16h-6z"/></svg>
+            
+            <span>Books</span>
+          </a>
+        
+      
+        
+        
+        
+          
+            
+          
+        
+        
+          
+          <a
+            href="/en/projects/"
+            class="nav-panel-link 
+              text-muted-foreground hover:text-primary hover:bg-primary/10
+             focus:ring-primary/20 flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none"
+            role="menuitem"
+            
+          >
+            
+              <svg class="h-5 w-5" aria-label="Projects" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="6" r="1" fill="currentColor"/><path fill="currentColor" d="M6 17h12v2H6zm4-5.17l2.792 2.794l3.932-3.935L18 12V8h-4l1.31 1.275l-2.519 2.519L10 9l-4 4l1.414 1.414z"/><path fill="currentColor" d="M19 3h-3.298a5 5 0 0 0-.32-.425l-.01-.012a4.43 4.43 0 0 0-2.89-1.518a2.6 2.6 0 0 0-.964 0a4.43 4.43 0 0 0-2.89 1.518l-.01.012a5 5 0 0 0-.32.424V3H5a3.003 3.003 0 0 0-3 3v14a3.003 3.003 0 0 0 3 3h14a3.003 3.003 0 0 0 3-3V6a3.003 3.003 0 0 0-3-3m1 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h4.55a2.5 2.5 0 0 1 4.9 0H19a1 1 0 0 1 1 1Z"/></svg>
+
+
+            
+            <span>Projects</span>
+          </a>
+        
+      
+    </nav>
+  </div>
+</div>
+
+</header>
+
+
+
+      <div class="px-4 py-6">
+        
+  <nav class="breadcrumb mb-4 py-1 md:mb-6" aria-label="Breadcrumb">
+    <ol
+      class="text-muted-foreground scrollbar-hide flex items-center space-x-1 overflow-x-auto py-1 text-sm whitespace-nowrap md:space-x-2"
+    >
+      
+        
+          
+          <li class="shrink-0">
+            <a
+              href="/en/"
+              class="text-muted-foreground hover:text-primary hover:bg-primary/10 flex items-center gap-1 rounded-lg px-1 py-0.5 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:scale-[1.02] md:py-1.5"
+            >
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m3 12 2-2m0 0 7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+</svg>
+
+              <span class="max-w-16 truncate md:max-w-none">Home</span>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="flex min-w-0 items-center gap-1 md:gap-2">
+            <span class="text-muted-foreground/50 shrink-0"
+              ><svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+</svg>
+            </span>
+            <a
+              href="/en/articles/"
+              class="text-muted-foreground hover:text-primary hover:bg-primary/10 flex shrink-0 items-center gap-1 rounded-lg px-1 py-0.5 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:scale-[1.02] md:px-3 md:py-1.5"
+            >
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+              <span class="max-w-16 truncate md:max-w-none">Articles</span>
+            </a>
+          </li>
+        
+      
+
+
+      
+      <li class="flex min-w-0 items-center gap-1 md:gap-2">
+        <span class="text-muted-foreground/50 shrink-0"
+          ><svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+</svg>
+        </span>
+        <span class="text-foreground flex min-w-0 items-center gap-1 font-medium">
+          <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+</svg>
+          <span class="max-w-32 truncate md:max-w-[16rem] lg:max-w-none">12axes in Depth</span>
+        </span>
+      </li>
+    </ol>
+  </nav>
+
+
+        
+  
+  <header class="mb-10">
+    <div class="border-border mb-8 overflow-hidden rounded-2xl border shadow-sm">
+          <img
+            src="/images/articles/12axes.jpg"
+            alt="12axes in Depth"
+            class="aspect-video w-full object-cover md:aspect-auto md:h-112"
+            loading="eager"
+          />
+        </div>
+
+
+    
+    <h1 class="text-foreground mb-4 text-3xl font-bold md:text-4xl lg:text-5xl">
+      12axes in Depth
+    </h1>
+
+    
+    
+      <div class="text-muted-foreground text-lg leading-relaxed md:text-xl">
+        My 12axes answers!
+      </div>
+    
+  </header>
+
+  
+  <div class="mb-12">
+    <div class="flex flex-wrap items-center gap-2.5 text-sm font-medium">
+      
+        <span
+          class="bg-muted/45 text-foreground border-border inline-flex h-10 items-center gap-2 rounded-lg border px-3.5 shadow-sm"
+        >
+          <svg class="h-4 w-4 text-primary shrink-0" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+          <time datetime="2026-10-17">
+            October 17, 2026
+          </time>
+        </span>
+      
+
+      
+        <span
+          class="bg-muted/45 text-foreground border-border inline-flex h-10 items-center gap-2 rounded-lg border px-3.5 shadow-sm"
+        >
+          <svg class="h-4 w-4 text-primary shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10ZM7 12l4 3l5-7"/></svg>
+          <span class="relative flex h-2.5 w-2.5 shrink-0">
+            <span
+              class="
+                bg-blue-400
+               absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"
+            ></span>
+            <span
+              class="
+                bg-blue-500
+               relative inline-flex h-2.5 w-2.5 rounded-full"
+            ></span>
+          </span>
+          <span>In progress</span>
+        </span>
+      
+
+      
+
+      
+
+      
+        
+          <a
+            href="/en/topics/politics/"
+            class="bg-background text-foreground border-border hover:bg-primary hover:text-primary-foreground hover:border-primary focus:ring-primary/20 inline-flex h-10 items-center gap-2 rounded-lg border px-3.5 shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 focus:ring-2 focus:outline-none"
+          >
+            <svg class="h-4 w-4 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+		<circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+	</g>
+</svg>
+            <span>politics</span>
+          </a>
+        
+          <a
+            href="/en/topics/test/"
+            class="bg-background text-foreground border-border hover:bg-primary hover:text-primary-foreground hover:border-primary focus:ring-primary/20 inline-flex h-10 items-center gap-2 rounded-lg border px-3.5 shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 focus:ring-2 focus:outline-none"
+          >
+            <svg class="h-4 w-4 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+		<circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+	</g>
+</svg>
+            <span>test</span>
+          </a>
+        
+          <a
+            href="/en/topics/12axes/"
+            class="bg-background text-foreground border-border hover:bg-primary hover:text-primary-foreground hover:border-primary focus:ring-primary/20 inline-flex h-10 items-center gap-2 rounded-lg border px-3.5 shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 focus:ring-2 focus:outline-none"
+          >
+            <svg class="h-4 w-4 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+		<circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+	</g>
+</svg>
+            <span>12axes</span>
+          </a>
+        
+          <a
+            href="/en/topics/government/"
+            class="bg-background text-foreground border-border hover:bg-primary hover:text-primary-foreground hover:border-primary focus:ring-primary/20 inline-flex h-10 items-center gap-2 rounded-lg border px-3.5 shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 focus:ring-2 focus:outline-none"
+          >
+            <svg class="h-4 w-4 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+		<circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+	</g>
+</svg>
+            <span>government</span>
+          </a>
+        
+          <a
+            href="/en/topics/philosophy/"
+            class="bg-background text-foreground border-border hover:bg-primary hover:text-primary-foreground hover:border-primary focus:ring-primary/20 inline-flex h-10 items-center gap-2 rounded-lg border px-3.5 shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 focus:ring-2 focus:outline-none"
+          >
+            <svg class="h-4 w-4 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+		<circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+	</g>
+</svg>
+            <span>philosophy</span>
+          </a>
+        
+          <a
+            href="/en/topics/religion/"
+            class="bg-background text-foreground border-border hover:bg-primary hover:text-primary-foreground hover:border-primary focus:ring-primary/20 inline-flex h-10 items-center gap-2 rounded-lg border px-3.5 shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 focus:ring-2 focus:outline-none"
+          >
+            <svg class="h-4 w-4 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+		<circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+	</g>
+</svg>
+            <span>religion</span>
+          </a>
+        
+      
+
+      
+
+      
+    </div>
+  </div>
+
+  
+  <div class="bg-card border-border rounded-xl border p-6 shadow-sm md:p-8 md:px-10">
+    <article class="prose prose-neutral dark:prose-invert max-w-none">
+      <p>This is an in-depth answering of the 12axes political test (<a
+    href="https://12axes.vercel.app/"target="_blank"
+    class="inline-flex items-center gap-1"
+  >https://12axes.vercel.app/<svg class="h-3 w-3 flex-shrink-0" id="external-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a>). This answer sheet is what my &ldquo;ideal opinions&rdquo; are (from strongly agree to strongly disagree, with neutral in the middle), meaning, perhaps not what I would do in current circumstances, but what I would do in ideal conditions. Sometimes, you&rsquo;re forced to compromise. This isn&rsquo;t that. Some may not need clarification. Enjoy.</p>
+<h2 id="questions">Questions<a href="#questions" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h2><h3 id="1-i-prefer-to-seek-the-meaning-of-my-life-in-religious-faith">1. I prefer to seek the meaning of my life in religious faith.<a href="#1-i-prefer-to-seek-the-meaning-of-my-life-in-religious-faith" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. Religion is not a valid source of any information besides historical accounts to some degree.</p>
+<h3 id="2-military-service-should-be-compulsory-to-prepare-the-country-for-war">2. Military service should be compulsory to prepare the country for war.<a href="#2-military-service-should-be-compulsory-to-prepare-the-country-for-war" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. Citizens would go through combat education in the system, yes, but the military itself is optional. The goal of the subject in the system is to give the citizenry appropriate knowledge on self-defense, rebellion, discipline and rationally picking their fights.</p>
+<h3 id="3-i-prefer-gradual-cultural-change-to-rapid-cultural-change">3. I prefer gradual cultural change to rapid cultural change.<a href="#3-i-prefer-gradual-cultural-change-to-rapid-cultural-change" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. &ldquo;Cultural change&rdquo; is a near-binary: Either it does not need change, or it needs immediate change.</p>
+<h3 id="4-i-would-prefer-a-society-governed-by-popular-assemblies-rather-than-political-leaders">4. I would prefer a society governed by popular assemblies rather than political leaders.<a href="#4-i-would-prefer-a-society-governed-by-popular-assemblies-rather-than-political-leaders" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. A nation should have a group of leaders, granted they have passed all checks and balances (more on this soon), and were elected to the position by educated citizenry.</p>
+<h3 id="5-preserving-jobs-should-take-priority-over-minimum-wage-increases">5. Preserving jobs should take priority over minimum-wage increases.<a href="#5-preserving-jobs-should-take-priority-over-minimum-wage-increases" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Disagree. Citizens won&rsquo;t need to work to live comfortably and have strong safety nets, and how I decided to apply this question to my system would be &ldquo;jobs are higher priority than safety nets&rdquo;, which would not even be a thing to consider here, but if I were to pick, the needs of the majority (public sector) take priority.</p>
+<h3 id="6-the-government-should-limit-imports-that-threaten-local-industry-and-jobs">6. The government should limit imports that threaten local industry and jobs.<a href="#6-the-government-should-limit-imports-that-threaten-local-industry-and-jobs" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. The private sector should not be fully free, in both ways of the word: &ldquo;freedom to&rdquo; and &ldquo;freedom from&rdquo;. It is protected by the government from foreign multinational predatory companies, and barred from harming the people or making them dependent on it.</p>
+<h3 id="7-adults-should-be-allowed-to-keep-firearms-at-home-for-personal-protection">7. Adults should be allowed to keep firearms at home for personal protection.<a href="#7-adults-should-be-allowed-to-keep-firearms-at-home-for-personal-protection" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. Guns are at the forefront of social security and political stability on an educated population.</p>
+<h3 id="8-the-gender-identity-declared-by-each-person-must-be-respected">8. The gender identity declared by each person must be respected.<a href="#8-the-gender-identity-declared-by-each-person-must-be-respected" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. Has no inherent bearing on morality or legality.</p>
+<h3 id="9-companies-should-set-the-terms-of-employment-with-minimal-government-interference">9. Companies should set the terms of employment with minimal government interference.<a href="#9-companies-should-set-the-terms-of-employment-with-minimal-government-interference" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. That&rsquo;s determined by the government, and standardized, as well as possibly helped out if the company is starting out only.</p>
+<h3 id="10-aggressive-police-operations-should-be-used-against-crime-in-areas-controlled-by-criminal-groups">10. Aggressive police operations should be used against crime in areas controlled by criminal groups.<a href="#10-aggressive-police-operations-should-be-used-against-crime-in-areas-controlled-by-criminal-groups" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Agree. If it were to come down to it, which it would not, criminal groups, i.e. those almost certainly aligned with immorality on a grand scale, require cessation for the people&rsquo;s safety. This is, obviously, presupposed by the government being a well-intentioned, caring, able body.</p>
+<h3 id="11-foreign-policy-should-prioritize-my-countrys-influence-over-its-neighbors">11. Foreign policy should prioritize my country&rsquo;s influence over its neighbors.<a href="#11-foreign-policy-should-prioritize-my-countrys-influence-over-its-neighbors" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Depends. Foreign policy should prioritize the well-being of humanity and the truth. Those would coincide most of the time, but the framing of the question is arguable.</p>
+<h3 id="12-sex-work-should-be-recognized-as-legitimate-work">12. Sex work should be recognized as legitimate work.<a href="#12-sex-work-should-be-recognized-as-legitimate-work" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. No inherent bearing on morality.</p>
+<h3 id="13-my-country-should-pressure-other-countries-when-the-national-interest-is-at-stake">13. My country should pressure other countries when the national interest is at stake.<a href="#13-my-country-should-pressure-other-countries-when-the-national-interest-is-at-stake" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Depends. The national interest should be the well-being of other countries&rsquo; people, and if so, strong debate must happen, and military force avoided.</p>
+<h3 id="14-the-state-should-be-allowed-to-monitor-digital-conversations-to-prevent-and-combat-crime">14. The state should be allowed to monitor digital conversations to prevent and combat crime.<a href="#14-the-state-should-be-allowed-to-monitor-digital-conversations-to-prevent-and-combat-crime" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. Personal conversations, whether in person or digitally, are protected from the Transparency Act seen on comment sections and information vetting systems on apps tailored for the population.</p>
+<h3 id="15-leaders-should-be-chosen-by-competence-tradition-or-succession-rather-than-by-popular-vote">15. Leaders should be chosen by competence, tradition, or succession rather than by popular vote.<a href="#15-leaders-should-be-chosen-by-competence-tradition-or-succession-rather-than-by-popular-vote" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Disagree. Competence and knowledge are prerequisites, and voting is what determines a position.</p>
+<h3 id="16-the-central-bank-should-obey-the-elected-government-not-act-with-total-independence">16. The central bank should obey the elected government, not act with total independence.<a href="#16-the-central-bank-should-obey-the-elected-government-not-act-with-total-independence" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. The government and central bank are one and the same.</p>
+<h3 id="17-public-services-should-be-provided-by-private-companies-when-there-is-competition">17. Public services should be provided by private companies when there is competition.<a href="#17-public-services-should-be-provided-by-private-companies-when-there-is-competition" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. Public services are public, and if private companies want to provide a service, it should compete alongside the public sector.</p>
+<h3 id="18-my-country-should-be-able-to-launch-preemptive-strikes-against-enemies-preparing-to-attack">18. My country should be able to launch preemptive strikes against enemies preparing to attack.<a href="#18-my-country-should-be-able-to-launch-preemptive-strikes-against-enemies-preparing-to-attack" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. Violence against a foreign nation should not be initiated. Maybe 1% of the time like a humanitarian mission, but even then it is not the country&rsquo;s obligation (i.e. &ldquo;should&rdquo; not &ldquo;ought to&rdquo;)</p>
+<h3 id="19-my-country-should-deepen-trade-ties-with-other-countries">19. My country should deepen trade ties with other countries.<a href="#19-my-country-should-deepen-trade-ties-with-other-countries" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Agree. No inherent bearing on morality, given proper regulation.</p>
+<h3 id="20-public-education-should-be-managed-by-local-governments-rather-than-the-national-government">20. Public education should be managed by local governments rather than the national government.<a href="#20-public-education-should-be-managed-by-local-governments-rather-than-the-national-government" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. One national curriculum, appraised by all educated.</p>
+<h3 id="21-the-country-should-reduce-its-military-spending">21. The country should reduce its military spending.<a href="#21-the-country-should-reduce-its-military-spending" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Agree. If we need to reduce spending, military is a first to go.</p>
+<h3 id="22-immigrants-who-reject-local-customs-should-lose-the-right-to-remain-in-the-country">22. Immigrants who reject local customs should lose the right to remain in the country.<a href="#22-immigrants-who-reject-local-customs-should-lose-the-right-to-remain-in-the-country" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. &ldquo;Local customs&rdquo; here are the truth, recognizing benign vagueness and removing harmful acts and vaguenesses.</p>
+<h3 id="23-immigrants-should-not-have-to-abandon-their-customs-to-live-well-in-the-country">23. Immigrants should not have to abandon their customs to live well in the country.<a href="#23-immigrants-should-not-have-to-abandon-their-customs-to-live-well-in-the-country" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. Same as above.</p>
+<h3 id="24-people-who-immigrate-to-a-country-should-be-required-to-adapt-to-local-customs">24. People who immigrate to a country should be required to adapt to local customs.<a href="#24-people-who-immigrate-to-a-country-should-be-required-to-adapt-to-local-customs" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. Same as above.</p>
+<h3 id="25-religious-traditions-should-be-passed-on-to-future-generations">25. Religious traditions should be passed on to future generations.<a href="#25-religious-traditions-should-be-passed-on-to-future-generations" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. Religion should be removed from public life to avoid harmful acts and vaguenesses, as well as distortion of morality.</p>
+<h3 id="26-secret-and-universal-suffrage-is-non-negotiable-even-for-poorly-informed-voters">26. Secret and universal suffrage is non-negotiable, even for poorly informed voters.<a href="#26-secret-and-universal-suffrage-is-non-negotiable-even-for-poorly-informed-voters" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. Voting only works if the people are aware and knowing of the impact and circumstances of their voting and systems.</p>
+<h3 id="27-mining-in-protected-forests-should-be-banned-even-with-low-impact-technology">27. Mining in protected forests should be banned, even with low-impact technology.<a href="#27-mining-in-protected-forests-should-be-banned-even-with-low-impact-technology" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. Technology must be designed to coexist harmoniously with nature.</p>
+<h3 id="28-political-decisions-should-not-be-based-on-religious-beliefs">28. Political decisions should not be based on religious beliefs.<a href="#28-political-decisions-should-not-be-based-on-religious-beliefs" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. Religion has no place in morality, law, power, public life or governance.</p>
+<h3 id="29-the-coexistence-of-different-languages-and-cultures-should-be-encouraged-in-a-country">29. The coexistence of different languages and cultures should be encouraged in a country.<a href="#29-the-coexistence-of-different-languages-and-cultures-should-be-encouraged-in-a-country" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Agree. &ldquo;Different cultures&rdquo; here mean how one gets ready for sleep and certain rituals that make them feel nice, not child marriage, genital mutilation and other tragedies.</p>
+<h3 id="30-regions-should-have-the-right-to-secede-if-a-local-majority-votes-for-it">30. Regions should have the right to secede if a local majority votes for it.<a href="#30-regions-should-have-the-right-to-secede-if-a-local-majority-votes-for-it" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Agree. If it were to come down to it, the state&rsquo;s fucked.</p>
+<h3 id="31-i-would-prefer-an-authoritarian-regime-to-democracy-if-it-accelerated-my-countrys-development">31. I would prefer an authoritarian regime to democracy if it accelerated my country&rsquo;s development.<a href="#31-i-would-prefer-an-authoritarian-regime-to-democracy-if-it-accelerated-my-countrys-development" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. Authoritarian regimes only cause damage down the line and are not worth it.</p>
+<h3 id="32-in-tackling-global-warming-i-prefer-prioritizing-technological-solutions-over-reducing-consumption">32. In tackling global warming, I prefer prioritizing technological solutions over reducing consumption.<a href="#32-in-tackling-global-warming-i-prefer-prioritizing-technological-solutions-over-reducing-consumption" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. Technology against climate change should be well-funded, and reducing consumption is the norm anyway.</p>
+<h3 id="33-i-oppose-race-based-quotas-for-public-service-jobs">33. I oppose race-based quotas for public-service jobs.<a href="#33-i-oppose-race-based-quotas-for-public-service-jobs" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. An educated population is an antiracist one, and social programs would do what&rsquo;s necessary for everyone to live comfortably anyway.</p>
+<h3 id="34-the-word-god-should-not-appear-in-the-constitution">34. The word &lsquo;God&rsquo; should not appear in the constitution.<a href="#34-the-word-god-should-not-appear-in-the-constitution" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. No religion.</p>
+<h3 id="35-public-healthcare-should-follow-uniform-national-guidelines-under-a-central-authority">35. Public healthcare should follow uniform national guidelines under a central authority.<a href="#35-public-healthcare-should-follow-uniform-national-guidelines-under-a-central-authority" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. One unified strong system with equity of access, stock and regulation.</p>
+<h3 id="36-my-country-should-be-ready-to-start-a-war-if-that-secures-its-vital-interests">36. My country should be ready to start a war if that secures its vital interests.<a href="#36-my-country-should-be-ready-to-start-a-war-if-that-secures-its-vital-interests" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Depends. Starting a war is bad and nonsensical, but should it be the only option to secure the well-being of humanity, it may be permissible to start one granted quintillions of factors. I tend more to disagree here.</p>
+<h3 id="37-when-a-law-conflicts-with-my-religious-faith-i-should-follow-my-faith">37. When a law conflicts with my religious faith, I should follow my faith.<a href="#37-when-a-law-conflicts-with-my-religious-faith-i-should-follow-my-faith" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. Religion is harmful to morality, law and government.</p>
+<h3 id="38-healthcare-education-and-water-should-not-operate-under-the-logic-of-profit">38. Healthcare, education, and water should not operate under the logic of profit.<a href="#38-healthcare-education-and-water-should-not-operate-under-the-logic-of-profit" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. Cash comes from the private sector.</p>
+<h3 id="39-private-companies-should-take-priority-in-the-management-of-public-services">39. Private companies should take priority in the management of public services.<a href="#39-private-companies-should-take-priority-in-the-management-of-public-services" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. State ownership of essentials is, well, essential, with a private sector full of regulation for certain fields.</p>
+<h3 id="40-i-prefer-keeping-state-owned-companies-publicly-owned-even-if-they-could-be-sold-at-market-value">40. I prefer keeping state-owned companies publicly owned even if they could be sold at market value.<a href="#40-i-prefer-keeping-state-owned-companies-publicly-owned-even-if-they-could-be-sold-at-market-value" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. Same as above, extended.</p>
+<h3 id="41-my-country-should-support-international-war-crimes-courts-even-when-allies-are-judged">41. My country should support international war-crimes courts, even when allies are judged.<a href="#41-my-country-should-support-international-war-crimes-courts-even-when-allies-are-judged" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. War crime courts are overwhelmingly good for maintaining order, even if slow.</p>
+<h3 id="42-i-prefer-economic-sovereignty-to-low-supermarket-prices">42. I prefer economic sovereignty to low supermarket prices.<a href="#42-i-prefer-economic-sovereignty-to-low-supermarket-prices" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. The public sector guarantees proper nutrition, and that should be maintained by its users.</p>
+<h3 id="43-regional-taxes-should-follow-national-rules-to-prevent-tax-disputes-between-regions">43. Regional taxes should follow national rules to prevent tax disputes between regions.<a href="#43-regional-taxes-should-follow-national-rules-to-prevent-tax-disputes-between-regions" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. One national system: Citizens get a form in the mail saying where by pecentage they want their automatically-assigned tax costs.</p>
+<h3 id="44-companies-considered-strategically-important-should-remain-under-public-control">44. Companies considered strategically important should remain under public control.<a href="#44-companies-considered-strategically-important-should-remain-under-public-control" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. The essentials, yadda yadda.</p>
+<h3 id="45-technologies-that-alter-the-human-body-mind-or-reproduction-should-be-restricted">45. Technologies that alter the human body, mind, or reproduction should be restricted.<a href="#45-technologies-that-alter-the-human-body-mind-or-reproduction-should-be-restricted" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Agree. Cloning should be restricted, though certainly other aspects of technology here are totally fine and go through baseline regulation only.</p>
+<h3 id="46-terrorism-suspects-should-be-held-without-trial-until-the-threat-has-passed">46. Terrorism suspects should be held without trial until the threat has passed.<a href="#46-terrorism-suspects-should-be-held-without-trial-until-the-threat-has-passed" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. Fair and speedy trials are the backbone of the country, and if they are not given that, the state has failed, and the people are already furious and attempting a fix, by force if necessary.</p>
+<h3 id="47-i-prefer-a-simple-natural-way-of-life-to-a-life-full-of-technology">47. I prefer a simple, natural way of life to a life full of technology.<a href="#47-i-prefer-a-simple-natural-way-of-life-to-a-life-full-of-technology" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Disagree. Full of good technology is beneficial.</p>
+<h3 id="48-lgbt-couples-should-be-able-to-show-affection-in-public-like-any-other-couple">48. LGBT couples should be able to show affection in public like any other couple.<a href="#48-lgbt-couples-should-be-able-to-show-affection-in-public-like-any-other-couple" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. No inherent bearing on morality or legality.</p>
+<h3 id="49-governing-efficiently-matters-more-than-guaranteeing-space-for-the-opposition">49. Governing efficiently matters more than guaranteeing space for the opposition.<a href="#49-governing-efficiently-matters-more-than-guaranteeing-space-for-the-opposition" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. Efficiency implies transparency and proper dialogue.</p>
+<h3 id="50-my-country-should-avoid-military-alliances-that-could-draw-it-into-conflicts-abroad">50. My country should avoid military alliances that could draw it into conflicts abroad.<a href="#50-my-country-should-avoid-military-alliances-that-could-draw-it-into-conflicts-abroad" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Agree. Mostly it should avoid them entirely as well as enemies, but the goal is peace (well-being blahblah)</p>
+<h3 id="51-my-country-should-exercise-political-leadership-over-its-region">51. My country should exercise political leadership over its region.<a href="#51-my-country-should-exercise-political-leadership-over-its-region" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. It has its region, that&rsquo;s it. Other countries can look up to it, but not be directly influenced,</p>
+<h3 id="52-domestic-food-production-should-take-priority-over-cheap-imports">52. Domestic food production should take priority over cheap imports.<a href="#52-domestic-food-production-should-take-priority-over-cheap-imports" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. Means of production should be maintained by its users.</p>
+<h3 id="53-i-support-making-it-easier-for-foreign-investors-to-invest-in-my-country">53. I support making it easier for foreign investors to invest in my country.<a href="#53-i-support-making-it-easier-for-foreign-investors-to-invest-in-my-country" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Depends. Mostly no, but if necessary it&rsquo;s not prohibited.</p>
+<h3 id="54-the-government-should-select-and-support-leading-domestic-companies-in-strategic-sectors">54. The government should select and support leading domestic companies in strategic sectors.<a href="#54-the-government-should-select-and-support-leading-domestic-companies-in-strategic-sectors" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Agree. Subsidies and general public sector business good.</p>
+<h3 id="55-consensual-adult-activities-such-as-drug-use-gambling-and-sex-work-should-not-be-criminalized">55. Consensual adult activities, such as drug use, gambling and sex work, should not be criminalized.<a href="#55-consensual-adult-activities-such-as-drug-use-gambling-and-sex-work-should-not-be-criminalized" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. There will be regulation on all these, but people should not be punished; Gambling platforms should be inaccessible, and harmful drugs as well, though their users are victims instead of criminals.</p>
+<h3 id="56-municipalities-should-be-able-to-pass-their-own-laws-even-if-they-differ-from-national-laws">56. Municipalities should be able to pass their own laws, even if they differ from national laws.<a href="#56-municipalities-should-be-able-to-pass-their-own-laws-even-if-they-differ-from-national-laws" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. All law is applied everywhere to maximize equality and equal care of all citizens by all citizens.</p>
+<h3 id="57-a-multicultural-society-should-embrace-several-languages-in-everyday-life">57. A multicultural society should embrace several languages in everyday life.<a href="#57-a-multicultural-society-should-embrace-several-languages-in-everyday-life" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Disagree. People should be allowed to speak any language freely, but broadcasting, education, law, social services and social cohesion must all depend on one official core language to maximize knowledge access and mutual care.</p>
+<h3 id="58-i-prefer-life-in-big-cities-to-life-in-the-countryside">58. I prefer life in big cities to life in the countryside.<a href="#58-i-prefer-life-in-big-cities-to-life-in-the-countryside" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly agree. Personal answer, whatever.</p>
+<h3 id="59-taxes-should-be-reduced-to-encourage-economic-growth">59. Taxes should be reduced to encourage economic growth.<a href="#59-taxes-should-be-reduced-to-encourage-economic-growth" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Strongly disagree. Economic growth is determined by access to services and, if necessary, subsidies.</p>
+<h3 id="60-my-country-should-not-maintain-military-bases-in-other-countries">60. My country should not maintain military bases in other countries.<a href="#60-my-country-should-not-maintain-military-bases-in-other-countries" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>Agree. No expansion without democracy.</p>
+<h2 id="final-pick-and-choose">Final pick-and-choose<a href="#final-pick-and-choose" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h2><h3 id="what-should-society-rest-on">What should society rest on?<a href="#what-should-society-rest-on" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><ul>
+<li>(a) Faith, family and national tradition</li>
+<li>(b) Custom and faith, changing slowly</li>
+<li>(c) Live and let live</li>
+<li>(d) Equality, diversity and civil rights</li>
+<li><strong>(E) Tradition and order, without religion</strong></li>
+<li>(f) Faith in service of social justice</li>
+</ul>
+<p>Literally none of these. If I had to pick here, It would be C or E? For the test I picked E.</p>
+<h3 id="how-should-power-be-organized">How should power be organized?<a href="#how-should-power-be-organized" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><ul>
+<li>(a) A single leader or party, centralized</li>
+<li>(b) Elites decide, with limited voting</li>
+<li><strong>(C) Democracy with checks and balances</strong></li>
+<li>(d) Little or no state</li>
+<li>(e) No state, councils or contracts</li>
+</ul>
+<p>I went with C.</p>
+<h3 id="who-should-control-production">Who should control production?<a href="#who-should-control-production" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><ul>
+<li>(a) Collective, planned production, no bosses</li>
+<li>(b) Co-ops, welfare state and regulation</li>
+<li><strong>(c) Markets with rules and a safety net</strong></li>
+<li>(d) Bosses and unions united by the state</li>
+<li>(e) National firms shielded by the state</li>
+<li>(f) Free trade and minimal taxes</li>
+</ul>
+<h3 id="how-should-the-country-act-abroad">How should the country act abroad?<a href="#how-should-the-country-act-abroad" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><ul>
+<li>(a) An influential military power</li>
+<li>(b) Strong defense and close allies</li>
+<li><strong>(c) Diplomacy before force</strong></li>
+<li>(d) Armed, but out of others&rsquo; wars</li>
+<li>(e) Peace and non-intervention, always</li>
+</ul>
+<h3 id="what-role-should-technology-play">What role should technology play?<a href="#what-role-should-technology-play" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><ul>
+<li>(a) Back to nature, no industry</li>
+<li><strong>(b) Nature before progress</strong></li>
+<li>(c) Balance progress and nature</li>
+<li>(d) Technology and industry as the engine</li>
+<li>(e) Accelerate technology, no breaks</li>
+</ul>
+<h3 id="do-you-follow-a-religion-we-only-use-this-to-tailor-your-recommendations">Do you follow a religion? We only use this to tailor your recommendations.<a href="#do-you-follow-a-religion-we-only-use-this-to-tailor-your-recommendations" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><ul>
+<li>Christianity</li>
+<li>Judaism</li>
+<li>Islam</li>
+<li>Buddhism</li>
+<li>Hinduism</li>
+<li><strong>No religion</strong></li>
+</ul>
+<h2 id="results">Results<a href="#results" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h2><p>Man this is some bullshit. The questions are good mostly, but i got Socialism, like, vanilla Socialism??? Check out this bullshit man.</p>
+<p>
+<figure
+  class="image-figure not-prose my-8"
+  data-lightbox-enabled="
+    true
+  "
+  data-gallery-type="auto"
+  data-image-width="0"
+  data-image-height="0"
+  data-image-src="/images/12axes-2026-10-18.png"
+>
+  <div class="image-container">
+    <img
+    src="/images/12axes-2026-10-18.png"
+    alt=""
+    title="bullshit"
+    
+    loading="lazy"
+    decoding="async"
+    data-gallery-src="/images/12axes-2026-10-18.png"
+    data-gallery-alt=""
+    data-gallery-title="bullshit"
+  /></div>
+
+  <figcaption class="image-caption">
+      bullshit
+    </figcaption></figure>
+</p>
+
+    </article>
+  </div>
+
+  
+  <div class="mt-12">
+    
+  </div>
+
+      </div>
+
+      <footer class="px-4 py-6">
+  
+  
+
+
+  
+  
+
+
+  
+  <div class="flex flex-col items-center justify-between gap-4 md:flex-row">
+    
+    <div class="text-muted-foreground text-center text-sm md:text-left">
+      <p class="mb-2">
+        &copy;
+        2026
+        Senwa.space
+      </p>
+      <p class="flex flex-wrap items-center justify-center gap-1 md:justify-start">
+        <span>Powered by</span>
+        <a
+          href="https://gohugo.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-primary hover:text-primary/80 font-medium transition-colors duration-200 hover:underline"
+        >
+          Hugo
+        </a>
+        <span>&</span>
+        <a
+          href="https://github.com/tom2almighty/hugo-narrow"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-primary hover:text-primary/80 font-medium transition-colors duration-200 hover:underline"
+        >
+          Narrow
+        </a>
+      </p>
+    </div>
+
+    
+    
+      <div class="flex items-center gap-3">
+        
+          <a
+            href="https://github.com/senwa-hasker"
+            
+              target="_blank" rel="noopener noreferrer"
+            
+            class="text-muted-foreground hover:text-primary focus:ring-primary/20 rounded-lg p-1 transition-all duration-300 ease-out hover:scale-110 focus:ring-2 focus:outline-none"
+            title="GitHub"
+            aria-label="GitHub"
+          >
+            
+              <svg class="h-6 w-6" aria-label="GitHub" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5c.08-1.25-.27-2.48-1-3.5c.28-1.15.28-2.35 0-3.5c0 0-1 0-3 1.5c-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5c-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></g></svg>
+            
+          </a>
+        
+          <a
+            href="https://twitter.com/TinyMotorcycles"
+            
+              target="_blank" rel="noopener noreferrer"
+            
+            class="text-muted-foreground hover:text-primary focus:ring-primary/20 rounded-lg p-1 transition-all duration-300 ease-out hover:scale-110 focus:ring-2 focus:outline-none"
+            title="Twitter"
+            aria-label="Twitter"
+          >
+            
+              <svg class="h-6 w-6" aria-label="Twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6c2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4c-.9-4.2 4-6.6 7-3.8c1.1 0 3-1.2 3-1.2"/></svg>
+            
+          </a>
+        
+      </div>
+    
+
+  </div>
+</footer>
+
+      
+
+
+
+
+
+<div
+  id="dock"
+  class="pointer-events-none fixed bottom-4 left-1/2 z-9999 w-fit -translate-x-1/2 translate-y-24 opacity-0 transition-all duration-300 ease-out sm:right-0 sm:left-0 sm:mx-auto sm:translate-x-0"
+  data-dock-mode="float"
+  role="toolbar"
+  aria-label="Quick actions toolbar"
+>
+  <nav
+    class="border-border bg-card/80 scrollbar-hide xs:px-3 xs:py-2 mx-auto flex max-w-[calc(100vw-2rem)] min-w-fit items-center justify-center overflow-x-auto rounded-2xl border px-4 py-3 shadow-lg backdrop-blur-sm sm:px-4 sm:py-3"
+  >
+    
+    
+      <button
+        id="dock-back"
+        class="text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 xs:px-2 xs:py-1.5 flex shrink-0 items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none sm:px-3 sm:py-2"
+        title="Back"
+        aria-label="Back"
+      >
+        <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m12 19-7-7 7-7"/>
+  <path d="M19 12H5"/>
+</svg>
+
+        <span class="hidden sm:inline">Back</span>
+      </button>
+
+      
+      <div class="bg-border xs:mx-1 mx-2 h-6 w-px sm:mx-2"></div>
+    
+
+
+    <button
+      id="dock-search"
+      class="text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 xs:px-3 xs:py-1.5 flex shrink-0 items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none sm:px-4 sm:py-2"
+      title="Search"
+      aria-label="Search"
+    >
+      <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m21 21-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+</svg>
+
+      <span class="hidden md:inline">Search</span>
+    </button>
+
+    
+    <div class="bg-border xs:mx-1 mx-2 h-6 w-px sm:mx-2"></div>
+
+    
+    
+    
+
+
+    
+    <button
+      id="dock-top"
+      class="text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 xs:px-2 xs:py-1.5 flex shrink-0 items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none sm:px-3 sm:py-2"
+      title="Back to top"
+      aria-label="Back to top"
+    >
+      <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m18 15-6-6-6 6"/>
+</svg>
+
+      <span class="hidden sm:inline">Top</span>
+    </button>
+  </nav>
+</div>
+
+
+
+  <div
+    id="dock-float-trigger"
+    class="pointer-events-auto fixed right-0 bottom-0 left-0 z-9998 cursor-pointer"
+  >
+    <div
+      class="from-muted-foreground/20 absolute inset-0 h-8 bg-linear-to-t to-transparent transition-all duration-200 ease-out"
+    ></div>
+
+    
+    <div class="relative mx-auto flex h-8 w-12 items-center justify-center">
+      <span id="dock-float-icon">
+        <svg class="h-3 w-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6l-6 6z"/></svg>
+      </span>
+    </div>
+  </div>
+
+
+      <aside
+    id="toc-container"
+    class="toc-side"
+    data-position="side"
+  >
+      <div id="toc-layer">
+        <div id="toc-anchor">
+          <div id="toc-side">
+            
+            <div
+              id="toc-rail"
+              class="scrollbar-hide"
+              role="button"
+              tabindex="0"
+              aria-controls="toc-panel"
+              aria-expanded="false"
+              aria-label="Table of contents"
+            ></div>
+
+            
+            <div id="toc-trigger-wrap">
+              <button
+                id="toc-trigger"
+                class="bg-card/80 border-border text-muted-foreground hover:text-primary hover:bg-primary/10 ring-offset-background focus-visible:ring-ring flex cursor-pointer items-center gap-2 rounded-full border px-4 py-1.5 text-sm shadow-sm backdrop-blur-sm transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+                aria-controls="toc-panel"
+                aria-expanded="false"
+              >
+                <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="8" x2="21" y1="6" y2="6"/>
+  <line x1="8" x2="21" y1="12" y2="12"/>
+  <line x1="8" x2="21" y1="18" y2="18"/>
+  <line x1="3" x2="3.01" y1="6" y2="6"/>
+  <line x1="3" x2="3.01" y1="12" y2="12"/>
+  <line x1="3" x2="3.01" y1="18" y2="18"/>
+</svg>
+
+                <span id="toc-trigger-title" class="max-w-[200px] truncate">Table of contents</span>
+                <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+</svg>
+              </button>
+            </div>
+
+            
+            <div id="toc-panel" class="scrollbar-hide overflow-y-auto">
+              <div
+                class="text-foreground mb-3 flex items-center justify-between gap-2 text-sm font-bold"
+              >
+                <span class="truncate">Table of contents</span>
+                <div class="flex shrink-0 items-center gap-1">
+                  <button
+                    id="toc-pin"
+                    class="text-muted-foreground hover:text-primary hover:bg-primary/10 focus-visible:ring-ring cursor-pointer items-center rounded p-1 transition-colors focus-visible:ring-2 focus-visible:outline-none"
+                    aria-pressed="true"
+                    aria-label="Pin table of contents"
+                    title="Pin table of contents"
+                    data-label-pin="Pin table of contents"
+                    data-label-unpin="Unpin table of contents"
+                  >
+                    <span id="toc-pin-on">
+                      <svg class="h-3 w-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 17v5"/>
+  <path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z"/>
+</svg>
+
+                    </span>
+                    <span id="toc-pin-off">
+                      <svg class="h-3 w-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 17v5"/>
+  <path d="M15 9.34V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H7.89"/>
+  <path d="M9 9v1.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h11"/>
+  <path d="m2 2 20 20"/>
+</svg>
+
+                    </span>
+                  </button>
+                  <button
+                    id="toc-close"
+                    class="text-muted-foreground hover:text-foreground focus-visible:ring-ring cursor-pointer items-center rounded p-1 transition-colors focus-visible:ring-2 focus-visible:outline-none"
+                    aria-label="Close table of contents"
+                    title="Close table of contents"
+                  >
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+</svg>
+
+                  </button>
+                </div>
+              </div>
+              <div
+                id="toc-side-content"
+                class="[&_a]:text-muted-foreground [&_a:hover]:bg-primary/10 [&_a:hover]:text-primary [&_a.active]:bg-primary/10 [&_a.active]:text-primary text-sm [&_a]:block [&_a]:rounded-md [&_a]:px-2 [&_a]:py-1 [&_a]:wrap-break-word [&_a]:whitespace-normal [&_a]:transition-colors [&_a.active]:font-medium [&_li]:my-1.5 [&_nav>ul]:pl-0 [&_ul]:list-none [&_ul]:pl-4"
+              >
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#questions">Questions</a>
+      <ul>
+        <li><a href="#1-i-prefer-to-seek-the-meaning-of-my-life-in-religious-faith">1. I prefer to seek the meaning of my life in religious faith.</a></li>
+        <li><a href="#2-military-service-should-be-compulsory-to-prepare-the-country-for-war">2. Military service should be compulsory to prepare the country for war.</a></li>
+        <li><a href="#3-i-prefer-gradual-cultural-change-to-rapid-cultural-change">3. I prefer gradual cultural change to rapid cultural change.</a></li>
+        <li><a href="#4-i-would-prefer-a-society-governed-by-popular-assemblies-rather-than-political-leaders">4. I would prefer a society governed by popular assemblies rather than political leaders.</a></li>
+        <li><a href="#5-preserving-jobs-should-take-priority-over-minimum-wage-increases">5. Preserving jobs should take priority over minimum-wage increases.</a></li>
+        <li><a href="#6-the-government-should-limit-imports-that-threaten-local-industry-and-jobs">6. The government should limit imports that threaten local industry and jobs.</a></li>
+        <li><a href="#7-adults-should-be-allowed-to-keep-firearms-at-home-for-personal-protection">7. Adults should be allowed to keep firearms at home for personal protection.</a></li>
+        <li><a href="#8-the-gender-identity-declared-by-each-person-must-be-respected">8. The gender identity declared by each person must be respected.</a></li>
+        <li><a href="#9-companies-should-set-the-terms-of-employment-with-minimal-government-interference">9. Companies should set the terms of employment with minimal government interference.</a></li>
+        <li><a href="#10-aggressive-police-operations-should-be-used-against-crime-in-areas-controlled-by-criminal-groups">10. Aggressive police operations should be used against crime in areas controlled by criminal groups.</a></li>
+        <li><a href="#11-foreign-policy-should-prioritize-my-countrys-influence-over-its-neighbors">11. Foreign policy should prioritize my country&rsquo;s influence over its neighbors.</a></li>
+        <li><a href="#12-sex-work-should-be-recognized-as-legitimate-work">12. Sex work should be recognized as legitimate work.</a></li>
+        <li><a href="#13-my-country-should-pressure-other-countries-when-the-national-interest-is-at-stake">13. My country should pressure other countries when the national interest is at stake.</a></li>
+        <li><a href="#14-the-state-should-be-allowed-to-monitor-digital-conversations-to-prevent-and-combat-crime">14. The state should be allowed to monitor digital conversations to prevent and combat crime.</a></li>
+        <li><a href="#15-leaders-should-be-chosen-by-competence-tradition-or-succession-rather-than-by-popular-vote">15. Leaders should be chosen by competence, tradition, or succession rather than by popular vote.</a></li>
+        <li><a href="#16-the-central-bank-should-obey-the-elected-government-not-act-with-total-independence">16. The central bank should obey the elected government, not act with total independence.</a></li>
+        <li><a href="#17-public-services-should-be-provided-by-private-companies-when-there-is-competition">17. Public services should be provided by private companies when there is competition.</a></li>
+        <li><a href="#18-my-country-should-be-able-to-launch-preemptive-strikes-against-enemies-preparing-to-attack">18. My country should be able to launch preemptive strikes against enemies preparing to attack.</a></li>
+        <li><a href="#19-my-country-should-deepen-trade-ties-with-other-countries">19. My country should deepen trade ties with other countries.</a></li>
+        <li><a href="#20-public-education-should-be-managed-by-local-governments-rather-than-the-national-government">20. Public education should be managed by local governments rather than the national government.</a></li>
+        <li><a href="#21-the-country-should-reduce-its-military-spending">21. The country should reduce its military spending.</a></li>
+        <li><a href="#22-immigrants-who-reject-local-customs-should-lose-the-right-to-remain-in-the-country">22. Immigrants who reject local customs should lose the right to remain in the country.</a></li>
+        <li><a href="#23-immigrants-should-not-have-to-abandon-their-customs-to-live-well-in-the-country">23. Immigrants should not have to abandon their customs to live well in the country.</a></li>
+        <li><a href="#24-people-who-immigrate-to-a-country-should-be-required-to-adapt-to-local-customs">24. People who immigrate to a country should be required to adapt to local customs.</a></li>
+        <li><a href="#25-religious-traditions-should-be-passed-on-to-future-generations">25. Religious traditions should be passed on to future generations.</a></li>
+        <li><a href="#26-secret-and-universal-suffrage-is-non-negotiable-even-for-poorly-informed-voters">26. Secret and universal suffrage is non-negotiable, even for poorly informed voters.</a></li>
+        <li><a href="#27-mining-in-protected-forests-should-be-banned-even-with-low-impact-technology">27. Mining in protected forests should be banned, even with low-impact technology.</a></li>
+        <li><a href="#28-political-decisions-should-not-be-based-on-religious-beliefs">28. Political decisions should not be based on religious beliefs.</a></li>
+        <li><a href="#29-the-coexistence-of-different-languages-and-cultures-should-be-encouraged-in-a-country">29. The coexistence of different languages and cultures should be encouraged in a country.</a></li>
+        <li><a href="#30-regions-should-have-the-right-to-secede-if-a-local-majority-votes-for-it">30. Regions should have the right to secede if a local majority votes for it.</a></li>
+        <li><a href="#31-i-would-prefer-an-authoritarian-regime-to-democracy-if-it-accelerated-my-countrys-development">31. I would prefer an authoritarian regime to democracy if it accelerated my country&rsquo;s development.</a></li>
+        <li><a href="#32-in-tackling-global-warming-i-prefer-prioritizing-technological-solutions-over-reducing-consumption">32. In tackling global warming, I prefer prioritizing technological solutions over reducing consumption.</a></li>
+        <li><a href="#33-i-oppose-race-based-quotas-for-public-service-jobs">33. I oppose race-based quotas for public-service jobs.</a></li>
+        <li><a href="#34-the-word-god-should-not-appear-in-the-constitution">34. The word &lsquo;God&rsquo; should not appear in the constitution.</a></li>
+        <li><a href="#35-public-healthcare-should-follow-uniform-national-guidelines-under-a-central-authority">35. Public healthcare should follow uniform national guidelines under a central authority.</a></li>
+        <li><a href="#36-my-country-should-be-ready-to-start-a-war-if-that-secures-its-vital-interests">36. My country should be ready to start a war if that secures its vital interests.</a></li>
+        <li><a href="#37-when-a-law-conflicts-with-my-religious-faith-i-should-follow-my-faith">37. When a law conflicts with my religious faith, I should follow my faith.</a></li>
+        <li><a href="#38-healthcare-education-and-water-should-not-operate-under-the-logic-of-profit">38. Healthcare, education, and water should not operate under the logic of profit.</a></li>
+        <li><a href="#39-private-companies-should-take-priority-in-the-management-of-public-services">39. Private companies should take priority in the management of public services.</a></li>
+        <li><a href="#40-i-prefer-keeping-state-owned-companies-publicly-owned-even-if-they-could-be-sold-at-market-value">40. I prefer keeping state-owned companies publicly owned even if they could be sold at market value.</a></li>
+        <li><a href="#41-my-country-should-support-international-war-crimes-courts-even-when-allies-are-judged">41. My country should support international war-crimes courts, even when allies are judged.</a></li>
+        <li><a href="#42-i-prefer-economic-sovereignty-to-low-supermarket-prices">42. I prefer economic sovereignty to low supermarket prices.</a></li>
+        <li><a href="#43-regional-taxes-should-follow-national-rules-to-prevent-tax-disputes-between-regions">43. Regional taxes should follow national rules to prevent tax disputes between regions.</a></li>
+        <li><a href="#44-companies-considered-strategically-important-should-remain-under-public-control">44. Companies considered strategically important should remain under public control.</a></li>
+        <li><a href="#45-technologies-that-alter-the-human-body-mind-or-reproduction-should-be-restricted">45. Technologies that alter the human body, mind, or reproduction should be restricted.</a></li>
+        <li><a href="#46-terrorism-suspects-should-be-held-without-trial-until-the-threat-has-passed">46. Terrorism suspects should be held without trial until the threat has passed.</a></li>
+        <li><a href="#47-i-prefer-a-simple-natural-way-of-life-to-a-life-full-of-technology">47. I prefer a simple, natural way of life to a life full of technology.</a></li>
+        <li><a href="#48-lgbt-couples-should-be-able-to-show-affection-in-public-like-any-other-couple">48. LGBT couples should be able to show affection in public like any other couple.</a></li>
+        <li><a href="#49-governing-efficiently-matters-more-than-guaranteeing-space-for-the-opposition">49. Governing efficiently matters more than guaranteeing space for the opposition.</a></li>
+        <li><a href="#50-my-country-should-avoid-military-alliances-that-could-draw-it-into-conflicts-abroad">50. My country should avoid military alliances that could draw it into conflicts abroad.</a></li>
+        <li><a href="#51-my-country-should-exercise-political-leadership-over-its-region">51. My country should exercise political leadership over its region.</a></li>
+        <li><a href="#52-domestic-food-production-should-take-priority-over-cheap-imports">52. Domestic food production should take priority over cheap imports.</a></li>
+        <li><a href="#53-i-support-making-it-easier-for-foreign-investors-to-invest-in-my-country">53. I support making it easier for foreign investors to invest in my country.</a></li>
+        <li><a href="#54-the-government-should-select-and-support-leading-domestic-companies-in-strategic-sectors">54. The government should select and support leading domestic companies in strategic sectors.</a></li>
+        <li><a href="#55-consensual-adult-activities-such-as-drug-use-gambling-and-sex-work-should-not-be-criminalized">55. Consensual adult activities, such as drug use, gambling and sex work, should not be criminalized.</a></li>
+        <li><a href="#56-municipalities-should-be-able-to-pass-their-own-laws-even-if-they-differ-from-national-laws">56. Municipalities should be able to pass their own laws, even if they differ from national laws.</a></li>
+        <li><a href="#57-a-multicultural-society-should-embrace-several-languages-in-everyday-life">57. A multicultural society should embrace several languages in everyday life.</a></li>
+        <li><a href="#58-i-prefer-life-in-big-cities-to-life-in-the-countryside">58. I prefer life in big cities to life in the countryside.</a></li>
+        <li><a href="#59-taxes-should-be-reduced-to-encourage-economic-growth">59. Taxes should be reduced to encourage economic growth.</a></li>
+        <li><a href="#60-my-country-should-not-maintain-military-bases-in-other-countries">60. My country should not maintain military bases in other countries.</a></li>
+      </ul>
+    </li>
+    <li><a href="#final-pick-and-choose">Final pick-and-choose</a>
+      <ul>
+        <li><a href="#what-should-society-rest-on">What should society rest on?</a></li>
+        <li><a href="#how-should-power-be-organized">How should power be organized?</a></li>
+        <li><a href="#who-should-control-production">Who should control production?</a></li>
+        <li><a href="#how-should-the-country-act-abroad">How should the country act abroad?</a></li>
+        <li><a href="#what-role-should-technology-play">What role should technology play?</a></li>
+        <li><a href="#do-you-follow-a-religion-we-only-use-this-to-tailor-your-recommendations">Do you follow a religion? We only use this to tailor your recommendations.</a></li>
+      </ul>
+    </li>
+    <li><a href="#results">Results</a></li>
+  </ul>
+</nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></aside>
+      
+<div
+  id="search-overlay"
+  class="pointer-events-none fixed inset-0 z-40 bg-black/50 opacity-0 transition-opacity duration-300"
+></div>
+
+
+<div
+  id="search-modal"
+  class="bg-card border-border pointer-events-none fixed top-1/2 left-1/2 z-50 max-h-[80vh] w-full max-w-2xl -translate-x-1/2 -translate-y-1/2 scale-95 transform overflow-hidden rounded-xl border opacity-0 shadow-xl transition-all duration-300"
+  role="dialog"
+  aria-modal="true"
+  aria-hidden="true"
+  aria-labelledby="search-title"
+  tabindex="-1"
+>
+  
+  <div class="border-border flex items-center gap-3 border-b p-4">
+    
+    <div class="text-muted-foreground h-5 w-5 shrink-0">
+      <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m21 21-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+</svg>
+
+    </div>
+    <h2 id="search-title" class="sr-only">Search</h2>
+
+    
+    <div class="relative flex-1">
+      
+      <button
+        id="search-clear"
+        class="text-muted-foreground hover:text-foreground hover:bg-muted/50 pointer-events-none absolute top-1/2 left-0 z-10 h-5 w-5 -translate-y-1/2 rounded opacity-0 transition-all duration-200"
+        title="Clear"
+        aria-label="Clear"
+      >
+        <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+</svg>
+
+      </button>
+
+      
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Search posts..."
+        class="text-foreground placeholder:text-muted-foreground w-full border-none bg-transparent pl-8 text-lg outline-none"
+        autocomplete="off"
+        spellcheck="false"
+      />
+    </div>
+
+    
+    <button
+      id="search-close"
+      class="text-muted-foreground hover:text-foreground hover:bg-muted/50 flex h-6 w-6 items-center justify-center rounded-md p-0.5 transition-all duration-200"
+      title="Close"
+      aria-label="Close"
+    >
+      <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+</svg>
+
+    </button>
+  </div>
+
+  
+  <div id="search-results" class="max-h-96 overflow-y-auto">
+    
+    <div id="search-empty" class="flex flex-col items-center justify-center py-12 text-center">
+      <div class="bg-muted/50 mb-4 flex h-16 w-16 items-center justify-center rounded-full">
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m21 21-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+</svg>
+
+      </div>
+      <h3 class="text-foreground mb-2 text-lg font-semibold">
+        Start searching
+      </h3>
+    </div>
+
+    
+    <div id="search-loading" class="flex items-center justify-center py-8" hidden>
+      <div
+        class="mr-3 h-6 w-6 animate-spin rounded-full border-2 border-current border-t-transparent"
+      ></div>
+      <span class="text-muted-foreground">Searching...</span>
+    </div>
+
+    
+    <div
+      id="search-no-results"
+      class="flex flex-col items-center justify-center py-12 text-center"
+      hidden
+    >
+      <div class="bg-muted/50 mb-4 flex h-16 w-16 items-center justify-center rounded-full">
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+</svg>
+
+      </div>
+      <h3 class="text-foreground mb-2 text-lg font-semibold">
+        No results
+      </h3>
+    </div>
+
+    
+    <div id="search-results-list" hidden>
+      
+      <div
+        id="search-stats"
+        class="text-muted-foreground border-border border-b px-4 py-3 text-sm"
+        data-count-other="Found %d results"
+      ></div>
+
+      
+      <div id="search-items" class="divide-border divide-y" role="list">
+        
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="border-border bg-muted/20 border-t px-4 py-3"><div class="text-muted-foreground flex items-center justify-between text-xs">
+      <div class="flex items-center gap-2 md:gap-4">
+        <div class="flex items-center gap-1">
+          <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">↑↓</kbd>
+          <span class="hidden sm:inline">Navigate</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">↵</kbd>
+          <span class="hidden sm:inline">Select</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">ESC</kbd>
+          <span class="hidden sm:inline">Close</span>
+        </div>
+      </div>
+      <div class="search-hint-desktop flex items-center gap-1">
+        <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">⌘K</kbd>
+        <span>Shortcut</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+
+      
+
+
+    </main>
+  </body>
+</html>

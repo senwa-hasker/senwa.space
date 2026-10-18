@@ -5,18 +5,9 @@ featured: false
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 description: "thingincardpreviews"
 summary: "thingundertitleinpost"
-cover: cover.jpg
-categories:
-    - changethis
-tags:
-    - changethis
-books:
-    - changethis
-collections:
-    - changethis
-projects:
-    - changethis
+cover: images/pfp.jpg
 status: "in_progress"
+weight: 500
 lightbox:
   enabled: true
 justified_gallery:
