@@ -14,6 +14,7 @@ topics:
     - relationships
     - abuse
     - deontology
+    - politics
 status: "in_progress"
 lightbox:
   enabled: true

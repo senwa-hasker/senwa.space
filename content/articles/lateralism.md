@@ -12,6 +12,7 @@ topics:
     - logic
     - intention
     - deontology
+    - politics
 status: "in_progress"
 lightbox:
   enabled: true

@@ -10,14 +10,196 @@
 		
 		
 		
-			<lastBuildDate>Sun, 18 Oct 2026 02:28:52 -0300</lastBuildDate>
+			<lastBuildDate>Sun, 18 Oct 2026 17:06:29 -0300</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/topics/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Changethis</title>
-				<link>http://localhost:1313/en/topics/changethis/</link>
+				<title>Beauty</title>
+				<link>http://localhost:1313/en/topics/beauty/</link>
+				<pubDate>Sun, 18 Oct 2026 17:06:29 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/beauty/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Determinism</title>
+				<link>http://localhost:1313/en/topics/determinism/</link>
+				<pubDate>Sun, 18 Oct 2026 17:06:29 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/determinism/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Genius</title>
+				<link>http://localhost:1313/en/topics/genius/</link>
+				<pubDate>Sun, 18 Oct 2026 17:06:29 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/genius/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Lateralism</title>
+				<link>http://localhost:1313/en/topics/lateralism/</link>
+				<pubDate>Sun, 18 Oct 2026 17:06:29 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/lateralism/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Parallel</title>
+				<link>http://localhost:1313/en/topics/parallel/</link>
+				<pubDate>Sun, 18 Oct 2026 17:06:29 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/parallel/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Personality</title>
+				<link>http://localhost:1313/en/topics/personality/</link>
+				<pubDate>Sun, 18 Oct 2026 17:06:29 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/personality/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Prediction</title>
+				<link>http://localhost:1313/en/topics/prediction/</link>
+				<pubDate>Sun, 18 Oct 2026 17:06:29 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/prediction/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Profession</title>
+				<link>http://localhost:1313/en/topics/profession/</link>
+				<pubDate>Sun, 18 Oct 2026 17:06:29 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/profession/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Representation</title>
+				<link>http://localhost:1313/en/topics/representation/</link>
+				<pubDate>Sun, 18 Oct 2026 17:06:29 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/representation/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Social Experiment</title>
+				<link>http://localhost:1313/en/topics/social-experiment/</link>
+				<pubDate>Sun, 18 Oct 2026 17:06:29 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/social-experiment/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sociology</title>
+				<link>http://localhost:1313/en/topics/sociology/</link>
+				<pubDate>Sun, 18 Oct 2026 17:06:29 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/sociology/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Total Wipeout</title>
+				<link>http://localhost:1313/en/topics/total-wipeout/</link>
+				<pubDate>Sun, 18 Oct 2026 17:06:29 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/total-wipeout/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tv Shows</title>
+				<link>http://localhost:1313/en/topics/tv-shows/</link>
+				<pubDate>Sun, 18 Oct 2026 17:06:29 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/tv-shows/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Abstract</title>
+				<link>http://localhost:1313/en/topics/abstract/</link>
 				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
-				<guid>http://localhost:1313/en/topics/changethis/</guid>
+				<guid>http://localhost:1313/en/topics/abstract/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Babbdi (Videogame)</title>
+				<link>http://localhost:1313/en/topics/babbdi-videogame/</link>
+				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/babbdi-videogame/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Control (Videogame)</title>
+				<link>http://localhost:1313/en/topics/control-videogame/</link>
+				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/control-videogame/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Death Stranding</title>
+				<link>http://localhost:1313/en/topics/death-stranding/</link>
+				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/death-stranding/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Detroit Become Human</title>
+				<link>http://localhost:1313/en/topics/detroit-become-human/</link>
+				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/detroit-become-human/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Film</title>
+				<link>http://localhost:1313/en/topics/film/</link>
+				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/film/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Fugue in Void</title>
+				<link>http://localhost:1313/en/topics/fugue-in-void/</link>
+				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/fugue-in-void/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>House of Leaves (Book)</title>
+				<link>http://localhost:1313/en/topics/house-of-leaves-book/</link>
+				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/house-of-leaves-book/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Hyperreality</title>
+				<link>http://localhost:1313/en/topics/hyperreality/</link>
+				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/hyperreality/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Minecraft (Videogame)</title>
+				<link>http://localhost:1313/en/topics/minecraft-videogame/</link>
+				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/minecraft-videogame/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Mirror&#39;s Edge Catalyst</title>
+				<link>http://localhost:1313/en/topics/mirrors-edge-catalyst/</link>
+				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/mirrors-edge-catalyst/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Music</title>
+				<link>http://localhost:1313/en/topics/music/</link>
+				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/music/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Naissancee (Videogame)</title>
+				<link>http://localhost:1313/en/topics/naissancee-videogame/</link>
+				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/naissancee-videogame/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Videogames</title>
+				<link>http://localhost:1313/en/topics/videogames/</link>
+				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/videogames/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -112,6 +294,97 @@
 				<description></description>
 			</item>
 			<item>
+				<title>Authoritarianism</title>
+				<link>http://localhost:1313/en/topics/authoritarianism/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/authoritarianism/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Christianity</title>
+				<link>http://localhost:1313/en/topics/christianity/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/christianity/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Culture</title>
+				<link>http://localhost:1313/en/topics/culture/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/culture/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Islam</title>
+				<link>http://localhost:1313/en/topics/islam/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/islam/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Judaism</title>
+				<link>http://localhost:1313/en/topics/judaism/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/judaism/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Liberty</title>
+				<link>http://localhost:1313/en/topics/liberty/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/liberty/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Logic</title>
+				<link>http://localhost:1313/en/topics/logic/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/logic/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Perfection</title>
+				<link>http://localhost:1313/en/topics/perfection/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/perfection/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Quantum Immortality</title>
+				<link>http://localhost:1313/en/topics/quantum-immortality/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/quantum-immortality/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Secularism</title>
+				<link>http://localhost:1313/en/topics/secularism/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/secularism/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Social Life</title>
+				<link>http://localhost:1313/en/topics/social-life/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/social-life/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Spirituality</title>
+				<link>http://localhost:1313/en/topics/spirituality/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/spirituality/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Truth</title>
+				<link>http://localhost:1313/en/topics/truth/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/truth/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Intention</title>
 				<link>http://localhost:1313/en/topics/intention/</link>
 				<pubDate>Sat, 17 Oct 2026 02:57:08 -0300</pubDate>
@@ -119,17 +392,73 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Lateralism</title>
-				<link>http://localhost:1313/en/topics/lateralism/</link>
-				<pubDate>Sat, 17 Oct 2026 02:57:08 -0300</pubDate>
-				<guid>http://localhost:1313/en/topics/lateralism/</guid>
+				<title>Altruism</title>
+				<link>http://localhost:1313/en/topics/altruism/</link>
+				<pubDate>Sat, 17 Oct 2026 02:49:02 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/altruism/</guid>
 				<description></description>
 			</item>
 			<item>
-				<title>Logic</title>
-				<link>http://localhost:1313/en/topics/logic/</link>
-				<pubDate>Sat, 17 Oct 2026 02:57:08 -0300</pubDate>
-				<guid>http://localhost:1313/en/topics/logic/</guid>
+				<title>Carl Jung</title>
+				<link>http://localhost:1313/en/topics/carl-jung/</link>
+				<pubDate>Sat, 17 Oct 2026 02:49:02 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/carl-jung/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Economics</title>
+				<link>http://localhost:1313/en/topics/economics/</link>
+				<pubDate>Sat, 17 Oct 2026 02:49:02 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/economics/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Immanuel Kant</title>
+				<link>http://localhost:1313/en/topics/immanuel-kant/</link>
+				<pubDate>Sat, 17 Oct 2026 02:49:02 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/immanuel-kant/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Obligation</title>
+				<link>http://localhost:1313/en/topics/obligation/</link>
+				<pubDate>Sat, 17 Oct 2026 02:49:02 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/obligation/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Peter Singer</title>
+				<link>http://localhost:1313/en/topics/peter-singer/</link>
+				<pubDate>Sat, 17 Oct 2026 02:49:02 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/peter-singer/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Philantropy</title>
+				<link>http://localhost:1313/en/topics/philantropy/</link>
+				<pubDate>Sat, 17 Oct 2026 02:49:02 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/philantropy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Policy</title>
+				<link>http://localhost:1313/en/topics/policy/</link>
+				<pubDate>Sat, 17 Oct 2026 02:49:02 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/policy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Supererogatory</title>
+				<link>http://localhost:1313/en/topics/supererogatory/</link>
+				<pubDate>Sat, 17 Oct 2026 02:49:02 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/supererogatory/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Changethis</title>
+				<link>http://localhost:1313/en/topics/changethis/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/topics/changethis/</guid>
 				<description></description>
 			</item>
 	</channel>

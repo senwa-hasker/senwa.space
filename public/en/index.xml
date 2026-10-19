@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sun, 18 Oct 2026 01:55:37 -0300</lastBuildDate>
+			<lastBuildDate>Sun, 18 Oct 2026 17:06:29 -0300</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -105,6 +105,20 @@
 				<description>My 12axes answers!</description>
 			</item>
 			<item>
+				<title>Total Wipeout is Much More Genius Than You Think</title>
+				<link>http://localhost:1313/en/articles/total-wipeout-is-a-masterpiece/</link>
+				<pubDate>Sun, 18 Oct 2026 17:06:29 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/total-wipeout-is-a-masterpiece/</guid>
+				<description>A disguised masterpiece.</description>
+			</item>
+			<item>
+				<title>The Beauty of Fantasy</title>
+				<link>http://localhost:1313/en/articles/the-beauty-of-fantasy/</link>
+				<pubDate>Sun, 18 Oct 2026 02:28:52 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/the-beauty-of-fantasy/</guid>
+				<description>How I value man-made worlds.</description>
+			</item>
+			<item>
 				<title>Defining Pedophilia &amp; Predation</title>
 				<link>http://localhost:1313/en/articles/defining-predation/</link>
 				<pubDate>Sun, 18 Oct 2026 01:55:37 -0300</pubDate>
@@ -112,11 +126,25 @@
 				<description>I can&amp;rsquo;t believe I have to write about some of this. Some of yall&amp;hellip;</description>
 			</item>
 			<item>
+				<title>On Religion</title>
+				<link>http://localhost:1313/en/articles/on-religion/</link>
+				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/on-religion/</guid>
+				<description>My views on religious liberty, law, government and social life.</description>
+			</item>
+			<item>
 				<title>Lateralism</title>
 				<link>http://localhost:1313/en/articles/lateralism/</link>
 				<pubDate>Sat, 17 Oct 2026 02:57:08 -0300</pubDate>
 				<guid>http://localhost:1313/en/articles/lateralism/</guid>
 				<description>An attempt to describe a core philosophy of mine</description>
+			</item>
+			<item>
+				<title>On Morality</title>
+				<link>http://localhost:1313/en/articles/on-morality/</link>
+				<pubDate>Sat, 17 Oct 2026 02:49:02 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/on-morality/</guid>
+				<description>My moral framework and general stances.</description>
 			</item>
 			<item>
 				<title>My Favorite Actors</title>

@@ -1,16 +1,34 @@
 ---
 date: '2026-10-17T02:57:53-03:00'
-draft: true
+draft: false
 featured: false
 title: 'On Religion'
-description: "thingincardpreviews"
-summary: "thingundertitleinpost"
-cover: images/articles/placeholder.jpg
+description: "My views on religious liberty, law, government and social life."
+summary: "My views on religious liberty, law, government and social life."
+cover: images/articles/on-religion.jpg
 topics:
-    - changethis
+    - religion
+    - secularism
+    - morality
+    - philosophy
+    - sociology
+    - perfection
+    - culture
+    - social life
+    - authoritarianism
+    - liberty
+    - truth
+    - logic
+    - christianity
+    - islam
+    - judaism
+    - spirituality
+    - quantum immortality
 status: "in_progress"
 lightbox:
   enabled: true
 justified_gallery:
   enabled: true
 ---
+
+Basically, religion bad.
