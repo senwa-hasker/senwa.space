@@ -1,6 +1,6 @@
 <!doctype html><html
   lang="en"
-  data-theme="Default"
+  data-theme="senwa"
   data-toc-pinned="false"
 >
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -13,7 +13,7 @@
 
 <meta
   name="description"
-  content="Used for keywords and topics"
+  content="A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
 />
 <meta
   name="keywords"
@@ -37,7 +37,7 @@
 <meta property="og:url" content="http://localhost:1313/en/tags/">
 	<meta property="og:site_name" content="Senwa.space">
 	<meta property="og:title" content="Tags">
-	<meta property="og:description" content="Used for keywords and topics">
+	<meta property="og:description" content="A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design.">
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="website">
 		<meta property="og:image" content="http://localhost:1313/images/og-default.avif">
@@ -46,13 +46,13 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image" content="http://localhost:1313/images/og-default.avif">
 	<meta name="twitter:title" content="Tags">
-	<meta name="twitter:description" content="Used for keywords and topics">
+	<meta name="twitter:description" content="A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design.">
 
 
 	<meta itemprop="name" content="Tags">
-	<meta itemprop="description" content="Used for keywords and topics">
-	<meta itemprop="datePublished" content="2026-10-16T21:51:14-03:00">
-	<meta itemprop="dateModified" content="2026-10-16T21:51:14-03:00">
+	<meta itemprop="description" content="A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design.">
+	<meta itemprop="datePublished" content="2026-10-19T20:47:57-03:00">
+	<meta itemprop="dateModified" content="2026-10-19T20:47:57-03:00">
 	<meta itemprop="image" content="http://localhost:1313/images/og-default.avif">
 
 
@@ -88,11 +88,15 @@
 
 
   
-    <link rel="stylesheet" href="/css/custom/shavian.css" />
+    <link rel="stylesheet" href="/css/custom/images.css" />
   
 
   
-    <link rel="stylesheet" href="/css/custom/themes.css" />
+    <link rel="stylesheet" href="/css/custom/senwa-legacy.css" />
+  
+
+  
+    <link rel="stylesheet" href="/css/custom/senwa.css" />
   
 
 
@@ -117,6 +121,7 @@
 
 
 
+      <script src="/js/custom//js/custom/image-wrap.js" defer></script>
 
 
 
@@ -124,7 +129,7 @@
 
 
     
-    <script>(function(){const e=document.documentElement,o=localStorage.getItem("theme")||"system",m=localStorage.getItem("colorScheme")||"Default",n=Number.parseInt(localStorage.getItem("contentWidth"),10),d=Number.isInteger(n)&&n>=40&&n<=90;d&&e.style.setProperty("--content-width",`${n}rem`),e.setAttribute("data-theme",m);const s=localStorage.getItem("tocPinned");(s==="true"||s==="false")&&e.setAttribute("data-toc-pinned",s);const t=Number.parseFloat(getComputedStyle(e).fontSize)||16,u="64rem",i=Number.parseFloat(u);let a=56*t;Number.isFinite(i)&&(a=/r?em\s*$/.test(u)?i*t:i),d&&(a=n*t);const r=e.clientWidth,c=Math.max(0,(r-Math.min(a,r))/2);let l="narrow";r>=64*t&&(c>=13*t?l="wide":c>=2*t&&(l="tight")),e.setAttribute("data-toc-space",l),e.style.setProperty("--toc-gutter",`${Math.round(c)}px`);function h(){o==="dark"||o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches?e.classList.add("dark"):e.classList.remove("dark")}h(),o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",h)})()</script>
+    <script>(function(){const e=document.documentElement,o=localStorage.getItem("theme")||"system",m=localStorage.getItem("colorScheme")||"senwa",n=Number.parseInt(localStorage.getItem("contentWidth"),10),d=Number.isInteger(n)&&n>=40&&n<=90;d&&e.style.setProperty("--content-width",`${n}rem`),e.setAttribute("data-theme",m);const s=localStorage.getItem("tocPinned");(s==="true"||s==="false")&&e.setAttribute("data-toc-pinned",s);const t=Number.parseFloat(getComputedStyle(e).fontSize)||16,u="64rem",i=Number.parseFloat(u);let a=56*t;Number.isFinite(i)&&(a=/r?em\s*$/.test(u)?i*t:i),d&&(a=n*t);const r=e.clientWidth,c=Math.max(0,(r-Math.min(a,r))/2);let l="narrow";r>=64*t&&(c>=13*t?l="wide":c>=2*t&&(l="tight")),e.setAttribute("data-toc-space",l),e.style.setProperty("--toc-gutter",`${Math.round(c)}px`);function h(){o==="dark"||o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches?e.classList.add("dark"):e.classList.remove("dark")}h(),o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",h)})()</script>
   </head><body class="bg-background text-foreground min-h-screen antialiased">
     <main
       id="page-container"
@@ -377,7 +382,7 @@
       class="dropdown-menu border-border bg-popover/95 w-44 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
       data-dropdown-type="color-scheme"
       
-    ><button data-color-scheme="default" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Default</span></button><button data-color-scheme="claude" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Claude</span></button><button data-color-scheme="bumblebee" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Bumblebee</span></button><button data-color-scheme="emerald" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Emerald</span></button><button data-color-scheme="nord" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Nord</span></button><button data-color-scheme="sunset" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Sunset</span></button><button data-color-scheme="abyss" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Abyss</span></button><button data-color-scheme="dracula" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Dracula</span></button><button data-color-scheme="amethyst" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Amethyst</span></button><button data-color-scheme="slate" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Slate</span></button><button data-color-scheme="twitter" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Twitter</span></button><button data-color-scheme="minimal" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Minimal</span></button></div>
+    ><button data-color-scheme="senwa" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa</span></button><button data-color-scheme="senwa-legacy" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-legacy</span></button></div>
   </div>
 
 
@@ -466,7 +471,7 @@
       class="dropdown-menu border-border bg-popover/95 w-44 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
       data-dropdown-type="color-scheme"
       
-    ><button data-color-scheme="default" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Default</span></button><button data-color-scheme="claude" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Claude</span></button><button data-color-scheme="bumblebee" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Bumblebee</span></button><button data-color-scheme="emerald" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Emerald</span></button><button data-color-scheme="nord" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Nord</span></button><button data-color-scheme="sunset" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Sunset</span></button><button data-color-scheme="abyss" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Abyss</span></button><button data-color-scheme="dracula" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Dracula</span></button><button data-color-scheme="amethyst" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Amethyst</span></button><button data-color-scheme="slate" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Slate</span></button><button data-color-scheme="twitter" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Twitter</span></button><button data-color-scheme="minimal" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Minimal</span></button></div>
+    ><button data-color-scheme="senwa" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa</span></button><button data-color-scheme="senwa-legacy" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-legacy</span></button></div>
   </div>
 
 
@@ -719,10 +724,6 @@
     </h1>
 
     
-      <p class="text-muted-foreground mb-6">
-        Used for keywords and topics
-      </p>
-    
 
 
     
@@ -735,7 +736,7 @@
 	</g>
 </svg>
         <span>
-          3 pages
+          14 pages
         </span>
       </div>
     </div>
@@ -757,6 +758,28 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
 
       
         
@@ -770,8 +793,183 @@
 
 
         <a
-          href="/en/tags/celebrities/"
+          href="/en/tags/favorite/"
           class="bg-card border-border group text-2xl hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="tag"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Favorite
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            3
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/tags/movies/"
+          class="bg-card border-border group text-lg hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="tag"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Movies
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            2
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/tags/actors/"
+          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="tag"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Actors
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/tags/albums/"
+          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="tag"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Albums
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/tags/animals/"
+          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="tag"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Animals
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/tags/artists/"
+          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="tag"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Artists
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/tags/bands/"
+          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="tag"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Bands
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/tags/celebrities/"
+          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="tag"
         >
           <span
@@ -795,14 +993,39 @@
 
 
         <a
-          href="/en/tags/movies/"
-          class="bg-card border-border group text-2xl hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          href="/en/tags/dogs/"
+          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="tag"
         >
           <span
             class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
           >
-            Movies
+            Dogs
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/tags/music/"
+          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="tag"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Music
           </span>
           <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
             1
@@ -821,13 +1044,88 @@
 
         <a
           href="/en/tags/people/"
-          class="bg-card border-border group text-2xl hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="tag"
         >
           <span
             class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
           >
             People
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/tags/ranking/"
+          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="tag"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Ranking
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/tags/tier-list/"
+          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="tag"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Tier List
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/tags/videogames/"
+          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="tag"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Videogames
           </span>
           <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
             1

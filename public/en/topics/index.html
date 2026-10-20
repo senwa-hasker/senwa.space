@@ -1,6 +1,6 @@
 <!doctype html><html
   lang="en"
-  data-theme="Default"
+  data-theme="senwa"
   data-toc-pinned="false"
 >
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -51,8 +51,8 @@
 
 	<meta itemprop="name" content="Topics">
 	<meta itemprop="description" content="A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design.">
-	<meta itemprop="datePublished" content="2026-10-18T17:06:29-03:00">
-	<meta itemprop="dateModified" content="2026-10-18T17:06:29-03:00">
+	<meta itemprop="datePublished" content="2026-10-19T14:55:23-03:00">
+	<meta itemprop="dateModified" content="2026-10-19T14:55:23-03:00">
 	<meta itemprop="image" content="http://localhost:1313/images/og-default.avif">
 
 
@@ -88,11 +88,15 @@
 
 
   
-    <link rel="stylesheet" href="/css/custom/shavian.css" />
+    <link rel="stylesheet" href="/css/custom/images.css" />
   
 
   
-    <link rel="stylesheet" href="/css/custom/themes.css" />
+    <link rel="stylesheet" href="/css/custom/senwa-legacy.css" />
+  
+
+  
+    <link rel="stylesheet" href="/css/custom/senwa.css" />
   
 
 
@@ -117,6 +121,7 @@
 
 
 
+      <script src="/js/custom//js/custom/image-wrap.js" defer></script>
 
 
 
@@ -124,7 +129,7 @@
 
 
     
-    <script>(function(){const e=document.documentElement,o=localStorage.getItem("theme")||"system",m=localStorage.getItem("colorScheme")||"Default",n=Number.parseInt(localStorage.getItem("contentWidth"),10),d=Number.isInteger(n)&&n>=40&&n<=90;d&&e.style.setProperty("--content-width",`${n}rem`),e.setAttribute("data-theme",m);const s=localStorage.getItem("tocPinned");(s==="true"||s==="false")&&e.setAttribute("data-toc-pinned",s);const t=Number.parseFloat(getComputedStyle(e).fontSize)||16,u="64rem",i=Number.parseFloat(u);let a=56*t;Number.isFinite(i)&&(a=/r?em\s*$/.test(u)?i*t:i),d&&(a=n*t);const r=e.clientWidth,c=Math.max(0,(r-Math.min(a,r))/2);let l="narrow";r>=64*t&&(c>=13*t?l="wide":c>=2*t&&(l="tight")),e.setAttribute("data-toc-space",l),e.style.setProperty("--toc-gutter",`${Math.round(c)}px`);function h(){o==="dark"||o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches?e.classList.add("dark"):e.classList.remove("dark")}h(),o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",h)})()</script>
+    <script>(function(){const e=document.documentElement,o=localStorage.getItem("theme")||"system",m=localStorage.getItem("colorScheme")||"senwa",n=Number.parseInt(localStorage.getItem("contentWidth"),10),d=Number.isInteger(n)&&n>=40&&n<=90;d&&e.style.setProperty("--content-width",`${n}rem`),e.setAttribute("data-theme",m);const s=localStorage.getItem("tocPinned");(s==="true"||s==="false")&&e.setAttribute("data-toc-pinned",s);const t=Number.parseFloat(getComputedStyle(e).fontSize)||16,u="64rem",i=Number.parseFloat(u);let a=56*t;Number.isFinite(i)&&(a=/r?em\s*$/.test(u)?i*t:i),d&&(a=n*t);const r=e.clientWidth,c=Math.max(0,(r-Math.min(a,r))/2);let l="narrow";r>=64*t&&(c>=13*t?l="wide":c>=2*t&&(l="tight")),e.setAttribute("data-toc-space",l),e.style.setProperty("--toc-gutter",`${Math.round(c)}px`);function h(){o==="dark"||o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches?e.classList.add("dark"):e.classList.remove("dark")}h(),o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",h)})()</script>
   </head><body class="bg-background text-foreground min-h-screen antialiased">
     <main
       id="page-container"
@@ -377,7 +382,7 @@
       class="dropdown-menu border-border bg-popover/95 w-44 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
       data-dropdown-type="color-scheme"
       
-    ><button data-color-scheme="default" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Default</span></button><button data-color-scheme="claude" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Claude</span></button><button data-color-scheme="bumblebee" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Bumblebee</span></button><button data-color-scheme="emerald" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Emerald</span></button><button data-color-scheme="nord" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Nord</span></button><button data-color-scheme="sunset" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Sunset</span></button><button data-color-scheme="abyss" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Abyss</span></button><button data-color-scheme="dracula" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Dracula</span></button><button data-color-scheme="amethyst" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Amethyst</span></button><button data-color-scheme="slate" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Slate</span></button><button data-color-scheme="twitter" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Twitter</span></button><button data-color-scheme="minimal" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Minimal</span></button></div>
+    ><button data-color-scheme="senwa" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa</span></button><button data-color-scheme="senwa-legacy" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-legacy</span></button></div>
   </div>
 
 
@@ -466,7 +471,7 @@
       class="dropdown-menu border-border bg-popover/95 w-44 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
       data-dropdown-type="color-scheme"
       
-    ><button data-color-scheme="default" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Default</span></button><button data-color-scheme="claude" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Claude</span></button><button data-color-scheme="bumblebee" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Bumblebee</span></button><button data-color-scheme="emerald" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Emerald</span></button><button data-color-scheme="nord" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Nord</span></button><button data-color-scheme="sunset" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Sunset</span></button><button data-color-scheme="abyss" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Abyss</span></button><button data-color-scheme="dracula" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Dracula</span></button><button data-color-scheme="amethyst" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Amethyst</span></button><button data-color-scheme="slate" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Slate</span></button><button data-color-scheme="twitter" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Twitter</span></button><button data-color-scheme="minimal" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Minimal</span></button></div>
+    ><button data-color-scheme="senwa" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa</span></button><button data-color-scheme="senwa-legacy" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-legacy</span></button></div>
   </div>
 
 
@@ -731,7 +736,7 @@
 	</g>
 </svg>
         <span>
-          57 pages
+          81 pages
         </span>
       </div>
     </div>
@@ -861,6 +866,54 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
 
       
         
@@ -874,8 +927,33 @@
 
 
         <a
-          href="/en/topics/philosophy/"
+          href="/en/topics/politics/"
           class="bg-card border-border group text-2xl hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Politics
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            6
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/philosophy/"
+          class="bg-card border-border group text-lg hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
@@ -900,7 +978,7 @@
 
         <a
           href="/en/topics/deontology/"
-          class="bg-card border-border group text-xl hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-lg hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
@@ -924,8 +1002,33 @@
 
 
         <a
+          href="/en/topics/law/"
+          class="bg-card border-border group text-lg hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Law
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            3
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
           href="/en/topics/morality/"
-          class="bg-card border-border group text-xl hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-lg hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
@@ -950,7 +1053,7 @@
 
         <a
           href="/en/topics/sociology/"
-          class="bg-card border-border group text-xl hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-lg hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
@@ -960,231 +1063,6 @@
           </span>
           <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
             3
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/logic/"
-          class="bg-card border-border group text-lg hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Logic
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            2
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/religion/"
-          class="bg-card border-border group text-lg hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Religion
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            2
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/representation/"
-          class="bg-card border-border group text-lg hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Representation
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            2
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/12axes/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            12axes
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/abstract/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Abstract
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/abuse/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Abuse
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/altruism/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Altruism
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/authoritarianism/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Authoritarianism
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/babbdi-videogame/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Babbdi (Videogame)
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
           </span>
         </a>
       
@@ -1209,432 +1087,7 @@
             Beauty
           </span>
           <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/carl-jung/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Carl Jung
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/christianity/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Christianity
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/control-videogame/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Control (Videogame)
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/culture/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Culture
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/death-stranding/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Death Stranding
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/detroit-become-human/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Detroit Become Human
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/economics/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Economics
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/film/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Film
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/fugue-in-void/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Fugue in Void
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/genius/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Genius
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/government/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Government
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/house-of-leaves-book/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            House of Leaves (Book)
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/hyperreality/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Hyperreality
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/immanuel-kant/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Immanuel Kant
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/intention/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Intention
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/islam/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Islam
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/judaism/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Judaism
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
+            2
           </span>
         </a>
       
@@ -1659,32 +1112,7 @@
             Lateralism
           </span>
           <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/law/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Law
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
+            2
           </span>
         </a>
       
@@ -1709,7 +1137,7 @@
             Liberty
           </span>
           <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
+            2
           </span>
         </a>
       
@@ -1724,217 +1152,17 @@
 
 
         <a
-          href="/en/topics/minecraft-videogame/"
+          href="/en/topics/logic/"
           class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
             class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
           >
-            Minecraft (Videogame)
+            Logic
           </span>
           <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/mirrors-edge-catalyst/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Mirror&#39;s Edge Catalyst
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/music/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Music
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/naissancee-videogame/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Naissancee (Videogame)
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/obligation/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Obligation
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/pedophilia/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Pedophilia
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/perfection/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Perfection
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/peter-singer/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Peter Singer
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
-          </span>
-        </a>
-      
-        
-        
-        
-        
-
-        
-          
-        
-
-
-        <a
-          href="/en/topics/philantropy/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-          data-taxonomy="topic"
-        >
-          <span
-            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
-          >
-            Philantropy
-          </span>
-          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
-            1
+            2
           </span>
         </a>
       
@@ -1959,6 +1187,81 @@
             Policy
           </span>
           <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            2
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/religion/"
+          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Religion
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            2
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/representation/"
+          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Representation
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            2
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/12axes/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            12axes
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
             1
           </span>
         </a>
@@ -1974,14 +1277,1214 @@
 
 
         <a
-          href="/en/topics/politics/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          href="/en/topics/abstract/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
             class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
           >
-            Politics
+            Abstract
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/abuse/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Abuse
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/ai/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            AI
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/altruism/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Altruism
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/anarchy/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Anarchy
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/authoritarianism/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Authoritarianism
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/babbdi-videogame/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Babbdi (Videogame)
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/carl-jung/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Carl Jung
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/changethis/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Changethis
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/christianity/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Christianity
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/computers/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Computers
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/control-videogame/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Control (Videogame)
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/copyright/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Copyright
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/corporatocracy/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Corporatocracy
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/culture/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Culture
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/danger/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Danger
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/death-stranding/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Death Stranding
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/democracy/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Democracy
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/determinism/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Determinism
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/detroit-become-human/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Detroit Become Human
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/economics/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Economics
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/education/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Education
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/epstein/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Epstein
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/feudalism/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Feudalism
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/film/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Film
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/fugue-in-void/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Fugue in Void
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/genius/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Genius
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/government/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Government
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/gun-control/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Gun Control
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/guns/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Guns
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/house-of-leaves-book/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            House of Leaves (Book)
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/hyperreality/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Hyperreality
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/immanuel-kant/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Immanuel Kant
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/intention/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Intention
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/islam/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Islam
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/judaism/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Judaism
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/machines/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Machines
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/minecraft-videogame/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Minecraft (Videogame)
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/mirrors-edge-catalyst/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Mirror&#39;s Edge Catalyst
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/music/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Music
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/naissancee-videogame/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Naissancee (Videogame)
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/nazism/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Nazism
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/obligation/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Obligation
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/parallel/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Parallel
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/pedophilia/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Pedophilia
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/perfection/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Perfection
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/personality/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Personality
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/peter-singer/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Peter Singer
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/philantropy/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Philantropy
           </span>
           <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
             1
@@ -2000,7 +2503,7 @@
 
         <a
           href="/en/topics/predation/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
@@ -2024,8 +2527,58 @@
 
 
         <a
+          href="/en/topics/prediction/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Prediction
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/profession/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Profession
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
           href="/en/topics/quantum-immortality/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
@@ -2050,7 +2603,7 @@
 
         <a
           href="/en/topics/relationships/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
@@ -2074,8 +2627,33 @@
 
 
         <a
+          href="/en/topics/safety/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Safety
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
           href="/en/topics/secularism/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
@@ -2099,8 +2677,33 @@
 
 
         <a
+          href="/en/topics/social-experiment/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Social Experiment
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
           href="/en/topics/social-life/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
@@ -2125,7 +2728,7 @@
 
         <a
           href="/en/topics/spirituality/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
@@ -2150,7 +2753,7 @@
 
         <a
           href="/en/topics/supererogatory/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
@@ -2175,7 +2778,7 @@
 
         <a
           href="/en/topics/test/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
@@ -2200,7 +2803,7 @@
 
         <a
           href="/en/topics/total-wipeout/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
@@ -2225,7 +2828,7 @@
 
         <a
           href="/en/topics/truth/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
@@ -2250,7 +2853,7 @@
 
         <a
           href="/en/topics/tv-shows/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
@@ -2274,14 +2877,64 @@
 
 
         <a
+          href="/en/topics/ubi/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Ubi
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
           href="/en/topics/videogames/"
-          class="bg-card border-border group text-base hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
           data-taxonomy="topic"
         >
           <span
             class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
           >
             Videogames
+          </span>
+          <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
+            1
+          </span>
+        </a>
+      
+        
+        
+        
+        
+
+        
+          
+        
+
+
+        <a
+          href="/en/topics/violence/"
+          class="bg-card border-border group text-sm hover:bg-primary/10 hover:text-primary hover:border-primary/50 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg border px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+          data-taxonomy="topic"
+        >
+          <span
+            class="text-foreground group-hover:text-primary font-medium transition-colors duration-200"
+          >
+            Violence
           </span>
           <span class="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs font-medium">
             1

@@ -54,44 +54,14 @@ toc:
   pinned: true # Side mode only: keep the TOC panel always visible when there is enough space
 
 # Default color scheme
-colorScheme: "Default"
+colorScheme: "senwa"
 themes:
-  default:
-    name: "Default"
+  senwa:
+    name: "senwa"
     order: 1
-  claude:
-    name: "Claude"
+  senwa-legacy:
+    name: "senwa-legacy"
     order: 2
-  bumblebee:
-    name: "Bumblebee"
-    order: 3
-  emerald:
-    name: "Emerald"
-    order: 4
-  nord:
-    name: "Nord"
-    order: 5
-  sunset:
-    name: "Sunset"
-    order: 6
-  abyss:
-    name: "Abyss"
-    order: 7
-  dracula:
-    name: "Dracula"
-    order: 8
-  amethyst:
-    name: "Amethyst"
-    order: 9
-  slate:
-    name: "Slate"
-    order: 10
-  twitter:
-    name: "Twitter"
-    order: 11
-  minimal:
-    name: "Minimal"
-    order: 12
 
 # Home page configuration
 home:

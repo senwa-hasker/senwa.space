@@ -23,7 +23,7 @@ topics:
     - videogames
     - music
     - film
-status: "in_progress"
+status: "planning"
 lightbox:
   enabled: true
 justified_gallery:

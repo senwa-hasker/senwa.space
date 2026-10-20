@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sun, 18 Oct 2026 01:55:37 -0300</lastBuildDate>
+			<lastBuildDate>Mon, 19 Oct 2026 14:55:23 -0300</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/topics/politics/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -21,7 +21,21 @@
 				<description>My 12axes answers!</description>
 			</item>
 			<item>
-				<title>Defining Pedophilia &amp; Predation</title>
+				<title>On Gun Control</title>
+				<link>http://localhost:1313/en/articles/on-gun-control/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/on-gun-control/</guid>
+				<description>My stances on gun access, liberty and safety</description>
+			</item>
+			<item>
+				<title>AI &amp; Copyright</title>
+				<link>http://localhost:1313/en/articles/ai-and-copyright/</link>
+				<pubDate>Mon, 19 Oct 2026 14:19:34 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/ai-and-copyright/</guid>
+				<description>How AI should affect the world and what changes it should bring.</description>
+			</item>
+			<item>
+				<title>Defining Predation</title>
 				<link>http://localhost:1313/en/articles/defining-predation/</link>
 				<pubDate>Sun, 18 Oct 2026 01:55:37 -0300</pubDate>
 				<guid>http://localhost:1313/en/articles/defining-predation/</guid>

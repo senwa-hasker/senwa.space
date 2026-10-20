@@ -1,20 +1,32 @@
-{{/* Hugo Markdown 图片渲染器
-  处理业务逻辑：灯箱功能、类名、结构等
-*/}}
-
 {{- $pageContext := .PageInner | default .Page -}}
 {{- $dest := .Destination | safeURL -}}
 {{- $alt := .Text -}}
 {{- $caption := .Title -}}
 
-{{/* 检查是否启用灯箱功能 */}}
+{{- $w := "" -}}
+{{- $h := "" -}}
+{{- $align := "" -}}
+{{- $parts := split $alt "|" -}}
+{{- $alt = index $parts 0 | strings.TrimSpace -}}
+{{- range after 1 $parts -}}
+  {{- $t := . | strings.TrimSpace | lower -}}
+  {{- if in (slice "left" "right" "center") $t -}}
+    {{- $align = $t -}}
+  {{- else -}}
+    {{- with findRESubmatch `^(\d+)(?:x(\d+))?$` $t 1 -}}
+      {{- $m := index . 0 -}}
+      {{- $w = index $m 1 -}}
+      {{- $h = index $m 2 -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
 {{- $globalLightbox := site.Params.lightbox | default dict -}}
 {{- $pageLightbox := .Page.Params.lightbox | default dict -}}
 {{- $lightboxEnabled := false -}}
 {{- $pageContext.Store.Set "hasImageFigure" true -}}
 {{- .Page.Store.Set "hasImageFigure" true -}}
 
-{{/* 优先使用页面级配置，然后是全局配置 */}}
 {{- if isset $pageLightbox "enabled" -}}
   {{- $lightboxEnabled = $pageLightbox.enabled -}}
 {{- else if isset $globalLightbox "enabled" -}}
@@ -26,7 +38,6 @@
   {{- .Page.Store.Set "hasLightboxFigure" true -}}
 {{- end -}}
 
-{{/* 使用图片处理器获取数据 */}}
 {{- partial "content/image-processor.html" (dict
   "context" $pageContext
   "src" $dest
@@ -37,12 +48,10 @@
   )
 -}}
 
-{{/* 获取处理结果 */}}
 {{- $imageUrl := $pageContext.Scratch.Get "imageUrl" -}}
 {{- $imageResource := $pageContext.Scratch.Get "imageResource" -}}
 {{- $isExternal := $pageContext.Scratch.Get "isExternal" -}}
 
-{{/* 获取图片尺寸 */}}
 {{- $width := 0 -}}
 {{- $height := 0 -}}
 {{- if and $imageResource (not $isExternal) -}}
@@ -53,9 +62,11 @@
   {{- end -}}
 {{- end -}}
 
-{{/* 生成 figure 元素 */}}
 <figure
-  class="image-figure not-prose my-8"
+  class="image-figure not-prose my-8{{ with $align }} img-{{ . }}{{ end }}"
+  {{ if or $w $h }}
+    style="{{ with $w }}--img-w: {{ . }}px;{{ end }}{{ with $h }} --img-h: {{ . }}px;{{ end }}"
+  {{ end }}
   data-lightbox-enabled="{{ if $lightboxEnabled }}
     true
   {{ else }}
@@ -67,7 +78,6 @@
   data-image-src="{{ $imageUrl }}"
 >
   <div class="image-container">
-    {{/* 使用图片处理器生成图片HTML */}}
     {{- partial "content/image-processor.html" (dict
       "context" $pageContext
       "src" $dest
@@ -79,7 +89,6 @@
     -}}
   </div>
 
-  {{/* 图片说明 */}}
   {{- if $caption -}}
     <figcaption class="image-caption">
       {{ $caption | .Page.RenderString }}

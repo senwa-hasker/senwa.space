@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sun, 18 Oct 2026 17:06:29 -0300</lastBuildDate>
+			<lastBuildDate>Mon, 19 Oct 2026 14:55:23 -0300</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/articles/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -19,6 +19,27 @@
 				<pubDate>Sat, 17 Oct 2026 21:59:42 -0300</pubDate>
 				<guid>http://localhost:1313/en/articles/12axes-in-depth/</guid>
 				<description>My 12axes answers!</description>
+			</item>
+			<item>
+				<title>On Gun Control</title>
+				<link>http://localhost:1313/en/articles/on-gun-control/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/on-gun-control/</guid>
+				<description>My stances on gun access, liberty and safety</description>
+			</item>
+			<item>
+				<title>On Trans Issues</title>
+				<link>http://localhost:1313/en/articles/on-trans-issues/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:17 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/on-trans-issues/</guid>
+				<description>Because some people are scared of beauty</description>
+			</item>
+			<item>
+				<title>AI &amp; Copyright</title>
+				<link>http://localhost:1313/en/articles/ai-and-copyright/</link>
+				<pubDate>Mon, 19 Oct 2026 14:19:34 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/ai-and-copyright/</guid>
+				<description>How AI should affect the world and what changes it should bring.</description>
 			</item>
 			<item>
 				<title>Total Wipeout is Much More Genius Than You Think</title>
@@ -35,7 +56,7 @@
 				<description>How I value man-made worlds.</description>
 			</item>
 			<item>
-				<title>Defining Pedophilia &amp; Predation</title>
+				<title>Defining Predation</title>
 				<link>http://localhost:1313/en/articles/defining-predation/</link>
 				<pubDate>Sun, 18 Oct 2026 01:55:37 -0300</pubDate>
 				<guid>http://localhost:1313/en/articles/defining-predation/</guid>

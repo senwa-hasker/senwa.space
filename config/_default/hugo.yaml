@@ -14,6 +14,9 @@ enableEmoji: true
 # This configuration affects functions such as recent articles on the homepage, search index, and archive pages
 mainSections: ["guide"]  # Multiple values can be configured, e.g. ["posts", "blog", "articles"]
 
+build:
+  noJSConfigInAssets: true
+
 permalinks:
   posts: /posts/:slug/
   pages: /:slug/

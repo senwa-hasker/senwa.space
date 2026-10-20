@@ -1,11 +1,11 @@
 ---
 date: '{{ .Date }}'
-draft: true
+draft: false
 featured: false
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 description: "thingincardpreviews"
 summary: "thingundertitleinpost"
-cover: images/blog/placeholder.jpg
+cover: 'images/blog/{{ .File.ContentBaseName }}.jpg'
 tags:
     - changethis
 status: "in_progress"

@@ -10,9 +10,163 @@
 		
 		
 		
-			<lastBuildDate>Sun, 18 Oct 2026 17:06:29 -0300</lastBuildDate>
+			<lastBuildDate>Mon, 19 Oct 2026 14:55:23 -0300</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/topics/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Danger</title>
+				<link>http://localhost:1313/en/topics/danger/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/danger/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Democracy</title>
+				<link>http://localhost:1313/en/topics/democracy/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/democracy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Education</title>
+				<link>http://localhost:1313/en/topics/education/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/education/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Gun Control</title>
+				<link>http://localhost:1313/en/topics/gun-control/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/gun-control/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Guns</title>
+				<link>http://localhost:1313/en/topics/guns/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/guns/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Law</title>
+				<link>http://localhost:1313/en/topics/law/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/law/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Liberty</title>
+				<link>http://localhost:1313/en/topics/liberty/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/liberty/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Policy</title>
+				<link>http://localhost:1313/en/topics/policy/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/policy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Politics</title>
+				<link>http://localhost:1313/en/topics/politics/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/politics/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Safety</title>
+				<link>http://localhost:1313/en/topics/safety/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/safety/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Violence</title>
+				<link>http://localhost:1313/en/topics/violence/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/violence/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Changethis</title>
+				<link>http://localhost:1313/en/topics/changethis/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:17 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/changethis/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>AI</title>
+				<link>http://localhost:1313/en/topics/ai/</link>
+				<pubDate>Mon, 19 Oct 2026 14:19:34 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/ai/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Anarchy</title>
+				<link>http://localhost:1313/en/topics/anarchy/</link>
+				<pubDate>Mon, 19 Oct 2026 14:19:34 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/anarchy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Computers</title>
+				<link>http://localhost:1313/en/topics/computers/</link>
+				<pubDate>Mon, 19 Oct 2026 14:19:34 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/computers/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Copyright</title>
+				<link>http://localhost:1313/en/topics/copyright/</link>
+				<pubDate>Mon, 19 Oct 2026 14:19:34 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/copyright/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Corporatocracy</title>
+				<link>http://localhost:1313/en/topics/corporatocracy/</link>
+				<pubDate>Mon, 19 Oct 2026 14:19:34 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/corporatocracy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Epstein</title>
+				<link>http://localhost:1313/en/topics/epstein/</link>
+				<pubDate>Mon, 19 Oct 2026 14:19:34 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/epstein/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Feudalism</title>
+				<link>http://localhost:1313/en/topics/feudalism/</link>
+				<pubDate>Mon, 19 Oct 2026 14:19:34 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/feudalism/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Machines</title>
+				<link>http://localhost:1313/en/topics/machines/</link>
+				<pubDate>Mon, 19 Oct 2026 14:19:34 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/machines/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Nazism</title>
+				<link>http://localhost:1313/en/topics/nazism/</link>
+				<pubDate>Mon, 19 Oct 2026 14:19:34 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/nazism/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ubi</title>
+				<link>http://localhost:1313/en/topics/ubi/</link>
+				<pubDate>Mon, 19 Oct 2026 14:19:34 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/ubi/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Beauty</title>
 				<link>http://localhost:1313/en/topics/beauty/</link>
@@ -217,13 +371,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Law</title>
-				<link>http://localhost:1313/en/topics/law/</link>
-				<pubDate>Sun, 18 Oct 2026 01:55:37 -0300</pubDate>
-				<guid>http://localhost:1313/en/topics/law/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Morality</title>
 				<link>http://localhost:1313/en/topics/morality/</link>
 				<pubDate>Sun, 18 Oct 2026 01:55:37 -0300</pubDate>
@@ -273,13 +420,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Politics</title>
-				<link>http://localhost:1313/en/topics/politics/</link>
-				<pubDate>Sat, 17 Oct 2026 21:59:42 -0300</pubDate>
-				<guid>http://localhost:1313/en/topics/politics/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Religion</title>
 				<link>http://localhost:1313/en/topics/religion/</link>
 				<pubDate>Sat, 17 Oct 2026 21:59:42 -0300</pubDate>
@@ -326,13 +466,6 @@
 				<link>http://localhost:1313/en/topics/judaism/</link>
 				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
 				<guid>http://localhost:1313/en/topics/judaism/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Liberty</title>
-				<link>http://localhost:1313/en/topics/liberty/</link>
-				<pubDate>Sat, 17 Oct 2026 02:57:53 -0300</pubDate>
-				<guid>http://localhost:1313/en/topics/liberty/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -441,24 +574,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Policy</title>
-				<link>http://localhost:1313/en/topics/policy/</link>
-				<pubDate>Sat, 17 Oct 2026 02:49:02 -0300</pubDate>
-				<guid>http://localhost:1313/en/topics/policy/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Supererogatory</title>
 				<link>http://localhost:1313/en/topics/supererogatory/</link>
 				<pubDate>Sat, 17 Oct 2026 02:49:02 -0300</pubDate>
 				<guid>http://localhost:1313/en/topics/supererogatory/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Changethis</title>
-				<link>http://localhost:1313/en/topics/changethis/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/topics/changethis/</guid>
 				<description></description>
 			</item>
 	</channel>

@@ -5,10 +5,10 @@ featured: false
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 description: "thingincardpreviews"
 summary: "thingundertitleinpost"
-cover: images/projects/placeholder.jpg
+cover: 'images/projects/{{ .File.ContentBaseName }}.jpg'
 categories:
     - changethis
-status: "in_progress"
+status: "planning"
 lightbox:
   enabled: true
 justified_gallery:

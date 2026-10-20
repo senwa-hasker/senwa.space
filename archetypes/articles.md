@@ -8,7 +8,7 @@ summary: "thingundertitleinpost"
 cover: 'images/articles/{{ .File.ContentBaseName }}.jpg'
 topics:
     - changethis
-status: "in_progress"
+status: "planning"
 lightbox:
   enabled: true
 justified_gallery:

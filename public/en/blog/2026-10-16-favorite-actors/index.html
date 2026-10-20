@@ -1,6 +1,6 @@
 <!doctype html><html
   lang="en"
-  data-theme="Default"
+  data-theme="senwa"
   data-toc-pinned="true"
 >
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -92,11 +92,15 @@
 
 
   
-    <link rel="stylesheet" href="/css/custom/shavian.css" />
+    <link rel="stylesheet" href="/css/custom/images.css" />
   
 
   
-    <link rel="stylesheet" href="/css/custom/themes.css" />
+    <link rel="stylesheet" href="/css/custom/senwa-legacy.css" />
+  
+
+  
+    <link rel="stylesheet" href="/css/custom/senwa.css" />
   
 
 
@@ -136,7 +140,7 @@
 
 
     
-    <script>(function(){const e=document.documentElement,o=localStorage.getItem("theme")||"system",m=localStorage.getItem("colorScheme")||"Default",n=Number.parseInt(localStorage.getItem("contentWidth"),10),d=Number.isInteger(n)&&n>=40&&n<=90;d&&e.style.setProperty("--content-width",`${n}rem`),e.setAttribute("data-theme",m);const s=localStorage.getItem("tocPinned");(s==="true"||s==="false")&&e.setAttribute("data-toc-pinned",s);const t=Number.parseFloat(getComputedStyle(e).fontSize)||16,u="64rem",i=Number.parseFloat(u);let a=56*t;Number.isFinite(i)&&(a=/r?em\s*$/.test(u)?i*t:i),d&&(a=n*t);const r=e.clientWidth,c=Math.max(0,(r-Math.min(a,r))/2);let l="narrow";r>=64*t&&(c>=13*t?l="wide":c>=2*t&&(l="tight")),e.setAttribute("data-toc-space",l),e.style.setProperty("--toc-gutter",`${Math.round(c)}px`);function h(){o==="dark"||o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches?e.classList.add("dark"):e.classList.remove("dark")}h(),o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",h)})()</script>
+    <script>(function(){const e=document.documentElement,o=localStorage.getItem("theme")||"system",m=localStorage.getItem("colorScheme")||"senwa",n=Number.parseInt(localStorage.getItem("contentWidth"),10),d=Number.isInteger(n)&&n>=40&&n<=90;d&&e.style.setProperty("--content-width",`${n}rem`),e.setAttribute("data-theme",m);const s=localStorage.getItem("tocPinned");(s==="true"||s==="false")&&e.setAttribute("data-toc-pinned",s);const t=Number.parseFloat(getComputedStyle(e).fontSize)||16,u="64rem",i=Number.parseFloat(u);let a=56*t;Number.isFinite(i)&&(a=/r?em\s*$/.test(u)?i*t:i),d&&(a=n*t);const r=e.clientWidth,c=Math.max(0,(r-Math.min(a,r))/2);let l="narrow";r>=64*t&&(c>=13*t?l="wide":c>=2*t&&(l="tight")),e.setAttribute("data-toc-space",l),e.style.setProperty("--toc-gutter",`${Math.round(c)}px`);function h(){o==="dark"||o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches?e.classList.add("dark"):e.classList.remove("dark")}h(),o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",h)})()</script>
   </head><body class="bg-background text-foreground min-h-screen antialiased">
     <main
       id="page-container"
@@ -389,7 +393,7 @@
       class="dropdown-menu border-border bg-popover/95 w-44 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
       data-dropdown-type="color-scheme"
       
-    ><button data-color-scheme="default" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Default</span></button><button data-color-scheme="claude" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Claude</span></button><button data-color-scheme="bumblebee" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Bumblebee</span></button><button data-color-scheme="emerald" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Emerald</span></button><button data-color-scheme="nord" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Nord</span></button><button data-color-scheme="sunset" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Sunset</span></button><button data-color-scheme="abyss" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Abyss</span></button><button data-color-scheme="dracula" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Dracula</span></button><button data-color-scheme="amethyst" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Amethyst</span></button><button data-color-scheme="slate" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Slate</span></button><button data-color-scheme="twitter" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Twitter</span></button><button data-color-scheme="minimal" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Minimal</span></button></div>
+    ><button data-color-scheme="senwa" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa</span></button><button data-color-scheme="senwa-legacy" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-legacy</span></button></div>
   </div>
 
 
@@ -478,7 +482,7 @@
       class="dropdown-menu border-border bg-popover/95 w-44 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
       data-dropdown-type="color-scheme"
       
-    ><button data-color-scheme="default" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Default</span></button><button data-color-scheme="claude" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Claude</span></button><button data-color-scheme="bumblebee" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Bumblebee</span></button><button data-color-scheme="emerald" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Emerald</span></button><button data-color-scheme="nord" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Nord</span></button><button data-color-scheme="sunset" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Sunset</span></button><button data-color-scheme="abyss" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Abyss</span></button><button data-color-scheme="dracula" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Dracula</span></button><button data-color-scheme="amethyst" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Amethyst</span></button><button data-color-scheme="slate" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Slate</span></button><button data-color-scheme="twitter" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Twitter</span></button><button data-color-scheme="minimal" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>Minimal</span></button></div>
+    ><button data-color-scheme="senwa" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa</span></button><button data-color-scheme="senwa-legacy" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-legacy</span></button></div>
   </div>
 
 
@@ -867,6 +871,7 @@
 <h2 id="gallery">Gallery<a href="#gallery" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h2><p>
 <figure
   class="image-figure not-prose my-8"
+  
   data-lightbox-enabled="
     true
   "
@@ -875,8 +880,7 @@
   data-image-height="0"
   data-image-src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Brit_Marling_TIFF_2014.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original"
 >
-  <div class="image-container">
-    <img
+  <div class="image-container"><img
     src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Brit_Marling_TIFF_2014.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original"
     alt="Brit Marling"
     title="Brit Marling"
@@ -886,15 +890,13 @@
     data-gallery-src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Brit_Marling_TIFF_2014.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original"
     data-gallery-alt="Brit Marling"
     data-gallery-title="Brit Marling"
-  /></div>
-
-  <figcaption class="image-caption">
+  /></div><figcaption class="image-caption">
       Brit Marling
     </figcaption></figure>
 
-
 <figure
   class="image-figure not-prose my-8"
+  
   data-lightbox-enabled="
     true
   "
@@ -903,8 +905,7 @@
   data-image-height="0"
   data-image-src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Inde_Navarrette_at_the_2025_Toronto_International_Film_Festival_03_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original"
 >
-  <div class="image-container">
-    <img
+  <div class="image-container"><img
     src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Inde_Navarrette_at_the_2025_Toronto_International_Film_Festival_03_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original"
     alt="Inde Navarrette"
     title="Inde Navarrette"
@@ -914,15 +915,13 @@
     data-gallery-src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Inde_Navarrette_at_the_2025_Toronto_International_Film_Festival_03_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original"
     data-gallery-alt="Inde Navarrette"
     data-gallery-title="Inde Navarrette"
-  /></div>
-
-  <figcaption class="image-caption">
+  /></div><figcaption class="image-caption">
       Inde Navarrette
     </figcaption></figure>
 
-
 <figure
   class="image-figure not-prose my-8"
+  
   data-lightbox-enabled="
     true
   "
@@ -931,8 +930,7 @@
   data-image-height="0"
   data-image-src="https://people.com/thmb/uslRgLNXoqi9iOyoKBuIvDCmLvM=/1500x0/filters:no_upscale%28%29:max_bytes%28150000%29:strip_icc%28%29:focal%28788x258:790x260%29/harrison-ford-blade-runner-1982-011625-9108cc7faabe447283e02c2ea0ca530f.jpg"
 >
-  <div class="image-container">
-    <img
+  <div class="image-container"><img
     src="https://people.com/thmb/uslRgLNXoqi9iOyoKBuIvDCmLvM=/1500x0/filters:no_upscale%28%29:max_bytes%28150000%29:strip_icc%28%29:focal%28788x258:790x260%29/harrison-ford-blade-runner-1982-011625-9108cc7faabe447283e02c2ea0ca530f.jpg"
     alt="Harrison Ford"
     title="Harrison Ford"
@@ -942,15 +940,13 @@
     data-gallery-src="https://people.com/thmb/uslRgLNXoqi9iOyoKBuIvDCmLvM=/1500x0/filters:no_upscale%28%29:max_bytes%28150000%29:strip_icc%28%29:focal%28788x258:790x260%29/harrison-ford-blade-runner-1982-011625-9108cc7faabe447283e02c2ea0ca530f.jpg"
     data-gallery-alt="Harrison Ford"
     data-gallery-title="Harrison Ford"
-  /></div>
-
-  <figcaption class="image-caption">
+  /></div><figcaption class="image-caption">
       Harrison Ford
     </figcaption></figure>
 
-
 <figure
   class="image-figure not-prose my-8"
+  
   data-lightbox-enabled="
     true
   "
@@ -959,8 +955,7 @@
   data-image-height="0"
   data-image-src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/RyanGosling10-19.JPG/250px-RyanGosling10-19.JPG?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail"
 >
-  <div class="image-container">
-    <img
+  <div class="image-container"><img
     src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/RyanGosling10-19.JPG/250px-RyanGosling10-19.JPG?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail"
     alt="Ryan Gosling"
     title="Ryan Gosling"
@@ -970,15 +965,13 @@
     data-gallery-src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/RyanGosling10-19.JPG/250px-RyanGosling10-19.JPG?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail"
     data-gallery-alt="Ryan Gosling"
     data-gallery-title="Ryan Gosling"
-  /></div>
-
-  <figcaption class="image-caption">
+  /></div><figcaption class="image-caption">
       Ryan Gosling
     </figcaption></figure>
 
-
 <figure
   class="image-figure not-prose my-8"
+  
   data-lightbox-enabled="
     true
   "
@@ -987,8 +980,7 @@
   data-image-height="0"
   data-image-src="https://lovelace-media.imgix.net/getty/627689386.jpg"
 >
-  <div class="image-container">
-    <img
+  <div class="image-container"><img
     src="https://lovelace-media.imgix.net/getty/627689386.jpg"
     alt="Jason Isaacs"
     title="Jason Isaacs"
@@ -998,15 +990,13 @@
     data-gallery-src="https://lovelace-media.imgix.net/getty/627689386.jpg"
     data-gallery-alt="Jason Isaacs"
     data-gallery-title="Jason Isaacs"
-  /></div>
-
-  <figcaption class="image-caption">
+  /></div><figcaption class="image-caption">
       Jason Isaacs
     </figcaption></figure>
 
-
 <figure
   class="image-figure not-prose my-8"
+  
   data-lightbox-enabled="
     true
   "
@@ -1015,8 +1005,7 @@
   data-image-height="0"
   data-image-src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Adam_Scott_by_Gage_Skidmore_2.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original"
 >
-  <div class="image-container">
-    <img
+  <div class="image-container"><img
     src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Adam_Scott_by_Gage_Skidmore_2.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original"
     alt="Adam Scott"
     title="Adam Scott"
@@ -1026,15 +1015,13 @@
     data-gallery-src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Adam_Scott_by_Gage_Skidmore_2.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original"
     data-gallery-alt="Adam Scott"
     data-gallery-title="Adam Scott"
-  /></div>
-
-  <figcaption class="image-caption">
+  /></div><figcaption class="image-caption">
       Adam Scott
     </figcaption></figure>
 
-
 <figure
   class="image-figure not-prose my-8"
+  
   data-lightbox-enabled="
     true
   "
@@ -1043,8 +1030,7 @@
   data-image-height="0"
   data-image-src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-50743046.jpg"
 >
-  <div class="image-container">
-    <img
+  <div class="image-container"><img
     src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-50743046.jpg"
     alt="Brandon Lee"
     title="Brandon Lee"
@@ -1054,15 +1040,13 @@
     data-gallery-src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-50743046.jpg"
     data-gallery-alt="Brandon Lee"
     data-gallery-title="Brandon Lee"
-  /></div>
-
-  <figcaption class="image-caption">
+  /></div><figcaption class="image-caption">
       Brandon Lee
     </figcaption></figure>
 
-
 <figure
   class="image-figure not-prose my-8"
+  
   data-lightbox-enabled="
     true
   "
@@ -1071,8 +1055,7 @@
   data-image-height="0"
   data-image-src="https://www.usmagazine.com/wp-content/uploads/2026/03/american-psycho-2000.jpg?w=1200&amp;quality=86&amp;strip=all"
 >
-  <div class="image-container">
-    <img
+  <div class="image-container"><img
     src="https://www.usmagazine.com/wp-content/uploads/2026/03/american-psycho-2000.jpg?w=1200&amp;quality=86&amp;strip=all"
     alt="Christian Bale"
     title="Christian Bale"
@@ -1082,15 +1065,13 @@
     data-gallery-src="https://www.usmagazine.com/wp-content/uploads/2026/03/american-psycho-2000.jpg?w=1200&amp;quality=86&amp;strip=all"
     data-gallery-alt="Christian Bale"
     data-gallery-title="Christian Bale"
-  /></div>
-
-  <figcaption class="image-caption">
+  /></div><figcaption class="image-caption">
       Christian Bale
     </figcaption></figure>
 
-
 <figure
   class="image-figure not-prose my-8"
+  
   data-lightbox-enabled="
     true
   "
@@ -1099,8 +1080,7 @@
   data-image-height="0"
   data-image-src="https://upload.wikimedia.org/wikipedia/commons/3/30/Henry_Cavill_%2848417913146%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original"
 >
-  <div class="image-container">
-    <img
+  <div class="image-container"><img
     src="https://upload.wikimedia.org/wikipedia/commons/3/30/Henry_Cavill_%2848417913146%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original"
     alt="Henry Cavill"
     title="Henry Cavill"
@@ -1110,15 +1090,13 @@
     data-gallery-src="https://upload.wikimedia.org/wikipedia/commons/3/30/Henry_Cavill_%2848417913146%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original"
     data-gallery-alt="Henry Cavill"
     data-gallery-title="Henry Cavill"
-  /></div>
-
-  <figcaption class="image-caption">
+  /></div><figcaption class="image-caption">
       Henry Cavill
     </figcaption></figure>
 
-
 <figure
   class="image-figure not-prose my-8"
+  
   data-lightbox-enabled="
     true
   "
@@ -1127,8 +1105,7 @@
   data-image-height="0"
   data-image-src="https://upload.wikimedia.org/wikipedia/commons/5/53/Andrew_Garfield_82nd_Venice_Film_Festival_%28cropped%29.jpg?utm_source=en.wikiquote.org&amp;utm_campaign=index&amp;utm_content=original"
 >
-  <div class="image-container">
-    <img
+  <div class="image-container"><img
     src="https://upload.wikimedia.org/wikipedia/commons/5/53/Andrew_Garfield_82nd_Venice_Film_Festival_%28cropped%29.jpg?utm_source=en.wikiquote.org&amp;utm_campaign=index&amp;utm_content=original"
     alt="Andrew Garfield"
     title="Andrew Garfield"
@@ -1138,12 +1115,9 @@
     data-gallery-src="https://upload.wikimedia.org/wikipedia/commons/5/53/Andrew_Garfield_82nd_Venice_Film_Festival_%28cropped%29.jpg?utm_source=en.wikiquote.org&amp;utm_campaign=index&amp;utm_content=original"
     data-gallery-alt="Andrew Garfield"
     data-gallery-title="Andrew Garfield"
-  /></div>
-
-  <figcaption class="image-caption">
+  /></div><figcaption class="image-caption">
       Andrew Garfield
-    </figcaption></figure>
-</p>
+    </figcaption></figure></p>
 
     </article>
   </div>

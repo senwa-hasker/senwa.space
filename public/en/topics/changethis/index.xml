@@ -10,6 +10,15 @@
 		
 		
 		
+			<lastBuildDate>Mon, 19 Oct 2026 14:55:17 -0300</lastBuildDate>
+		
 			<atom:link href="http://localhost:1313/en/topics/changethis/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>On Trans Issues</title>
+				<link>http://localhost:1313/en/articles/on-trans-issues/</link>
+				<pubDate>Mon, 19 Oct 2026 14:55:17 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/on-trans-issues/</guid>
+				<description>Because some people are scared of beauty</description>
+			</item>
 	</channel>
 </rss>

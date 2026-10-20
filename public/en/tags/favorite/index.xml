@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Favorite on Senwa.space</title>
+		<link>http://localhost:1313/en/tags/favorite/</link>
+		<description>Recent content in Favorite on Senwa.space</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 19 Oct 2026 20:47:54 -0300</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/en/tags/favorite/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Favorite Games</title>
+				<link>http://localhost:1313/en/blog/favorite-games/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:54 -0300</pubDate>
+				<guid>http://localhost:1313/en/blog/favorite-games/</guid>
+				<description>In no order whatsoever</description>
+			</item>
+			<item>
+				<title>Favorite Movies</title>
+				<link>http://localhost:1313/en/blog/favorite-movies/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:50 -0300</pubDate>
+				<guid>http://localhost:1313/en/blog/favorite-movies/</guid>
+				<description>In no order whatsoever</description>
+			</item>
+			<item>
+				<title>Favorite Albums</title>
+				<link>http://localhost:1313/en/blog/favorite-albums/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/blog/favorite-albums/</guid>
+				<description>In no order whatsoever</description>
+			</item>
+	</channel>
+</rss>

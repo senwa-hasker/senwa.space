@@ -20,7 +20,7 @@ topics:
     - determinism
     - prediction
     - profession
-status: "in_progress"
+status: "planning"
 lightbox:
   enabled: true
 justified_gallery:

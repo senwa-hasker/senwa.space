@@ -24,7 +24,7 @@ topics:
     - judaism
     - spirituality
     - quantum immortality
-status: "in_progress"
+status: "planning"
 lightbox:
   enabled: true
 justified_gallery:

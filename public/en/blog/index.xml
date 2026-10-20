@@ -10,15 +10,43 @@
 		
 		
 		
-			<lastBuildDate>Fri, 16 Oct 2026 21:51:14 -0300</lastBuildDate>
+			<lastBuildDate>Mon, 19 Oct 2026 20:47:57 -0300</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/blog/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>My Favorite Actors</title>
-				<link>http://localhost:1313/en/blog/2026-10-16-favorite-actors/</link>
-				<pubDate>Fri, 16 Oct 2026 21:51:14 -0300</pubDate>
-				<guid>http://localhost:1313/en/blog/2026-10-16-favorite-actors/</guid>
-				<description>My favorite actors in no order whatsoever</description>
+				<title>Dog Tier List</title>
+				<link>http://localhost:1313/en/blog/dog-tier-list/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:57 -0300</pubDate>
+				<guid>http://localhost:1313/en/blog/dog-tier-list/</guid>
+				<description>A ranking of dog breeds</description>
+			</item>
+			<item>
+				<title>Favorite Games</title>
+				<link>http://localhost:1313/en/blog/favorite-games/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:54 -0300</pubDate>
+				<guid>http://localhost:1313/en/blog/favorite-games/</guid>
+				<description>In no order whatsoever</description>
+			</item>
+			<item>
+				<title>Favorite Movies</title>
+				<link>http://localhost:1313/en/blog/favorite-movies/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:50 -0300</pubDate>
+				<guid>http://localhost:1313/en/blog/favorite-movies/</guid>
+				<description>In no order whatsoever</description>
+			</item>
+			<item>
+				<title>Favorite Albums</title>
+				<link>http://localhost:1313/en/blog/favorite-albums/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/blog/favorite-albums/</guid>
+				<description>In no order whatsoever</description>
+			</item>
+			<item>
+				<title>Favorite Actors</title>
+				<link>http://localhost:1313/en/blog/favorite-actors/</link>
+				<pubDate>Mon, 19 Oct 2026 20:05:18 -0300</pubDate>
+				<guid>http://localhost:1313/en/blog/favorite-actors/</guid>
+				<description>In no order whatsoever</description>
 			</item>
 	</channel>
 </rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Actors on Senwa.space</title>
+		<link>http://localhost:1313/en/tags/actors/</link>
+		<description>Recent content in Actors on Senwa.space</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 19 Oct 2026 20:05:18 -0300</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/en/tags/actors/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Favorite Actors</title>
+				<link>http://localhost:1313/en/blog/favorite-actors/</link>
+				<pubDate>Mon, 19 Oct 2026 20:05:18 -0300</pubDate>
+				<guid>http://localhost:1313/en/blog/favorite-actors/</guid>
+				<description>In no order whatsoever</description>
+			</item>
+	</channel>
+</rss>

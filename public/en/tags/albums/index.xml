@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Albums on Senwa.space</title>
+		<link>http://localhost:1313/en/tags/albums/</link>
+		<description>Recent content in Albums on Senwa.space</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 19 Oct 2026 20:47:47 -0300</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/en/tags/albums/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Favorite Albums</title>
+				<link>http://localhost:1313/en/blog/favorite-albums/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/blog/favorite-albums/</guid>
+				<description>In no order whatsoever</description>
+			</item>
+	</channel>
+</rss>

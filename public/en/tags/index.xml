@@ -10,28 +10,182 @@
 		
 		
 		
-			<lastBuildDate>Fri, 16 Oct 2026 21:51:14 -0300</lastBuildDate>
+			<lastBuildDate>Mon, 19 Oct 2026 20:47:57 -0300</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Celebrities</title>
-				<link>http://localhost:1313/en/tags/celebrities/</link>
-				<pubDate>Fri, 16 Oct 2026 21:51:14 -0300</pubDate>
-				<guid>http://localhost:1313/en/tags/celebrities/</guid>
+				<title>Animals</title>
+				<link>http://localhost:1313/en/tags/animals/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:57 -0300</pubDate>
+				<guid>http://localhost:1313/en/tags/animals/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Dogs</title>
+				<link>http://localhost:1313/en/tags/dogs/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:57 -0300</pubDate>
+				<guid>http://localhost:1313/en/tags/dogs/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ranking</title>
+				<link>http://localhost:1313/en/tags/ranking/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:57 -0300</pubDate>
+				<guid>http://localhost:1313/en/tags/ranking/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tier List</title>
+				<link>http://localhost:1313/en/tags/tier-list/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:57 -0300</pubDate>
+				<guid>http://localhost:1313/en/tags/tier-list/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Favorite</title>
+				<link>http://localhost:1313/en/tags/favorite/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:54 -0300</pubDate>
+				<guid>http://localhost:1313/en/tags/favorite/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Videogames</title>
+				<link>http://localhost:1313/en/tags/videogames/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:54 -0300</pubDate>
+				<guid>http://localhost:1313/en/tags/videogames/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Movies</title>
 				<link>http://localhost:1313/en/tags/movies/</link>
-				<pubDate>Fri, 16 Oct 2026 21:51:14 -0300</pubDate>
+				<pubDate>Mon, 19 Oct 2026 20:47:50 -0300</pubDate>
 				<guid>http://localhost:1313/en/tags/movies/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Albums</title>
+				<link>http://localhost:1313/en/tags/albums/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/tags/albums/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Artists</title>
+				<link>http://localhost:1313/en/tags/artists/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/tags/artists/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Bands</title>
+				<link>http://localhost:1313/en/tags/bands/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/tags/bands/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Music</title>
+				<link>http://localhost:1313/en/tags/music/</link>
+				<pubDate>Mon, 19 Oct 2026 20:47:47 -0300</pubDate>
+				<guid>http://localhost:1313/en/tags/music/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Actors</title>
+				<link>http://localhost:1313/en/tags/actors/</link>
+				<pubDate>Mon, 19 Oct 2026 20:05:18 -0300</pubDate>
+				<guid>http://localhost:1313/en/tags/actors/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Celebrities</title>
+				<link>http://localhost:1313/en/tags/celebrities/</link>
+				<pubDate>Mon, 19 Oct 2026 20:05:18 -0300</pubDate>
+				<guid>http://localhost:1313/en/tags/celebrities/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>People</title>
 				<link>http://localhost:1313/en/tags/people/</link>
-				<pubDate>Fri, 16 Oct 2026 21:51:14 -0300</pubDate>
+				<pubDate>Mon, 19 Oct 2026 20:05:18 -0300</pubDate>
 				<guid>http://localhost:1313/en/tags/people/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Architecture</title>
+				<link>http://localhost:1313/en/tags/architecture/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/architecture/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Changethis</title>
+				<link>http://localhost:1313/en/tags/changethis/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/changethis/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Channels</title>
+				<link>http://localhost:1313/en/tags/channels/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/channels/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Cities Skylines II</title>
+				<link>http://localhost:1313/en/tags/cities-skylines-ii/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/cities-skylines-ii/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Favorites</title>
+				<link>http://localhost:1313/en/tags/favorites/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/favorites/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Leftism</title>
+				<link>http://localhost:1313/en/tags/leftism/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/leftism/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Minecraft</title>
+				<link>http://localhost:1313/en/tags/minecraft/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/minecraft/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Politics</title>
+				<link>http://localhost:1313/en/tags/politics/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/politics/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Socialism</title>
+				<link>http://localhost:1313/en/tags/socialism/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/socialism/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Urbanism</title>
+				<link>http://localhost:1313/en/tags/urbanism/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/urbanism/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>YouTube</title>
+				<link>http://localhost:1313/en/tags/youtube/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/tags/youtube/</guid>
 				<description></description>
 			</item>
 	</channel>
