@@ -21,9 +21,11 @@ justified_gallery:
   enabled: true
 ---
 
-This is an in-depth answering of the 12axes political test (https://12axes.vercel.app/). This answer sheet is what my "ideal opinions" are (from strongly agree to strongly disagree, with neutral in the middle), meaning, perhaps not what I would do in current circumstances, but what I would do in ideal conditions. Sometimes, you're forced to compromise. This isn't that. Some may not need clarification. Enjoy.
+### What is this?
 
-## Questions
+This is an in-depth answering of the 12axes political test (https://12axes.vercel.app/). This answer sheet is what my "ideal opinions" are (from strongly agree to strongly disagree, with neutral in the middle), meaning, perhaps not what I would do in current circumstances, but what I would do in ideal conditions. Sometimes, you're forced to compromise. This isn't that. Some may not need clarification. Enjoy!
+
+### Questions
 
 ### 1. I prefer to seek the meaning of my life in religious faith.
 Strongly disagree. Religion is not a valid source of any information besides historical accounts to some degree.

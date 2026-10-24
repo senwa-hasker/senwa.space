@@ -1,7 +1,7 @@
 ---
 date: '2026-10-19T20:05:18-03:00'
 draft: false
-featured: false
+featured: TRUE
 title: 'Favorite Actors'
 description: "In no order whatsoever"
 summary: "In no order whatsoever"
@@ -28,7 +28,7 @@ Fell in love with her through The OA. Incredible show.
 
 ![Inde Navarrette|left](https://upload.wikimedia.org/wikipedia/commons/1/1a/Inde_Navarrette_at_the_2025_Toronto_International_Film_Festival_03_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original "Inde Navarrette")
 
-Funnily enough I did get into her from Obsession even having watched 13 Reasons Why and loved it to death.
+Funnily enough I did get into her from Obsession even having watched 13 Reasons Why and loving it to death.
 
 ## Harrison Ford
 

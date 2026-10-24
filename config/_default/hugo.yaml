@@ -5,14 +5,14 @@ defaultContentLanguageInSubdir: true
 title: Senwa.space
 theme: "hugo-narrow"
 
-hasCJKLanguage: true
+hasCJKLanguage: false
 enableEmoji: true
 
 
 # Main Section Configuration (Optional)
 # If not configured, Hugo will automatically select the section with the most pages
 # This configuration affects functions such as recent articles on the homepage, search index, and archive pages
-mainSections: ["guide"]  # Multiple values can be configured, e.g. ["posts", "blog", "articles"]
+mainSections: ["articles", "blog", "projects"]  # Multiple values can be configured, e.g. ["posts", "blog", "articles"]
 
 build:
   noJSConfigInAssets: true
@@ -41,6 +41,10 @@ markup:
     endLevel: 4
     ordered: false
   goldmark:
+    parser:
+      attribute:
+        block : true
+        title : true
     renderer:
       unsafe: true
     extensions:

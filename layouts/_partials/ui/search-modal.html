@@ -18,7 +18,7 @@
   <div class="border-border flex items-center gap-3 border-b p-4">
     <!-- 搜索图标 -->
     <div class="text-muted-foreground h-5 w-5 shrink-0">
-      {{ partial "features/icon.html" (dict "name" "search" "size" "sm" "ariaLabel" "") }}
+      {{ partial "features/icon.html" (dict "name" "cursor" "size" "sm" "ariaLabel" "") }}
     </div>
     <h2 id="search-title" class="sr-only">{{ T `ui.dockSearch` }}</h2>
 
@@ -61,7 +61,7 @@
     <!-- 空状态 -->
     <div id="search-empty" class="flex flex-col items-center justify-center py-12 text-center">
       <div class="bg-muted/50 mb-4 flex h-16 w-16 items-center justify-center rounded-full">
-        {{ partial "features/icon.html" (dict "name" "search" "size" "lg" "ariaLabel" "") }}
+        {{ partial "features/icon.html" (dict "name" "cursor" "size" "lg" "ariaLabel" "") }}
       </div>
       <h3 class="text-foreground mb-2 text-lg font-semibold">
         {{ T "ui.searchEmpty" }}

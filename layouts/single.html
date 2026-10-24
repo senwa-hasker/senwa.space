@@ -60,8 +60,8 @@
         <span
           class="bg-muted/45 text-foreground border-border inline-flex h-10 items-center gap-2 rounded-lg border px-3.5 shadow-sm"
         >
-          {{ partial "features/icon.html" (dict "name" "status" "size" "sm" "class" "text-primary shrink-0" "hidden" true) }}
-          <span class="relative flex h-2.5 w-2.5 shrink-0">
+          {{ partial "features/icon.html" (dict "name" "bookmark" "size" "sm" "class" "text-primary shrink-0" "hidden" true) }}
+          <span class="relative flex h-2.5 w-2.5 shrink-0 hidden">
             <span
               class="{{ if eq .Params.status `completed` }}
                 bg-green-400
@@ -83,6 +83,15 @@
           </span>
           <span>{{ .Params.status | humanize }}</span>
         </span>
+      {{ end }}
+
+      {{ if .ReadingTime }}
+        <div class="bg-muted/45 text-foreground border-border inline-flex h-10 items-center gap-2 rounded-lg border px-3.5 shadow-sm">
+          {{ partial "features/icon.html" (dict "name" "clock-circle" "size" "sm" "ariaLabel" "") }}
+          <span class="truncate font-medium"
+            >{{ T "article.readingTime" (dict "count" .ReadingTime) }}</span
+          >
+        </div>
       {{ end }}
 
       {{ if .Params.tags }}

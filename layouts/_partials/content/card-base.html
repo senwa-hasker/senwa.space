@@ -82,7 +82,7 @@
           <!-- 预计阅读时间 -->
           {{ if $page.ReadingTime }}
             <div class="flex items-center gap-1.5">
-              {{ partial "features/icon.html" (dict "name" "clock" "size" "sm" "ariaLabel" "") }}
+              {{ partial "features/icon.html" (dict "name" "clock-circle" "size" "sm" "ariaLabel" "") }}
               <span class="truncate font-medium"
                 >{{ T "article.readingTime" (dict "count" $page.ReadingTime) }}</span
               >
@@ -93,11 +93,35 @@
           <!-- 标签行 -->
           {{ if isset $page.Params "tags" }}
             <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
-              {{ range $tag := $page.Params.tags }}
+              {{ range first 3 $page.Params.tags }}
                 <span
                   class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
                 >
-                  <span class="font-medium">{{ $tag }}</span>
+                  <span class="font-medium">{{ . }}</span>
+                </span>
+              {{ end }}
+            </div>
+          {{ end }}
+          
+          {{ if isset $page.Params "topics" }}
+            <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
+              {{ range first 3  $page.Params.topics }}
+                <span
+                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                >
+                  <span class="font-medium">{{ . }}</span>
+                </span>
+              {{ end }}
+            </div>
+          {{ end }}
+
+          {{ if isset $page.Params "categories" }}
+            <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
+              {{ range first 3  $page.Params.categories }}
+                <span
+                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                >
+                  <span class="font-medium">{{ . }}</span>
                 </span>
               {{ end }}
             </div>

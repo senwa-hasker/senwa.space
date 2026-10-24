@@ -1,7 +1,7 @@
 {{/* 最近文章区域 */}}
 {{ $recentPostsCount := .Site.Params.home.recentPostsCount | default 5 }}
 
-{{ $mainSections := .Site.MainSections | default (slice "posts") }}
+{{ $mainSections := .Site.MainSections | default (slice "blog") }}
 {{ $firstSection := index $mainSections 0 }}
 
 {{ $posts := where .Site.RegularPages "Section" $firstSection | first $recentPostsCount }}

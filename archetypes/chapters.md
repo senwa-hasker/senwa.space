@@ -2,6 +2,7 @@
 date: '{{ .Date }}'
 draft: true
 featured: false
+layout: chapter
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 description: "thingincardpreviews"
 summary: "thingundertitleinpost"

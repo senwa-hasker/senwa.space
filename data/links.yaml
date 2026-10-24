@@ -1,0 +1,24 @@
+social:
+  - id: github
+    title: GitHub
+    description: Repos and shit
+    url: https://github.com/senwa-hasker
+    icon: github|fill
+    
+  - id: twitter
+    title: Twitter
+    description: Tweets and shit
+    url: https://twitter.com/TinyMotorcycles
+    icon: twitter|fill
+
+  - id: aoty
+    title: AOTY
+    description: Albums and shit
+    url: https://www.albumoftheyear.org/user/katvalor/
+    icon: music-note
+
+  - id: letterboxd
+    title: Letterboxd
+    description: Movies and shit
+    url: https://letterboxd.com/senwa_hasker/
+    icon: letterboxd|fill

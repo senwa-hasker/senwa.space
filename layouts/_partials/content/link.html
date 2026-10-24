@@ -3,6 +3,7 @@
 {{- $description := .description -}}
 {{- $url := .url -}}
 {{- $icon := .icon -}}
+{{- $target := .target | default "_blank" -}}
 
 {{- if and (not $title) $link (reflect.IsMap $link) -}}
   {{- $title = $link.title -}}
@@ -24,7 +25,7 @@
 <div class="link-card">
   <a
     href="{{ $url }}"
-    target="_blank"
+    target="{{ $target }}"
     rel="noopener noreferrer"
     class="flex h-full items-center space-x-3"
   >
@@ -38,7 +39,7 @@
           class="border-border h-12 w-12 rounded-full border-2 object-cover"
           onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='block';"
         />
-        {{ partial "features/icon.html" (dict "name" "link" "class" "w-6 h-6 text-muted-foreground hidden" "id" "link-icon") }}
+        {{ partial "features/icon.html" (dict "name" ($icon | default "link") "class" "w-6 h-6 text-muted-foreground hidden" "id" "link-icon") }}
       {{ else }}
         {{ $parsedURL := urls.Parse $url }}
         {{ $baseURL := printf "%s://%s" $parsedURL.Scheme $parsedURL.Host }}
@@ -65,7 +66,7 @@
       <div class="link-card-url">{{ $url | replaceRE "^https?://" "" }}</div>
     </div>
     <div class="link-card-arrow">
-      {{ partial "features/icon.html" (dict "name" "arrow-right" "class" "w-6 h-6 text-muted-foreground" "id" "link-arrow-icon") }}
+      {{ partial "features/icon.html" (dict "name" "alt-arrow-right" "class" "w-6 h-6 text-muted-foreground" "id" "link-arrow-icon") }}
     </div>
   </a>
 </div>

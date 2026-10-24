@@ -47,6 +47,33 @@
     <loc>http://localhost:1313/en/articles/12axes-in-depth/</loc>
     <lastmod>2026-10-17T21:59:42-03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/en/topics/assimilation/</loc>
+    <lastmod>2026-10-20T17:15:18-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/government/</loc>
+    <lastmod>2026-10-20T17:15:18-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/immigration/</loc>
+    <lastmod>2026-10-20T17:15:18-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/articles/immigration-and-the-outsiders/</loc>
+    <lastmod>2026-10-20T17:15:18-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/law/</loc>
+    <lastmod>2026-10-20T17:15:18-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/morality/</loc>
+    <lastmod>2026-10-20T17:15:18-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/policy/</loc>
+    <lastmod>2026-10-20T17:15:18-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/reform-uk/</loc>
+    <lastmod>2026-10-20T17:15:18-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/</loc>
+    <lastmod>2026-10-20T17:15:18-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/en/tags/animals/</loc>
     <lastmod>2026-10-19T20:47:57-03:00</lastmod>
   </url><url>
@@ -125,25 +152,16 @@
     <loc>http://localhost:1313/en/topics/guns/</loc>
     <lastmod>2026-10-19T14:55:23-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/topics/law/</loc>
-    <lastmod>2026-10-19T14:55:23-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/en/topics/liberty/</loc>
     <lastmod>2026-10-19T14:55:23-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/articles/on-gun-control/</loc>
     <lastmod>2026-10-19T14:55:23-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/topics/policy/</loc>
-    <lastmod>2026-10-19T14:55:23-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/en/topics/politics/</loc>
     <lastmod>2026-10-19T14:55:23-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/topics/safety/</loc>
-    <lastmod>2026-10-19T14:55:23-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/topics/</loc>
     <lastmod>2026-10-19T14:55:23-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/topics/violence/</loc>
@@ -284,9 +302,6 @@
     <loc>http://localhost:1313/en/topics/deontology/</loc>
     <lastmod>2026-10-18T01:55:37-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/topics/morality/</loc>
-    <lastmod>2026-10-18T01:55:37-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/en/topics/pedophilia/</loc>
     <lastmod>2026-10-18T01:55:37-03:00</lastmod>
   </url><url>
@@ -297,9 +312,6 @@
     <lastmod>2026-10-18T01:55:37-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/topics/12axes/</loc>
-    <lastmod>2026-10-17T21:59:42-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/topics/government/</loc>
     <lastmod>2026-10-17T21:59:42-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/topics/philosophy/</loc>
@@ -410,38 +422,19 @@
     <loc>http://localhost:1313/en/about/</loc>
     <lastmod>2024-01-01T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/resume/</loc>
+    <loc>http://localhost:1313/en/rackley/</loc>
+    <lastmod>2024-01-01T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/tags/architecture/</loc>
+    <loc>http://localhost:1313/en/resume/</loc>
   </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/tags/changethis/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/channels/</loc>
-  </url><url>
     <loc>http://localhost:1313/en/chapters/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/cities-skylines-ii/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/favorites/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/leftism/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/minecraft/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/politics/</loc>
   </url><url>
     <loc>http://localhost:1313/en/projects/</loc>
   </url><url>
     <loc>http://localhost:1313/en/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/tags/socialism/</loc>
-  </url><url>
     <loc>http://localhost:1313/en/series/test/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/urbanism/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/youtube/</loc>
   </url>
 </urlset>

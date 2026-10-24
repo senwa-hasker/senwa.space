@@ -10,9 +10,58 @@
 		
 		
 		
-			<lastBuildDate>Mon, 19 Oct 2026 14:55:23 -0300</lastBuildDate>
+			<lastBuildDate>Tue, 20 Oct 2026 17:15:18 -0300</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/topics/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Assimilation</title>
+				<link>http://localhost:1313/en/topics/assimilation/</link>
+				<pubDate>Tue, 20 Oct 2026 17:15:18 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/assimilation/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Government</title>
+				<link>http://localhost:1313/en/topics/government/</link>
+				<pubDate>Tue, 20 Oct 2026 17:15:18 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/government/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Immigration</title>
+				<link>http://localhost:1313/en/topics/immigration/</link>
+				<pubDate>Tue, 20 Oct 2026 17:15:18 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/immigration/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Law</title>
+				<link>http://localhost:1313/en/topics/law/</link>
+				<pubDate>Tue, 20 Oct 2026 17:15:18 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/law/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Morality</title>
+				<link>http://localhost:1313/en/topics/morality/</link>
+				<pubDate>Tue, 20 Oct 2026 17:15:18 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/morality/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Policy</title>
+				<link>http://localhost:1313/en/topics/policy/</link>
+				<pubDate>Tue, 20 Oct 2026 17:15:18 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/policy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Reform Uk</title>
+				<link>http://localhost:1313/en/topics/reform-uk/</link>
+				<pubDate>Tue, 20 Oct 2026 17:15:18 -0300</pubDate>
+				<guid>http://localhost:1313/en/topics/reform-uk/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Danger</title>
 				<link>http://localhost:1313/en/topics/danger/</link>
@@ -49,24 +98,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Law</title>
-				<link>http://localhost:1313/en/topics/law/</link>
-				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
-				<guid>http://localhost:1313/en/topics/law/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Liberty</title>
 				<link>http://localhost:1313/en/topics/liberty/</link>
 				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
 				<guid>http://localhost:1313/en/topics/liberty/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Policy</title>
-				<link>http://localhost:1313/en/topics/policy/</link>
-				<pubDate>Mon, 19 Oct 2026 14:55:23 -0300</pubDate>
-				<guid>http://localhost:1313/en/topics/policy/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -371,13 +406,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Morality</title>
-				<link>http://localhost:1313/en/topics/morality/</link>
-				<pubDate>Sun, 18 Oct 2026 01:55:37 -0300</pubDate>
-				<guid>http://localhost:1313/en/topics/morality/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Pedophilia</title>
 				<link>http://localhost:1313/en/topics/pedophilia/</link>
 				<pubDate>Sun, 18 Oct 2026 01:55:37 -0300</pubDate>
@@ -403,13 +431,6 @@
 				<link>http://localhost:1313/en/topics/12axes/</link>
 				<pubDate>Sat, 17 Oct 2026 21:59:42 -0300</pubDate>
 				<guid>http://localhost:1313/en/topics/12axes/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Government</title>
-				<link>http://localhost:1313/en/topics/government/</link>
-				<pubDate>Sat, 17 Oct 2026 21:59:42 -0300</pubDate>
-				<guid>http://localhost:1313/en/topics/government/</guid>
 				<description></description>
 			</item>
 			<item>

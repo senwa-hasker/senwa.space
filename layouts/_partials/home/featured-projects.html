@@ -1,11 +1,11 @@
 {{/* 特色项目区域 - 首页展示 */}}
 
-{{ $featuredProjects := where (where .Site.RegularPages "Section" "projects") "Params.featured" true }}
+{{ $featuredProjects := where (.Site.RegularPages) "Params.featured" true }}
 
 {{ if $featuredProjects }}
   <section class="mb-6">
     <!-- 标题 -->
-    <div class="mb-6">
+    <div class="mb-3">
       <h2 class="text-foreground text-2xl font-bold">
         {{ T "home.featuredProjects" }}
       </h2>
@@ -28,7 +28,7 @@
         >
           {{ partial "features/icon.html" (dict "name" "projects" "size" "md" "ariaLabel" "") }}
           <span>{{ T "home.viewAll" }}</span>
-          {{ partial "features/icon.html" (dict "name" "arrow-right" "size" "sm" "ariaLabel" "") }}
+          {{ partial "features/icon.html" (dict "name" "alt-arrow-right" "size" "sm" "ariaLabel" "") }}
         </a>
       </div>
     {{ end }}

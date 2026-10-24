@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Sun, 18 Oct 2026 01:55:37 -0300</lastBuildDate>
+			<lastBuildDate>Tue, 20 Oct 2026 17:15:18 -0300</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/topics/morality/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Immigration and the Outsiders</title>
+				<link>http://localhost:1313/en/articles/immigration-and-the-outsiders/</link>
+				<pubDate>Tue, 20 Oct 2026 17:15:18 -0300</pubDate>
+				<guid>http://localhost:1313/en/articles/immigration-and-the-outsiders/</guid>
+				<description>My stances on immigration, culture and assimilation</description>
+			</item>
 			<item>
 				<title>Defining Predation</title>
 				<link>http://localhost:1313/en/articles/defining-predation/</link>

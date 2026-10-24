@@ -2,10 +2,11 @@
 date: '2026-10-17T00:58:47-03:00'
 draft: false
 featured: true
+layout: book
 title: 'Ideal Scenario'
 description: "Ideal Scenario is a wholesome, easygoing smut book on the works. Enjoy!"
 summary: "Ideal Scenario is a wholesome, easygoing smut book on the works. Enjoy!"
-cover: images/cover.png
+cover: "images/pfp.jpg"
 books: ["Ideal Scenario"]
 weight: 1
 status: "in_progress"

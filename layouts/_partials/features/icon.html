@@ -39,7 +39,13 @@ stroke icons automatically */}}
 {{- end -}}
 
 {{/* Get the SVG file */}}
-{{- $iconPath := printf "icons/%s.svg" $name -}}
+{{- $end := site.Params.icons.style | default "linear" -}}
+{{- $parts := split $name "|" -}}
+{{- if index $parts 1 -}}
+    {{- $name = index $parts 0 -}}
+    {{- $end = index $parts 1 -}}
+{{- end -}}
+{{- $iconPath := printf "icons/%s-%s.svg" $name $end -}}
 {{- $icon := resources.Get $iconPath -}}
 
 {{- if $icon -}}
