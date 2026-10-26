@@ -10,15 +10,29 @@
 		
 		
 		
-			<lastBuildDate>Tue, 20 Oct 2026 17:15:18 -0300</lastBuildDate>
+			<lastBuildDate>Sat, 24 Oct 2026 18:03:16 -0300</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Good Morning</title>
+				<link>http://localhost:1313/en/books/rooms-to-mates/rtm1/</link>
+				<pubDate>Sat, 24 Oct 2026 18:03:16 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/rooms-to-mates/rtm1/</guid>
+				<description>thingundertitleinpost</description>
+			</item>
 			<item>
 				<title>Chapter 1: Your Way</title>
 				<link>http://localhost:1313/en/books/ideal-scenario/is1/</link>
 				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
 				<guid>http://localhost:1313/en/books/ideal-scenario/is1/</guid>
 				<description>My personal classic, rewritten. Girl with a crush really wants to get with this person but in their own way of doing things (no spoilers!)</description>
+			</item>
+			<item>
+				<title>Good Afternoon</title>
+				<link>http://localhost:1313/en/books/rooms-to-mates/rtm2/</link>
+				<pubDate>Sat, 24 Oct 2026 18:02:10 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/rooms-to-mates/rtm2/</guid>
+				<description>thingundertitleinpost</description>
 			</item>
 			<item>
 				<title>Chapter 2: No One&#39;s Looking</title>
@@ -28,6 +42,13 @@
 				<description>In a park at night, watching stars, the whole shebang.</description>
 			</item>
 			<item>
+				<title>Good Evening</title>
+				<link>http://localhost:1313/en/books/rooms-to-mates/rtm3/</link>
+				<pubDate>Sat, 24 Oct 2026 18:02:11 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/rooms-to-mates/rtm3/</guid>
+				<description>thingundertitleinpost</description>
+			</item>
+			<item>
 				<title>Chapter 3: House Party I</title>
 				<link>http://localhost:1313/en/books/ideal-scenario/is3/</link>
 				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
@@ -35,11 +56,25 @@
 				<description>Strangers find love in a crowd and substances only kind of play a part.</description>
 			</item>
 			<item>
+				<title>I Love You</title>
+				<link>http://localhost:1313/en/books/rooms-to-mates/rtm4/</link>
+				<pubDate>Sat, 24 Oct 2026 18:02:12 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/rooms-to-mates/rtm4/</guid>
+				<description>thingundertitleinpost</description>
+			</item>
+			<item>
 				<title>Chapter 4: Painterly</title>
 				<link>http://localhost:1313/en/books/ideal-scenario/is4/</link>
 				<pubDate>Sat, 17 Oct 2026 00:58:47 -0300</pubDate>
 				<guid>http://localhost:1313/en/books/ideal-scenario/is4/</guid>
 				<description>Ella meets Markus in an art class, and they end up having to clean a mess together after it.</description>
+			</item>
+			<item>
+				<title>Good Night</title>
+				<link>http://localhost:1313/en/books/rooms-to-mates/rtm5/</link>
+				<pubDate>Sat, 24 Oct 2026 18:02:13 -0300</pubDate>
+				<guid>http://localhost:1313/en/books/rooms-to-mates/rtm5/</guid>
+				<description>thingundertitleinpost</description>
 			</item>
 			<item>
 				<title>Chapter 5: Badlands</title>

@@ -5,7 +5,7 @@ featured: false
 title: "Chapter 4: Painterly"
 description: "Ella meets Markus in an art class, and they end up having to clean a mess together after it."
 summary: "Ella meets Markus in an art class, and they end up having to clean a mess together after it."
-cover: images/cover.png
+cover: "images/books/ideal-scenario/cover.jpg"
 books:
     - Ideal Scenario
 weight: 5

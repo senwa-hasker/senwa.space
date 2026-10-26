@@ -5,13 +5,14 @@ featured: false
 title: "Chapter 8: Flower Boy"
 description: "An act of courage turns to a life changing moment. Picked the right flowers."
 summary: "An act of courage turns to a life changing moment. Picked the right flowers."
-cover: images/cover.png
+cover: "images/books/ideal-scenario/cover.jpg"
 books:
     - Ideal Scenario
 characters:
     - Hirano Kouta
     - Yamada Saki
 weight: 9
+color: green
 status: "in_progress"
 lightbox:
   enabled: true
@@ -21,12 +22,7 @@ justified_gallery:
 
 "Look", his little brother says, "the leaves are falling!" Kouta looks and sure enough, the morning was quite different to the past few mornings. The light seemed more golden, dust made denser rays, and outside seemed even brighter than usual. A glimpse, four kids riding their bikes to school, seemingly in a happy mood. Just below the view of the window, an open notebook sits perfectly centered on an otherwise disorganized dresser. In it, yesterday's diary entry. 
 
-```
-I remember the first time I looked at her. Saki. It was dreamy, magical, like a scene from an anime. Tomorrow might be the day I confess, and discover what my life will be like from then on. Will I be happy, looking forward to the next day with her, thinking of where, when and how to propose, or will I learn to cope, move on and experiment, maybe become a different person entirely? It's too early to say, but everybody knows my optimism knows no bounds. And to think I started this course at the same time as her, purely out of chance. Whichever way this turns out, I need to hug my dad for coinflipping this into my life. Okay, enough rambling, today was certainly a toughie. Professor Yamada was not phased with my work, so it seems I need to rethink my structure methods. I wish she'd understand where I come from, how much beauty I see in a space not exactly meant for ease, but for admiral. Tall concrete walls, circular windows, rough-sketch layouts, not a single blurry line. Human enough, no more. Of course, thinking like this won't get me any actual job, I understand where she comes from, but surely it's not a lot to ask for her to reciprocate that. I hope I can get through to her someday, and to be honest, it seems like fun to reimagine my assignments in my own way, and keep them for myself. As long as the grades are good, I'll take it as versatility. Maybe somebody will like my own version of a building, who knows?
-
-Good night, Diane.
-Hirano Kouta
-```
+> [!NOTE] I remember the first time I looked at her. Saki. It was dreamy, magical, like a scene from an anime. Tomorrow might be the day I confess, and discover what my life will be like from then on. Will I be happy, looking forward to the next day with her, thinking of where, when and how to propose, or will I learn to cope, move on and experiment, maybe become a different person entirely? It's too early to say, but everybody knows my optimism knows no bounds. And to think I started this course at the same time as her, purely out of chance. Whichever way this turns out, I need to hug my dad for coinflipping this into my life. Okay, enough rambling, today was certainly a toughie. Professor Yamada was not phased with my work, so it seems I need to rethink my structure methods. I wish she'd understand where I come from, how much beauty I see in a space not exactly meant for ease, but for admiral. Tall concrete walls, circular windows, rough-sketch layouts, not a single blurry line. Human enough, no more. Of course, thinking like this won't get me any actual job, I understand where she comes from, but surely it's not a lot to ask for her to reciprocate that. I hope I can get through to her someday, and to be honest, it seems like fun to reimagine my assignments in my own way, and keep them for myself. As long as the grades are good, I'll take it as versatility. Maybe somebody will like my own version of a building, who knows?<br><br>Good night, Diane.<br><br>Hirano Kouta
 
 Aged surprisingly well, he thinks, almost saying it out loud, comparing his optimism to the blessing of the day's beauty. Grabbing his backpack, he gets to the kitchen, populated as expected. Mother barely staying awake, father heating up leftovers, brother in his latest granola bar fixation. Kouta looks around for a lighter option this morning, hoping to save his calorie budget for a date. Looking around, there are a couple decent options, there's a banana bunch on the counter, or maybe the bread on the table could serve well for a very light sandwich, maybe a smoothie? At the end, the perfect choice hits his peripheral vision, almost falling off the counter, a bowl of a random assortment of fruit. The only perfect ones left are apples and pears. An apple seems nice, he thinks, before being pushed into a conversation. 
 

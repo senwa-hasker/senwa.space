@@ -5,7 +5,7 @@ featured: false
 title: "Chapter 6: Community Involvement"
 description: "Valerie gets a scholarship in Canada, and makes a friend."
 summary: "Valerie gets a scholarship in Canada, and makes a friend."
-cover: images/cover.png
+cover: "images/books/ideal-scenario/cover.jpg"
 books:
     - Ideal Scenario
 weight: 7

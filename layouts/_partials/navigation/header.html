@@ -3,7 +3,7 @@
 
 <header class="{{- if site.Params.header.sticky -}}sticky top-0 z-50{{ end }} px-4 py-6">
   <div
-    class="border-border bg-card/80 flex items-center rounded-xl border px-6 py-4 shadow-sm backdrop-blur-sm"
+    class="border-border bg-card/80 flex items-center rounded-xl border-2 px-6 py-4 shadow-sm backdrop-blur-sm"
   >
     <!-- 桌面端布局 -->
     <div class="hidden w-full items-center md:flex md:min-w-0">
@@ -68,7 +68,7 @@
                   {{ partial "features/icon.html" (dict "name" "chevron-down" "size" "sm" "class" "submenu-chevron transition-transform duration-200") }}
                 </button>
                 <div
-                  class="nav-submenu border-border bg-popover/95 absolute top-full left-0 z-50 mt-2 hidden min-w-44 space-y-1.5 rounded-xl border p-1.5 shadow-lg backdrop-blur-sm"
+                  class="nav-submenu border-border bg-popover/95 absolute top-full left-0 z-50 mt-2 hidden min-w-44 space-y-1.5 rounded-xl border-2 p-1.5 shadow-lg backdrop-blur-sm"
                   data-submenu-id="{{ $menuKey }}"
                   role="menu"
                 >
@@ -105,10 +105,10 @@
               <a
                 href="{{ $menuURL }}"
                 class="nav-link {{ if $isActive }}
-                  nav-active-indicator bg-accent text-accent-foreground
+                  nav-active-indicator border-2 border-primary-foreground bg-primary text-primary-foreground
                 {{ else }}
-                  text-muted-foreground hover:text-primary hover:bg-primary/10
-                {{ end }} focus:ring-primary/20 relative flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+                  text-muted-foreground border-2 border-muted-foreground hover:text-primary hover:bg-primary/10
+                {{ end }} focus:ring-primary/20 relative flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none "
               >
                 {{ if .Params.icon }}
                   {{ partial "features/icon.html" (dict "name" .Params.icon "size" "md" "ariaLabel" .Name) }}

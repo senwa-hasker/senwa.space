@@ -1,14 +1,13 @@
 ---
 date: '{{ .Date }}'
-draft: true
+draft: false
 featured: false
-layout: chapter
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 description: "thingincardpreviews"
 summary: "thingundertitleinpost"
-cover: images/books/booktitle/cover.jpg
+cover: 'images/books/{{.File.ContentBaseName}}/cover.jpg'
 books:
-    - changethis
+    - Rooms to Mates
 status: "in_progress"
 lightbox:
   enabled: true

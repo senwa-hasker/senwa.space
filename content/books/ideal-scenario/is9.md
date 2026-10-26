@@ -5,7 +5,7 @@ featured: false
 title: "Chapter 9: The Sun on My Body"
 description: "Samia finds an unlikely bit of love in a chaotic environment."
 summary: "Samia finds an unlikely bit of love in a chaotic environment."
-cover: images/cover.png
+cover: "images/books/ideal-scenario/cover.jpg"
 books:
     - Ideal Scenario
 weight: 10

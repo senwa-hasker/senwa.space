@@ -5,7 +5,7 @@ featured: false
 title: "Chapter 3: House Party I"
 description: "Strangers find love in a crowd and substances only kind of play a part."
 summary: "Strangers find love in a crowd and substances only kind of play a part."
-cover: images/cover.png
+cover: "images/books/ideal-scenario/cover.jpg"
 books:
     - Ideal Scenario
 weight: 4

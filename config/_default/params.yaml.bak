@@ -2,7 +2,6 @@
 description: "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
 keywords: ["Hugo", "Blog", "Theme", "Technology", "Programming"]
 defaultAuthor: "Senwa Hasker"
-iconStyle: "linear"
 language: "en"
 shortName: "Senwa Hasker" # PWA
 images:
@@ -19,18 +18,27 @@ author:
   description: "I like a lot of things from coding to philosophy to linguistics."
   avatar: "/images/pfp.jpg"
   social:
-    - name: "GitHub"
-      url: "https://github.com/senwa-hasker"
-      icon: "github"
-    - name: "Twitter"
-      url: "https://twitter.com/TinyMotorcycles"
-      icon: "twitter"
+    - name: GitHub
+      url: https://github.com/senwa-hasker
+      icon: github|fill
+    - name: Twitter
+      url: https://twitter.com/TinyMotorcycles
+      icon: twitter|fill
+    - name: AOTY
+      url: https://www.albumoftheyear.org/user/katvalor/
+      icon: music-note
+    - name: Letterboxd
+      url: https://letterboxd.com/senwa_hasker/
+      icon: letterboxd|fill
+
+icons:
+  style: "bold"
 
 # Header configuration (modularized)
 header:
   sticky: true # Enable sticky navigation bar
   logo:
-    image: "/images/logo.png" # Logo path relative to static folder, leave empty to use site title first letter
+    image: "/images/pfp.jpg" # Logo path relative to static folder, leave empty to use site title first letter
     link: "/" # Click to home page
   # UI Components Control (header controls)
   showThemeSwitch: true # Set to false to hide theme style switcher (palette icon)
@@ -55,14 +63,17 @@ toc:
   pinned: true # Side mode only: keep the TOC panel always visible when there is enough space
 
 # Default color scheme
-colorScheme: "senwa-v2"
+colorScheme: "senwa-v3"
 themes:
+  senwa-v3:
+    name: "senwa-v3"
+    order: 1
   senwa-v2:
     name: "senwa-v2"
-    order: 1
+    order: 2
   senwa-v1:
     name: "senwa-v1"
-    order: 2
+    order: 3
 
 # Home page configuration
 home:
@@ -74,8 +85,7 @@ home:
   contentOrder:
     - author-section
     - page-content
-    - recent-posts
-    - featured-projects.html
+    - featured-projects
 
 # Post configuration
 post:

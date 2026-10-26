@@ -5,7 +5,7 @@ featured: false
 title: "Chapter 7: Expression"
 description: "A friend sees another in a state of dysphoria, and wishes to turn that into feeling free."
 summary: "A friend sees another in a state of dysphoria, and wishes to turn that into feeling free."
-cover: images/cover.png
+cover: "images/books/ideal-scenario/cover.jpg"
 books:
     - Ideal Scenario
 weight: 8

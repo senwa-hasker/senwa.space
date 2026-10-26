@@ -10,9 +10,23 @@
 		
 		
 		
-			<lastBuildDate>Sat, 17 Oct 2026 00:58:47 -0300</lastBuildDate>
+			<lastBuildDate>Sat, 24 Oct 2026 18:03:16 -0300</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/en/characters/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Julie</title>
+				<link>http://localhost:1313/en/characters/julie/</link>
+				<pubDate>Sat, 24 Oct 2026 18:03:16 -0300</pubDate>
+				<guid>http://localhost:1313/en/characters/julie/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sophia</title>
+				<link>http://localhost:1313/en/characters/sophia/</link>
+				<pubDate>Sat, 24 Oct 2026 18:03:16 -0300</pubDate>
+				<guid>http://localhost:1313/en/characters/sophia/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Aubrey Snelling</title>
 				<link>http://localhost:1313/en/characters/aubrey-snelling/</link>

@@ -6,7 +6,7 @@ layout: book
 title: 'Ideal Scenario'
 description: "Ideal Scenario is a wholesome, easygoing smut book on the works. Enjoy!"
 summary: "Ideal Scenario is a wholesome, easygoing smut book on the works. Enjoy!"
-cover: "images/pfp.jpg"
+cover: "images/books/ideal-scenario/cover.jpg"
 books: ["Ideal Scenario"]
 weight: 1
 status: "in_progress"

@@ -27,7 +27,7 @@
 
 
 <div
-  class="code-block-container border-border bg-card my-6 overflow-hidden rounded-xl border shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md"
+  class="code-block-container border-border bg-card my-6 border-2 shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md"
   data-code-block
   data-code-id="{{ $codeId }}"
   data-collapsible="{{ $collapseEnabled }}"
@@ -41,37 +41,11 @@
   <div
     class="code-block-header bg-muted/30 border-border flex items-center justify-between border-b px-4 py-3"
   >
-    {{/* Language/filename display */}}
-    <div class="flex items-center gap-2">
-      <div class="text-muted-foreground shrink-0">
-        {{ partial "features/icon.html" (dict "name" "code" "size" "sm" "ariaLabel" "") }}
-      </div>
-      <span class="text-muted-foreground text-sm font-medium">
-        {{ $displayLang }}
-      </span>
-    </div>
-
     {{/* Action buttons */}}
+      <span class="text-muted-foreground text-sm font-medium">
+        {{ $displayLang | humanize }}
+      </span>
     <div class="flex items-center gap-2">
-      {{/* Collapse button (if collapse is enabled) */}}
-      {{- if $collapseEnabled -}}
-        <button
-          class="collapse-code-btn text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none"
-          type="button"
-          data-code-action="toggle-collapse"
-          data-label-expand="{{ T `code.expand` }}"
-          data-label-collapse="{{ T `code.collapse` }}"
-          title="{{ T `code.collapse` }}"
-          aria-label="{{ T `code.collapse` }}"
-          aria-controls="{{ $codeId }}"
-          aria-expanded="true"
-        >
-          <span class="collapse-chevron transition-transform duration-200 ease-out">
-            {{ partial "features/icon.html" (dict "name" "chevron-down" "size" "xs" "ariaLabel" "") }}
-          </span>
-          <span class="collapse-text hidden sm:inline">{{ T "code.collapse" }}</span>
-        </button>
-      {{- end -}}
 
       {{/* Copy button */}}
       <button
@@ -89,26 +63,11 @@
         <span class="copy-text hidden sm:inline">{{ T "code.copy" }}</span>
       </button>
     </div>
+
   </div>
 
   {{/* Code content with Hugo Chroma highlighting */}}
-  <div class="code-block-content relative" id="{{ $codeId }}">
+  <div class="bg-card">
     {{ $highlighted.Wrapped }}
-    <div hidden data-code-source>{{ .Inner }}</div>
-    {{/* Collapse overlay (hidden by default) */}}
-    <div
-      class="collapse-overlay to-card/90 pointer-events-none absolute inset-0 bg-linear-to-b from-transparent via-transparent opacity-0 transition-opacity duration-300"
-      hidden
-    >
-      <button
-        class="collapse-overlay-btn text-muted-foreground bg-card/80 border-border/50 hover:bg-primary/10 hover:text-primary hover:border-primary/30 absolute bottom-4 left-1/2 flex -translate-x-1/2 items-center justify-center rounded-full border p-2 backdrop-blur-sm transition-all duration-200"
-        type="button"
-        data-code-action="expand"
-        aria-label="{{ T `code.expand` }}"
-        title="{{ T `code.expand` }}"
-      >
-        {{ partial "features/icon.html" (dict "name" "chevron-down" "size" "sm" "ariaLabel" "") }}
-      </button>
-    </div>
   </div>
 </div>

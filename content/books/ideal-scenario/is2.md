@@ -5,7 +5,7 @@ featured: false
 title: "Chapter 2: No One's Looking"
 description: "In a park at night, watching stars, the whole shebang."
 summary: "In a park at night, watching stars, the whole shebang."
-cover: images/cover.png
+cover: "images/books/ideal-scenario/cover.jpg"
 books:
     - Ideal Scenario
 weight: 3
