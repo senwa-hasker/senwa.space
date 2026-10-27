@@ -76,7 +76,7 @@
       {{ range after 1 $pages }}
           <div class="bg-green border-border rounded-xl border-2 p-6 shadow-sm md:p-4 md:px-5">
               <div class="flex items-center gap-2 mb-4 h-8">
-                <div class="bg-card text-muted-foreground border-muted-foreground focus:ring-primary/20 inline-flex h-10 items-center gap-2 rounded-lg border px-3.5 shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 focus:ring-2 focus:outline-none">
+                <div class="bg-card text-muted-foreground border-muted-foreground focus:ring-primary/20 inline-flex h-10 items-center gap-2 rounded-lg border-2 px-3.5 shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 focus:ring-2 focus:outline-none">
                   {{ partial "features/icon.html" (dict "name" "bookmark" "size" "sm" "ariaLabel" "") }}
                   <span class="text-background">{{ printf "%s" .Params.status | humanize }}</span>
                 </div>
@@ -84,7 +84,7 @@
                 {{ if .Params.characters }}
                   {{ range .Params.characters }}
                     <div class="flex text-sm items-center gap-4 text-background transition-all duration-200 ease-out hover:-translate-y-0.5">
-                      <div class="flex items-center gap-1 border px-2 text-xs rounded-lg border-muted-foreground">
+                      <div class="flex items-center gap-1 border-2 px-2 text-xs rounded-lg border-muted-foreground">
                           {{ partial "features/icon.html" (dict "name" "user" "size" "sm" "class" "shrink-0" "hidden" false) }}
                         <a
                           href="{{ `/characters/` | relLangURL }}{{ . | urlize }}/"

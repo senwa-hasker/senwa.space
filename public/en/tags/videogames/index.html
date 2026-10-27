@@ -1,6 +1,6 @@
 <!doctype html><html
   lang="en"
-  data-theme="senwa-v4"
+  data-theme="senwa-v5"
   data-toc-pinned="false"
 >
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -106,6 +106,10 @@
   
 
   
+    <link rel="stylesheet" href="/css/custom/senwa-v5.css" />
+  
+
+  
     <link rel="stylesheet" href="/css/custom/spacing.css" />
   
 
@@ -139,7 +143,7 @@
 
 
     
-    <script>(function(){const e=document.documentElement,o=localStorage.getItem("theme")||"system",m=localStorage.getItem("colorScheme")||"senwa-v4",n=Number.parseInt(localStorage.getItem("contentWidth"),10),d=Number.isInteger(n)&&n>=40&&n<=90;d&&e.style.setProperty("--content-width",`${n}rem`),e.setAttribute("data-theme",m);const s=localStorage.getItem("tocPinned");(s==="true"||s==="false")&&e.setAttribute("data-toc-pinned",s);const t=Number.parseFloat(getComputedStyle(e).fontSize)||16,u="64rem",i=Number.parseFloat(u);let a=56*t;Number.isFinite(i)&&(a=/r?em\s*$/.test(u)?i*t:i),d&&(a=n*t);const r=e.clientWidth,c=Math.max(0,(r-Math.min(a,r))/2);let l="narrow";r>=64*t&&(c>=13*t?l="wide":c>=2*t&&(l="tight")),e.setAttribute("data-toc-space",l),e.style.setProperty("--toc-gutter",`${Math.round(c)}px`);function h(){o==="dark"||o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches?e.classList.add("dark"):e.classList.remove("dark")}h(),o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",h)})()</script>
+    <script>(function(){const e=document.documentElement,o=localStorage.getItem("theme")||"system",m=localStorage.getItem("colorScheme")||"senwa-v5",n=Number.parseInt(localStorage.getItem("contentWidth"),10),d=Number.isInteger(n)&&n>=40&&n<=90;d&&e.style.setProperty("--content-width",`${n}rem`),e.setAttribute("data-theme",m);const s=localStorage.getItem("tocPinned");(s==="true"||s==="false")&&e.setAttribute("data-toc-pinned",s);const t=Number.parseFloat(getComputedStyle(e).fontSize)||16,u="64rem",i=Number.parseFloat(u);let a=56*t;Number.isFinite(i)&&(a=/r?em\s*$/.test(u)?i*t:i),d&&(a=n*t);const r=e.clientWidth,c=Math.max(0,(r-Math.min(a,r))/2);let l="narrow";r>=64*t&&(c>=13*t?l="wide":c>=2*t&&(l="tight")),e.setAttribute("data-toc-space",l),e.style.setProperty("--toc-gutter",`${Math.round(c)}px`);function h(){o==="dark"||o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches?e.classList.add("dark"):e.classList.remove("dark")}h(),o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",h)})()</script>
   </head><body class="bg-background text-foreground min-h-screen antialiased">
     <main
       id="page-container"
@@ -339,7 +343,7 @@
 
     <div
       id="content-width-dropdown"
-      class="dropdown-menu border-border bg-popover/95 w-64 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
+      class="dropdown-menu border-border bg-popover/95 w-64 absolute top-12 right-0 z-60 hidden rounded-lg border-2 p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
       data-dropdown-type="content-width"
       
     >
@@ -349,7 +353,7 @@
     <output id="content-width-value" for="content-width-range" class="text-muted-foreground min-w-12 text-right text-sm tabular-nums"></output>
     </div>
     <input id="content-width-range" class="accent-primary w-full cursor-pointer" type="range" min="40" max="90" step="1" aria-label="Page width" />
-    <button id="content-width-reset" type="button" class="border-border text-muted-foreground hover:bg-accent hover:text-accent-foreground focus:ring-primary/20 w-full rounded-md border px-3 py-2 text-sm transition-colors focus:ring-2 focus:outline-none">Restore default</button>
+    <button id="content-width-reset" type="button" class="border-border text-muted-foreground hover:bg-accent hover:text-accent-foreground focus:ring-primary/20 w-full rounded-md border-2 px-3 py-2 text-sm transition-colors focus:ring-2 focus:outline-none">Restore default</button>
     </div></div>
   </div></div>
 
@@ -371,10 +375,10 @@
 
     <div
       id="color-scheme-dropdown"
-      class="dropdown-menu border-border bg-popover/95 w-44 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
+      class="dropdown-menu border-border bg-popover/95 w-44 absolute top-12 right-0 z-60 hidden rounded-lg border-2 p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
       data-dropdown-type="color-scheme"
       
-    ><button data-color-scheme="senwa-v4" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v4</span></button><button data-color-scheme="senwa-v3" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v3</span></button><button data-color-scheme="senwa-v2" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v2</span></button><button data-color-scheme="senwa-v1" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v1</span></button></div>
+    ><button data-color-scheme="senwa-v5" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v5</span></button><button data-color-scheme="senwa-v4" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v4</span></button><button data-color-scheme="senwa-v3" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v3</span></button><button data-color-scheme="senwa-v2" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v2</span></button><button data-color-scheme="senwa-v1" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v1</span></button></div>
   </div>
 
 
@@ -393,7 +397,7 @@
 
     <div
       id="theme-dropdown"
-      class="dropdown-menu border-border bg-popover/95 w-40 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
+      class="dropdown-menu border-border bg-popover/95 w-40 absolute top-12 right-0 z-60 hidden rounded-lg border-2 p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
       data-dropdown-type="theme"
       
     ><button data-theme="light" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="Light" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><g fill="currentColor"><path d="M18 12C18 15.3137 15.3137 18 12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12Z"/><path fill-rule="evenodd" d="M12 1.25C12.4142 1.25 12.75 1.58579 12.75 2V3C12.75 3.41421 12.4142 3.75 12 3.75C11.5858 3.75 11.25 3.41421 11.25 3V2C11.25 1.58579 11.5858 1.25 12 1.25ZM4.39861 4.39861C4.6915 4.10572 5.16638 4.10572 5.45927 4.39861L5.85211 4.79145C6.145 5.08434 6.145 5.55921 5.85211 5.85211C5.55921 6.145 5.08434 6.145 4.79145 5.85211L4.39861 5.45927C4.10572 5.16638 4.10572 4.6915 4.39861 4.39861ZM19.6011 4.39887C19.894 4.69176 19.894 5.16664 19.6011 5.45953L19.2083 5.85237C18.9154 6.14526 18.4405 6.14526 18.1476 5.85237C17.8547 5.55947 17.8547 5.0846 18.1476 4.79171L18.5405 4.39887C18.8334 4.10598 19.3082 4.10598 19.6011 4.39887ZM1.25 12C1.25 11.5858 1.58579 11.25 2 11.25H3C3.41421 11.25 3.75 11.5858 3.75 12C3.75 12.4142 3.41421 12.75 3 12.75H2C1.58579 12.75 1.25 12.4142 1.25 12ZM20.25 12C20.25 11.5858 20.5858 11.25 21 11.25H22C22.4142 11.25 22.75 11.5858 22.75 12C22.75 12.4142 22.4142 12.75 22 12.75H21C20.5858 12.75 20.25 12.4142 20.25 12ZM18.1476 18.1476C18.4405 17.8547 18.9154 17.8547 19.2083 18.1476L19.6011 18.5405C19.894 18.8334 19.894 19.3082 19.6011 19.6011C19.3082 19.894 18.8334 19.894 18.5405 19.6011L18.1476 19.2083C17.8547 18.9154 17.8547 18.4405 18.1476 18.1476ZM5.85211 18.1479C6.145 18.4408 6.145 18.9157 5.85211 19.2086L5.45927 19.6014C5.16638 19.8943 4.6915 19.8943 4.39861 19.6014C4.10572 19.3085 4.10572 18.8336 4.39861 18.5407L4.79145 18.1479C5.08434 17.855 5.55921 17.855 5.85211 18.1479ZM12 20.25C12.4142 20.25 12.75 20.5858 12.75 21V22C12.75 22.4142 12.4142 22.75 12 22.75C11.5858 22.75 11.25 22.4142 11.25 22V21C11.25 20.5858 11.5858 20.25 12 20.25Z" clip-rule="evenodd"/></g></svg><span>Light</span></button><button data-theme="dark" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="Dark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="currentColor" d="M12 22C17.5228 22 22 17.5228 22 12C22 11.5373 21.3065 11.4608 21.0672 11.8568C19.9289 13.7406 17.8615 15 15.5 15C11.9101 15 9 12.0899 9 8.5C9 6.13845 10.2594 4.07105 12.1432 2.93276C12.5392 2.69347 12.4627 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/></svg><span>Dark</span></button><button data-theme="system" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="System" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><g fill="currentColor"><path d="M8 17C5.17157 17 3.75736 17 2.87868 16.1213C2.30938 15.552 2.10893 14.7579 2.03835 13.5H21.9616C21.8911 14.7579 21.6906 15.552 21.1213 16.1213C20.2426 17 18.8284 17 16 17H12.75V21H16C16.4142 21 16.75 21.3358 16.75 21.75C16.75 22.1642 16.4142 22.5 16 22.5H8C7.58579 22.5 7.25 22.1642 7.25 21.75C7.25 21.3358 7.58579 21 8 21H11.25V17H8Z"/><path d="M10 2H14C17.7712 2 19.6569 2 20.8284 3.17157C22 4.34315 22 6.22876 22 10V11C22 11.5516 22 12.0494 21.9935 12.5H2.00652C2 12.0494 2 11.5516 2 11V10C2 6.22876 2 4.34315 3.17157 3.17157C4.34315 2 6.22876 2 10 2Z"/></g></svg><span>System</span></button></div>
@@ -407,7 +411,7 @@
       
 <button
   id="mobile-nav-toggle"
-  class="nav-panel-toggle border-border bg-background text-muted-foreground hover:bg-accent hover:text-foreground flex h-10 w-10 items-center justify-center rounded-lg border transition-colors duration-200"
+  class="nav-panel-toggle border-border bg-background text-muted-foreground hover:bg-accent hover:text-foreground flex h-10 w-10 items-center justify-center rounded-lg border-2 transition-colors duration-200"
   aria-label="Menu"
   aria-expanded="false"
   aria-controls="mobile-nav-panel"
@@ -449,10 +453,10 @@
 
     <div
       id="color-scheme-dropdown"
-      class="dropdown-menu border-border bg-popover/95 w-44 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
+      class="dropdown-menu border-border bg-popover/95 w-44 absolute top-12 right-0 z-60 hidden rounded-lg border-2 p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
       data-dropdown-type="color-scheme"
       
-    ><button data-color-scheme="senwa-v4" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v4</span></button><button data-color-scheme="senwa-v3" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v3</span></button><button data-color-scheme="senwa-v2" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v2</span></button><button data-color-scheme="senwa-v1" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v1</span></button></div>
+    ><button data-color-scheme="senwa-v5" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v5</span></button><button data-color-scheme="senwa-v4" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v4</span></button><button data-color-scheme="senwa-v3" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v3</span></button><button data-color-scheme="senwa-v2" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v2</span></button><button data-color-scheme="senwa-v1" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><span>senwa-v1</span></button></div>
   </div>
 
 
@@ -471,7 +475,7 @@
 
     <div
       id="theme-dropdown"
-      class="dropdown-menu border-border bg-popover/95 w-40 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
+      class="dropdown-menu border-border bg-popover/95 w-40 absolute top-12 right-0 z-60 hidden rounded-lg border-2 p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
       data-dropdown-type="theme"
       
     ><button data-theme="light" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="Light" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><g fill="currentColor"><path d="M18 12C18 15.3137 15.3137 18 12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12Z"/><path fill-rule="evenodd" d="M12 1.25C12.4142 1.25 12.75 1.58579 12.75 2V3C12.75 3.41421 12.4142 3.75 12 3.75C11.5858 3.75 11.25 3.41421 11.25 3V2C11.25 1.58579 11.5858 1.25 12 1.25ZM4.39861 4.39861C4.6915 4.10572 5.16638 4.10572 5.45927 4.39861L5.85211 4.79145C6.145 5.08434 6.145 5.55921 5.85211 5.85211C5.55921 6.145 5.08434 6.145 4.79145 5.85211L4.39861 5.45927C4.10572 5.16638 4.10572 4.6915 4.39861 4.39861ZM19.6011 4.39887C19.894 4.69176 19.894 5.16664 19.6011 5.45953L19.2083 5.85237C18.9154 6.14526 18.4405 6.14526 18.1476 5.85237C17.8547 5.55947 17.8547 5.0846 18.1476 4.79171L18.5405 4.39887C18.8334 4.10598 19.3082 4.10598 19.6011 4.39887ZM1.25 12C1.25 11.5858 1.58579 11.25 2 11.25H3C3.41421 11.25 3.75 11.5858 3.75 12C3.75 12.4142 3.41421 12.75 3 12.75H2C1.58579 12.75 1.25 12.4142 1.25 12ZM20.25 12C20.25 11.5858 20.5858 11.25 21 11.25H22C22.4142 11.25 22.75 11.5858 22.75 12C22.75 12.4142 22.4142 12.75 22 12.75H21C20.5858 12.75 20.25 12.4142 20.25 12ZM18.1476 18.1476C18.4405 17.8547 18.9154 17.8547 19.2083 18.1476L19.6011 18.5405C19.894 18.8334 19.894 19.3082 19.6011 19.6011C19.3082 19.894 18.8334 19.894 18.5405 19.6011L18.1476 19.2083C17.8547 18.9154 17.8547 18.4405 18.1476 18.1476ZM5.85211 18.1479C6.145 18.4408 6.145 18.9157 5.85211 19.2086L5.45927 19.6014C5.16638 19.8943 4.6915 19.8943 4.39861 19.6014C4.10572 19.3085 4.10572 18.8336 4.39861 18.5407L4.79145 18.1479C5.08434 17.855 5.55921 17.855 5.85211 18.1479ZM12 20.25C12.4142 20.25 12.75 20.5858 12.75 21V22C12.75 22.4142 12.4142 22.75 12 22.75C11.5858 22.75 11.25 22.4142 11.25 22V21C11.25 20.5858 11.5858 20.25 12 20.25Z" clip-rule="evenodd"/></g></svg><span>Light</span></button><button data-theme="dark" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="Dark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="currentColor" d="M12 22C17.5228 22 22 17.5228 22 12C22 11.5373 21.3065 11.4608 21.0672 11.8568C19.9289 13.7406 17.8615 15 15.5 15C11.9101 15 9 12.0899 9 8.5C9 6.13845 10.2594 4.07105 12.1432 2.93276C12.5392 2.69347 12.4627 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/></svg><span>Dark</span></button><button data-theme="system" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="System" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><g fill="currentColor"><path d="M8 17C5.17157 17 3.75736 17 2.87868 16.1213C2.30938 15.552 2.10893 14.7579 2.03835 13.5H21.9616C21.8911 14.7579 21.6906 15.552 21.1213 16.1213C20.2426 17 18.8284 17 16 17H12.75V21H16C16.4142 21 16.75 21.3358 16.75 21.75C16.75 22.1642 16.4142 22.5 16 22.5H8C7.58579 22.5 7.25 22.1642 7.25 21.75C7.25 21.3358 7.58579 21 8 21H11.25V17H8Z"/><path d="M10 2H14C17.7712 2 19.6569 2 20.8284 3.17157C22 4.34315 22 6.22876 22 10V11C22 11.5516 22 12.0494 21.9935 12.5H2.00652C2 12.0494 2 11.5516 2 11V10C2 6.22876 2 4.34315 3.17157 3.17157C4.34315 2 6.22876 2 10 2Z"/></g></svg><span>System</span></button></div>
@@ -491,7 +495,7 @@
   tabindex="-1"
 >
   <div
-    class="border-border bg-popover/95 overflow-hidden rounded-xl border shadow-lg backdrop-blur-sm"
+    class="border-border bg-popover/95 overflow-hidden rounded-xl border-2 shadow-lg backdrop-blur-sm"
   >
     
     <nav class="flex flex-col p-2">
@@ -729,11 +733,11 @@
 <article class="group">
   <a href="/en/blog/favorite-games/" class="block">
     <div
-      class="border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
+      class="border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border-2 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
     >
       <div class="p-3 pb-0 md:order-last md:w-64 md:shrink-0 md:p-3 md:pl-0">
           <div
-            class="relative aspect-video h-full w-full overflow-hidden rounded-lg md:aspect-video"
+            class="relative aspect-video h-full w-full overflow-hidden border-2 border-border rounded-lg md:aspect-video"
           >
             <img
               src="/images/blog/favorite-games.jpg"
@@ -743,7 +747,7 @@
             />
           </div>
         </div>
-      <div class="flex flex-1 flex-col justify-center gap-2 p-6 bg-card">
+      <div class="flex flex-1 flex-col justify-center gap-2 p-6">
         
         <h3
           class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
@@ -767,7 +771,7 @@
         <div class="text-muted-foreground mt-0 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
           
             <span
-              class="bg-muted/45 text-foreground border-border inline-flex h-10 items-center gap-2 rounded-lg border px-3.5 shadow-sm"
+              class="bg-none text-foreground border-border inline-flex h-10 items-center gap-2 rounded-lg border-2 px-3.5 shadow-sm"
             >
               <svg class="h-4 w-4 text-primary shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M21 11.0975V16.0909C21 19.1875 21 20.7358 20.2659 21.4123C19.9158 21.735 19.4739 21.9377 19.0031 21.9915C18.016 22.1045 16.8633 21.0849 14.5578 19.0458C13.5388 18.1445 13.0292 17.6938 12.4397 17.5751C12.1494 17.5166 11.8506 17.5166 11.5603 17.5751C10.9708 17.6938 10.4612 18.1445 9.44216 19.0458C7.13673 21.0849 5.98402 22.1045 4.99692 21.9915C4.52615 21.9377 4.08421 21.735 3.73411 21.4123C3 20.7358 3 19.1875 3 16.0909V11.0975C3 6.80891 3 4.6646 4.31802 3.3323C5.63604 2 7.75736 2 12 2C16.2426 2 18.364 2 19.682 3.3323C21 4.6646 21 6.80891 21 11.0975ZM8.25 6C8.25 5.58579 8.58579 5.25 9 5.25H15C15.4142 5.25 15.75 5.58579 15.75 6C15.75 6.41421 15.4142 6.75 15 6.75H9C8.58579 6.75 8.25 6.41421 8.25 6Z" clip-rule="evenodd"/></svg>
               <span class="text-primary font-bold">In progress</span>
@@ -794,13 +798,13 @@
             <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
               
                 <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border-2 px-2 py-0.5 text-xs"
                 >
                   <span class="font-medium">Favorite</span>
                 </span>
               
                 <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border-2 px-2 py-0.5 text-xs"
                 >
                   <span class="font-medium">Videogames</span>
                 </span>
@@ -964,7 +968,7 @@
   aria-label="Quick actions toolbar"
 >
   <nav
-    class="border-border bg-card/80 scrollbar-hide xs:px-3 xs:py-2 mx-auto flex max-w-[calc(100vw-2rem)] min-w-fit items-center justify-center overflow-x-auto rounded-2xl border px-4 py-3 shadow-lg backdrop-blur-sm sm:px-4 sm:py-3"
+    class="border-border bg-card/80 scrollbar-hide xs:px-3 xs:py-2 mx-auto flex max-w-[calc(100vw-2rem)] min-w-fit items-center justify-center overflow-x-auto rounded-2xl border-2 px-4 py-3 shadow-lg backdrop-blur-sm sm:px-4 sm:py-3"
   >
     
     
@@ -1056,7 +1060,7 @@
 
 <div
   id="search-modal"
-  class="bg-card border-border pointer-events-none fixed top-1/2 left-1/2 z-50 max-h-[80vh] w-full max-w-2xl -translate-x-1/2 -translate-y-1/2 scale-95 transform overflow-hidden rounded-xl border opacity-0 shadow-xl transition-all duration-300"
+  class="bg-card border-border pointer-events-none fixed top-1/2 left-1/2 z-50 max-h-[80vh] w-full max-w-2xl -translate-x-1/2 -translate-y-1/2 scale-95 transform overflow-hidden rounded-xl border-2 opacity-0 shadow-xl transition-all duration-300"
   role="dialog"
   aria-modal="true"
   aria-hidden="true"
@@ -1159,20 +1163,20 @@
   <div class="border-border bg-muted/20 border-t px-4 py-3"><div class="text-muted-foreground flex items-center justify-between text-xs">
       <div class="flex items-center gap-2 md:gap-4">
         <div class="flex items-center gap-1">
-          <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">↑↓</kbd>
+          <kbd class="bg-muted border-border rounded border-2 px-1.5 py-0.5 text-xs">↑↓</kbd>
           <span class="hidden sm:inline">Navigate</span>
         </div>
         <div class="flex items-center gap-1">
-          <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">↵</kbd>
+          <kbd class="bg-muted border-border rounded border-2 px-1.5 py-0.5 text-xs">↵</kbd>
           <span class="hidden sm:inline">Select</span>
         </div>
         <div class="flex items-center gap-1">
-          <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">ESC</kbd>
+          <kbd class="bg-muted border-border rounded border-2 px-1.5 py-0.5 text-xs">ESC</kbd>
           <span class="hidden sm:inline">Close</span>
         </div>
       </div>
       <div class="search-hint-desktop flex items-center gap-1">
-        <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">⌘K</kbd>
+        <kbd class="bg-muted border-border rounded border-2 px-1.5 py-0.5 text-xs">⌘K</kbd>
         <span>Shortcut</span>
       </div>
     </div>

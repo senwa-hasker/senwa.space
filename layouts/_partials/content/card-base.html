@@ -30,13 +30,13 @@
 <article class="group">
   <a href="{{ $page.RelPermalink }}" class="block">
     <div
-      class="border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
+      class="border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border-2 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
     >
       <!-- 封面图片 -->
       {{- if $coverImage -}}
         <div class="p-3 pb-0 md:order-last md:w-64 md:shrink-0 md:p-3 md:pl-0">
           <div
-            class="relative aspect-video h-full w-full overflow-hidden rounded-lg md:aspect-video"
+            class="relative aspect-video h-full w-full overflow-hidden border-2 border-border rounded-lg md:aspect-video"
           >
             <img
               src="{{ $coverImage }}"
@@ -50,7 +50,7 @@
 
 
       <!-- 文章内容区域 -->
-      <div class="flex flex-1 flex-col justify-center gap-2 p-6 bg-card">
+      <div class="flex flex-1 flex-col justify-center gap-2 p-6">
         <!-- 文章标题 -->
         <h3
           class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
@@ -74,7 +74,7 @@
         <div class="text-muted-foreground mt-0 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
           {{ if $page.Params.status }}
             <span
-              class="bg-muted/45 text-foreground border-border inline-flex h-10 items-center gap-2 rounded-lg border px-3.5 shadow-sm"
+              class="bg-none text-foreground border-border inline-flex h-10 items-center gap-2 rounded-lg border-2 px-3.5 shadow-sm"
             >
               {{ partial "features/icon.html" (dict "name" "bookmark" "size" "sm" "class" "text-primary shrink-0" "hidden" true) }}
               <span class="text-primary font-bold">{{ $page.Params.status | humanize }}</span>
@@ -108,7 +108,7 @@
             <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
               {{ range first 3 $page.Params.tags }}
                 <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border-2 px-2 py-0.5 text-xs"
                 >
                   <span class="font-medium">{{ . }}</span>
                 </span>
@@ -120,7 +120,7 @@
             <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
               {{ range first 3  $page.Params.topics }}
                 <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border-2 px-2 py-0.5 text-xs"
                 >
                   <span class="font-medium">{{ . }}</span>
                 </span>
@@ -132,7 +132,7 @@
             <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
               {{ range first 3  $page.Params.categories }}
                 <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border-2 px-2 py-0.5 text-xs"
                 >
                   <span class="font-medium">{{ . }}</span>
                 </span>

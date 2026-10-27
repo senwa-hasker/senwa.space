@@ -14,7 +14,7 @@
         <div class="pointer-events-auto relative mx-auto w-fit">
           <button
             id="toc-center-toggle"
-            class="bg-card/80 border-border text-muted-foreground hover:text-primary hover:bg-primary/10 ring-offset-background focus-visible:ring-ring flex cursor-pointer items-center gap-2 rounded-full border px-4 py-1.5 text-sm shadow-sm backdrop-blur-sm transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+            class="bg-card/80 border-border text-muted-foreground hover:text-primary hover:bg-primary/10 ring-offset-background focus-visible:ring-ring flex cursor-pointer items-center gap-2 rounded-full border-2 px-4 py-1.5 text-sm shadow-sm backdrop-blur-sm transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
           >
             {{ partial "features/icon.html" (dict "name" "list" "size" "sm" "ariaLabel" "") }}
             <span id="toc-center-title" class="max-w-[200px] truncate">{{ T "ui.toc" }}</span>
@@ -24,7 +24,7 @@
           <!-- Dropdown 内容 -->
           <div
             id="toc-center-dropdown"
-            class="bg-card border-border scrollbar-hide absolute top-full left-1/2 mt-2 hidden max-h-[60vh] w-[280px] origin-top -translate-x-1/2 scale-95 overflow-y-auto rounded-xl border p-4 opacity-0 shadow-lg transition-all"
+            class="bg-card border-border scrollbar-hide absolute top-full left-1/2 mt-2 hidden max-h-[60vh] w-[280px] origin-top -translate-x-1/2 scale-95 overflow-y-auto rounded-xl border-2 p-4 opacity-0 shadow-lg transition-all"
           >
             <div
               id="toc-center-content"
@@ -58,7 +58,7 @@
             <div id="toc-trigger-wrap">
               <button
                 id="toc-trigger"
-                class="bg-card/80 border-border text-muted-foreground hover:text-primary hover:bg-primary/10 ring-offset-background focus-visible:ring-ring flex cursor-pointer items-center gap-2 rounded-full border px-4 py-1.5 text-sm shadow-sm backdrop-blur-sm transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+                class="bg-card/80 border-border text-muted-foreground hover:text-primary hover:bg-primary/10 ring-offset-background focus-visible:ring-ring flex cursor-pointer items-center gap-2 rounded-full border-2 px-4 py-1.5 text-sm shadow-sm backdrop-blur-sm transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
                 aria-controls="toc-panel"
                 aria-expanded="false"
               >

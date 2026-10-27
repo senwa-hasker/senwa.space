@@ -9,8 +9,8 @@ cover: images/books/rooms-to-mates/cover.jpg
 books:
     - Rooms to Mates
 characters:
-    - Sophia
-    - Julie
+    - Sophia Kasane
+    - Julie Byrne
 status: "in_progress"
 weight: 2
 lightbox:

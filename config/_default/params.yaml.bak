@@ -63,17 +63,20 @@ toc:
   pinned: true # Side mode only: keep the TOC panel always visible when there is enough space
 
 # Default color scheme
-colorScheme: "senwa-v3"
+colorScheme: "senwa-v4"
 themes:
+  senwa-v4:
+    name: "senwa-v4"
+    order: 1
   senwa-v3:
     name: "senwa-v3"
-    order: 1
+    order: 2
   senwa-v2:
     name: "senwa-v2"
-    order: 2
+    order: 3
   senwa-v1:
     name: "senwa-v1"
-    order: 3
+    order: 4
 
 # Home page configuration
 home:

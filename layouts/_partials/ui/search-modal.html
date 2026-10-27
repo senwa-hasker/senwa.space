@@ -7,7 +7,7 @@
 <!-- 搜索模态框 -->
 <div
   id="search-modal"
-  class="bg-card border-border pointer-events-none fixed top-1/2 left-1/2 z-50 max-h-[80vh] w-full max-w-2xl -translate-x-1/2 -translate-y-1/2 scale-95 transform overflow-hidden rounded-xl border opacity-0 shadow-xl transition-all duration-300"
+  class="bg-card border-border pointer-events-none fixed top-1/2 left-1/2 z-50 max-h-[80vh] w-full max-w-2xl -translate-x-1/2 -translate-y-1/2 scale-95 transform overflow-hidden rounded-xl border-2 opacity-0 shadow-xl transition-all duration-300"
   role="dialog"
   aria-modal="true"
   aria-hidden="true"
@@ -112,20 +112,20 @@
     <div class="text-muted-foreground flex items-center justify-between text-xs">
       <div class="flex items-center gap-2 md:gap-4">
         <div class="flex items-center gap-1">
-          <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">↑↓</kbd>
+          <kbd class="bg-muted border-border rounded border-2 px-1.5 py-0.5 text-xs">↑↓</kbd>
           <span class="hidden sm:inline">{{ index $searchHintLabels 0 }}</span>
         </div>
         <div class="flex items-center gap-1">
-          <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">↵</kbd>
+          <kbd class="bg-muted border-border rounded border-2 px-1.5 py-0.5 text-xs">↵</kbd>
           <span class="hidden sm:inline">{{ index $searchHintLabels 1 }}</span>
         </div>
         <div class="flex items-center gap-1">
-          <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">ESC</kbd>
+          <kbd class="bg-muted border-border rounded border-2 px-1.5 py-0.5 text-xs">ESC</kbd>
           <span class="hidden sm:inline">{{ index $searchHintLabels 2 }}</span>
         </div>
       </div>
       <div class="search-hint-desktop flex items-center gap-1">
-        <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">⌘K</kbd>
+        <kbd class="bg-muted border-border rounded border-2 px-1.5 py-0.5 text-xs">⌘K</kbd>
         <span>{{ index $searchHintLabels 3 }}</span>
       </div>
     </div>

@@ -66,7 +66,7 @@
       {{ end }}
 
       {{ if .ReadingTime }}
-        <div class="bg-card text-muted-foreground border-muted-foreground inline-flex h-10 items-center gap-2 rounded-lg border px-3.5 shadow-sm">
+        <div class="bg-card text-muted-foreground border-muted-foreground inline-flex h-10 items-center gap-2 rounded-lg border-2 px-3.5 shadow-sm">
           {{ partial "features/icon.html" (dict "name" "clock-circle" "size" "sm" "ariaLabel" "") }}
           <span class="truncate font-medium"
             >{{ T "article.readingTime" (dict "count" .ReadingTime) }}</span

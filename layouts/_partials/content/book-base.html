@@ -30,7 +30,7 @@
 <article class="group">
   <a href="{{ $page.RelPermalink }}" class="block">
     <div
-      class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
+      class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border-2 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
     >
       <!-- 封面图片 -->
       {{- if $coverImage -}}
@@ -89,7 +89,7 @@
             <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
               {{ range first 3 $page.Params.tags }}
                 <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border-2 px-2 py-0.5 text-xs"
                 >
                   <span class="font-medium">{{ . }}</span>
                 </span>
@@ -101,7 +101,7 @@
             <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
               {{ range first 3  $page.Params.topics }}
                 <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border-2 px-2 py-0.5 text-xs"
                 >
                   <span class="font-medium">{{ . }}</span>
                 </span>
@@ -113,7 +113,7 @@
             <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
               {{ range first 3  $page.Params.categories }}
                 <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border-2 px-2 py-0.5 text-xs"
                 >
                   <span class="font-medium">{{ . }}</span>
                 </span>
