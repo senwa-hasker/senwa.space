@@ -1,16 +1,16 @@
 ---
-date: '2026-10-17T00:58:47-03:00'
+date: "2026-10-17T00:58:47-03:00"
 draft: false
 featured: false
-title: 'Chapter 1: Your Way'
+title: "Chapter 1: Your Way"
 description: "My personal classic, rewritten. Girl with a crush really wants to get with this person but in their own way of doing things (no spoilers!)"
 summary: "My personal classic, rewritten. Girl with a crush really wants to get with this person but in their own way of doing things (no spoilers!)"
 cover: "images/books/ideal-scenario/cover.jpg"
 books:
-    - Ideal Scenario
+  - Ideal Scenario
 characters:
-    - Aubrey Snelling
-    - Maya Miller
+  - Aubrey Snelling
+  - Maya Miller
 weight: 2
 status: "in_progress"
 lightbox:
@@ -23,6 +23,6 @@ When Aubrey first understood they'd be alone for the entire weekend, a lot of th
 
 > [!NOTE] Sophia is a humble worker turned demigod. One day, while working her field, lightning struck her, and from then on she has incredible powers, from flight to super-strength to super-speed. Still, she decides to maintain a lowkey life, simply working errands for her community, as long as they do not watch her, for now. What awaits next is the question.
 
-Aubrey thought, might as well make her powerful to avoid grinding in the early game. With the character done, they are asked to confirm the character, and just before they press continue, the doorbell rings. Strange, they thought, no packages would arrive this late and Miu is quite far away. Maybe something happened? Nonetheless, they put the controller down and half-shout "Be right there".  
+Aubrey thought, might as well make her powerful to avoid grinding in the early game. With the character done, they are asked to confirm the character, and just before they press continue, the doorbell rings. Strange, they thought, no packages would arrive this late and Miu is quite far away. Maybe something happened? Nonetheless, they put the controller down and half-shout "Be right there".
 
 One short walk later, they gently unlock and open the door of the apartment, and the sight was unexpected, to say the least. Sobbing, soaked in rainwater, unannounced, holding an overnight bag. It's clear something is very wrong. "Maya? Oh my God, what happened to you?" Aubrey quietly says in a tone of pure care. After some sobs, Maya attempts to regain composure and say something, but is unable to form any words. One thing has changed, however, and that's that her gaze was now deep into Aubrey's eyes, and her expression was nearly that of an abandoned puppy.

@@ -42,7 +42,7 @@ header:
     link: "/" # Click to home page
   # UI Components Control (header controls)
   showThemeSwitch: true # Set to false to hide theme style switcher (palette icon)
-  showDarkModeSwitch: true # Set to false to hide dark mode switcher (sun/moon icon)
+  showDarkModeSwitch: false # Set to false to hide dark mode switcher (sun/moon icon)
   showContentWidthSwitch: true # Set to false to hide the desktop content width switcher
   showLanguageSwitch: false # Set to false to hide language switcher
   languageSwitchMode: "dropdown" # Language switch mode: "dropdown" (show panel) or "cycle" (direct cycle)
@@ -260,7 +260,7 @@ dateFormat:
 # Time format (optional)
 #
 # Used by helpers/date.html when called with kind="time", e.g.:
-#   {{ partial "helpers/date.html" (dict "date" .Date "variant" "short" "kind" "time") }}
+#   {{ partial ".*.gohtml" (dict "date" .Date "variant" "short" "kind" "time") }}
 # Same value rules as dateFormat: either Hugo localization tokens
 # (":time_full" / ":time_long" / ":time_medium" / ":time_short") or a Go time layout
 # string (e.g. "15:04", "3:04 PM"). The theme does not render time values out of the

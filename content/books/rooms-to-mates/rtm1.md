@@ -1,16 +1,16 @@
 ---
-date: '2026-10-24T18:03:16-03:00'
+date: "2026-10-24T18:03:16-03:00"
 draft: false
 featured: false
-title: 'Good Morning'
+title: "Good Morning"
 description: "thingincardpreviews"
 summary: "thingundertitleinpost"
 cover: images/books/rooms-to-mates/cover.jpg
 books:
-    - Rooms to Mates
+  - Rooms to Mates
 characters:
-    - Sophia Kasane
-    - Julie Byrne
+  - Sophia Kasane
+  - Julie Byrne
 status: "in_progress"
 weight: 2
 lightbox:

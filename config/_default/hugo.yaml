@@ -8,11 +8,10 @@ theme: "hugo-narrow"
 hasCJKLanguage: false
 enableEmoji: true
 
-
 # Main Section Configuration (Optional)
 # If not configured, Hugo will automatically select the section with the most pages
 # This configuration affects functions such as recent articles on the homepage, search index, and archive pages
-mainSections: ["articles", "blog", "projects"]  # Multiple values can be configured, e.g. ["posts", "blog", "articles"]
+mainSections: ["articles", "blog", "projects"] # Multiple values can be configured, e.g. ["posts", "blog", "articles"]
 
 build:
   noJSConfigInAssets: true
@@ -25,7 +24,6 @@ permalinks:
 pagination:
   pagerSize: 6
   path: "page"
-
 
 taxonomies:
   book: books
@@ -43,8 +41,8 @@ markup:
   goldmark:
     parser:
       attribute:
-        block : true
-        title : true
+        block: true
+        title: true
     renderer:
       unsafe: true
     extensions:
@@ -58,8 +56,8 @@ markup:
         subscript:
           enable: true
         superscript:
-          enable: true   
-      strikethrough: true 
+          enable: true
+      strikethrough: true
   highlight:
     codeFences: true
     guessSyntax: false

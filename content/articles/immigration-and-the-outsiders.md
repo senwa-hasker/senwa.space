@@ -1,19 +1,19 @@
 ---
-date: '2026-10-20T17:15:18-03:00'
+date: "2026-10-20T17:15:18-03:00"
 draft: false
 featured: false
-title: 'Immigration and the Outsiders'
+title: "Immigration and the Outsiders"
 description: "My stances on immigration, culture and assimilation"
 summary: "My stances on immigration, culture and assimilation"
-cover: 'images/articles/immigration-and-the-outsiders.jpg'
+cover: "images/articles/immigration-and-the-outsiders.jpg"
 topics:
-    - policy
-    - law
-    - immigration
-    - government
-    - morality
-    - assimilation
-    - reform uk
+  - policy
+  - law
+  - immigration
+  - government
+  - morality
+  - assimilation
+  - reform uk
 status: "planning"
 lightbox:
   enabled: true

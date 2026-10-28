@@ -13,7 +13,8 @@ Software engineer with 9 years of experience building scalable backend systems a
 ## Experience
 
 ### Senior Software Engineer — Meridian Technologies
-*Mar 2021 – Present | Berlin, Germany (Remote)*
+
+_Mar 2021 – Present | Berlin, Germany (Remote)_
 
 - Redesigned core data pipeline processing 50M events/day, reducing p99 latency from 4s to 280ms
 - Led migration from monolith to event-driven microservices across 6 teams
@@ -23,7 +24,8 @@ Software engineer with 9 years of experience building scalable backend systems a
 **Tech stack:** Go, Kafka, Kubernetes, PostgreSQL, Terraform, AWS
 
 ### Backend Engineer — Stackfield GmbH
-*Jul 2018 – Feb 2021 | Munich, Germany*
+
+_Jul 2018 – Feb 2021 | Munich, Germany_
 
 - Built real-time collaboration engine powering 200k daily active users
 - Reduced infrastructure costs by 35% through query optimisation and caching strategy
@@ -32,7 +34,8 @@ Software engineer with 9 years of experience building scalable backend systems a
 **Tech stack:** Go, Redis, WebSockets, PostgreSQL, Docker
 
 ### Software Engineer — Finleap GmbH
-*Sep 2015 – Jun 2018 | Berlin, Germany*
+
+_Sep 2015 – Jun 2018 | Berlin, Germany_
 
 - Developed payment processing integrations for 12 European markets
 - Led adoption of internal API standards adopted across 8 product teams
@@ -42,12 +45,14 @@ Software engineer with 9 years of experience building scalable backend systems a
 ## Education
 
 ### M.Sc. Computer Science — Technische Universität Berlin
-*2013 – 2015 | Berlin, Germany*
+
+_2013 – 2015 | Berlin, Germany_
 
 Thesis: Adaptive load balancing in distributed key-value stores
 
 ### B.Sc. Computer Science — Universität Stuttgart
-*2010 – 2013 | Stuttgart, Germany*
+
+_2010 – 2013 | Stuttgart, Germany_
 
 ## Skills
 

@@ -1,18 +1,18 @@
 ---
-date: '2026-10-17T02:57:08-03:00'
+date: "2026-10-17T02:57:08-03:00"
 draft: false
 featured: false
-title: 'Lateralism'
+title: "Lateralism"
 description: "An attempt to describe a core philosophy of mine"
 summary: "An attempt to describe a core philosophy of mine"
 cover: images/articles/lateralism.jpg
 topics:
-    - philosophy
-    - lateralism
-    - logic
-    - intention
-    - deontology
-    - politics
+  - philosophy
+  - lateralism
+  - logic
+  - intention
+  - deontology
+  - politics
 status: "planning"
 lightbox:
   enabled: true

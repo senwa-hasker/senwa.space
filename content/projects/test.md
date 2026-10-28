@@ -1,13 +1,13 @@
 ---
-date: '2026-10-17T02:45:19-03:00'
+date: "2026-10-17T02:45:19-03:00"
 draft: true
 featured: false
-title: 'Test'
+title: "Test"
 description: "thingincardpreviews"
 summary: "thingundertitleinpost"
 cover: images/projects/placeholder.jpg
 categories:
-    - changethis
+  - changethis
 status: "in_progress"
 lightbox:
   enabled: true

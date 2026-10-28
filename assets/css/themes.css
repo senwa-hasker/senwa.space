@@ -15,10 +15,9 @@
   --color-popover: oklch(1 0 0);
   --color-popover-foreground: oklch(0.145 0 0);
 
-
   --color-note: oklch(0.61 0.15 252.5);
   --color-tip: oklch(0.61 0.15 162.48);
-  --color-important: oklch(0.61 0.15 282.5); 
+  --color-important: oklch(0.61 0.15 282.5);
   --color-warning: oklch(0.61 0.15 82.5);
   --color-caution: oklch(0.61 0.15 12.57);
 }

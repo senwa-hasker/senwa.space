@@ -1,13 +1,13 @@
 ---
-date: '2026-10-24T18:02:13-03:00'
+date: "2026-10-24T18:02:13-03:00"
 draft: false
 featured: false
-title: 'Good Night'
+title: "Good Night"
 description: "thingincardpreviews"
-summary: "thingundertitleinpost"
+summary: "The start of a happily ever after"
 cover: images/books/rooms-to-mates/cover.jpg
 books:
-    - Rooms to Mates
+  - Rooms to Mates
 status: "in_progress"
 weight: 6
 lightbox:

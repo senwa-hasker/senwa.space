@@ -1,14 +1,14 @@
 ---
-date: '2026-10-19T20:47:50-03:00'
+date: "2026-10-19T20:47:50-03:00"
 draft: false
 featured: false
-title: 'Favorite Movies'
+title: "Favorite Movies"
 description: "In no order whatsoever"
 summary: "In no order whatsoever"
-cover: 'images/blog/favorite-movies.jpg'
+cover: "images/blog/favorite-movies.jpg"
 tags:
-    - Favorite
-    - Movies
+  - Favorite
+  - Movies
 status: "in_progress"
 lightbox:
   enabled: true

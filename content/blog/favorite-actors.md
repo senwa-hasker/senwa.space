@@ -1,16 +1,16 @@
 ---
-date: '2026-10-19T20:05:18-03:00'
+date: "2026-10-19T20:05:18-03:00"
 draft: false
 featured: TRUE
-title: 'Favorite Actors'
+title: "Favorite Actors"
 description: "In no order whatsoever"
 summary: "In no order whatsoever"
-cover: 'images/blog/favorite-actors.jpg'
+cover: "images/blog/favorite-actors.jpg"
 tags:
-    - People
-    - Celebrities
-    - Movies
-    - Actors
+  - People
+  - Celebrities
+  - Movies
+  - Actors
 status: "completed"
 lightbox:
   enabled: true
@@ -32,7 +32,7 @@ Funnily enough I did get into her from Obsession even having watched 13 Reasons 
 
 ## Harrison Ford
 
-![Harrison Ford|left](https://people.com/thmb/uslRgLNXoqi9iOyoKBuIvDCmLvM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(788x258:790x260)/harrison-ford-blade-runner-1982-011625-9108cc7faabe447283e02c2ea0ca530f.jpg "Harrison Ford")
+![Harrison Ford|left](<https://people.com/thmb/uslRgLNXoqi9iOyoKBuIvDCmLvM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(788x258:790x260)/harrison-ford-blade-runner-1982-011625-9108cc7faabe447283e02c2ea0ca530f.jpg> "Harrison Ford")
 
 Blade Runner is the best fictional universe ever made and this guy does it justice.
 

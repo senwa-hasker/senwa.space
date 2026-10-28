@@ -1,0 +1,57 @@
+{{/* Code block render hook with header, copy button, collapse functionality,
+and Hugo Chroma syntax highlighting Features: - Language display or filename -
+Copy button with feedback - Collapse/expand functionality - Hugo Chroma syntax
+highlighting (preserves all Hugo config options) - Theme-adaptive styling -
+Responsive design */}} {{- $lang := .Type | default "plaintext" -}} {{-
+$filename := .Attributes.filename | default "" -}} {{- $displayLang := $filename
+| default ($lang | upper) -}} {{- $codeId := printf "code-%d" .Ordinal -}} {{/*
+折叠功能相关参数 */}} {{- $collapsed := .Attributes.collapsed | default false
+-}} {{- $defaultState := .Attributes.defaultState | default
+(site.Params.codeblock.collapse.defaultState | default "expanded") -}} {{-
+$autoCollapseLines := site.Params.codeblock.collapse.autoCollapseLines | default
+30 -}} {{- $autoCollapseHeight :=
+site.Params.codeblock.collapse.autoCollapseHeight | default 400 -}} {{-
+$collapsedHeight := site.Params.codeblock.collapse.collapsedHeight | default 120
+-}} {{- $collapseEnabled := site.Params.codeblock.collapse.enabled | default
+true -}} {{/* 使用 Hugo 的 transform.HighlightCodeBlock 进行语法高亮 */}} {{-
+$highlighted := transform.HighlightCodeBlock . -}}
+
+<div
+  class="code-block-container border-border bg-card my-6 border-2 shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md"
+  data-code-block
+  data-code-id="{{ $codeId }}"
+  data-collapsible="{{ $collapseEnabled }}"
+  data-default-state="{{ $defaultState }}"
+  data-collapsed="{{ $collapsed }}"
+  data-auto-collapse-lines="{{ $autoCollapseLines }}"
+  data-auto-collapse-height="{{ $autoCollapseHeight }}"
+  data-collapsed-height="{{ $collapsedHeight }}">
+  {{/* Code block header */}}
+  <div
+    class="code-block-header bg-muted/30 border-border flex items-center justify-between border-b px-4 py-3">
+    {{/* Action buttons */}}
+    <span class="text-muted-foreground text-sm font-medium">
+      {{ $displayLang | humanize }}
+    </span>
+    <div class="flex items-center gap-2">
+      {{/* Copy button */}}
+      <button
+        class="copy-code-btn text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none"
+        type="button"
+        data-code-action="copy"
+        data-label-copy="{{ T `code.copy` }}"
+        data-label-copied="{{ T `code.copied` }}"
+        title="{{ T `code.copy` }}"
+        aria-label="{{ T `code.copy` }}">
+        <span class="copy-icon">
+          {{ partial "features/icon.gohtml" (dict "name" "copy" "size" "xs" "ariaLabel" "")
+          }}
+        </span>
+        <span class="copy-text hidden sm:inline">{{ T "code.copy" }}</span>
+      </button>
+    </div>
+  </div>
+
+  {{/* Code content with Hugo Chroma highlighting */}}
+  <div class="bg-card">{{ $highlighted.Wrapped }}</div>
+</div>
