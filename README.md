@@ -1,5 +1,3 @@
 # senwa.space
 
-𐑥𐑲 𐑐𐑻𐑕𐑩𐑯𐑩𐑤 𐑕𐑦𐑤𐑦 𐑢𐑧𐑚𐑕𐑲𐑑
-
-𐑣𐑧𐑤𐑴
+hugo moment?

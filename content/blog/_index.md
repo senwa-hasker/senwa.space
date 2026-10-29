@@ -1,4 +1,6 @@
 ---
-title: "Blog Posts"
-description: "My blog will mostly have random pieces of information and me writing about everything and nothing."
+date: '2026-10-28T22:59:38-03:00'
+draft: false
+title: 'Blog'
+layout: list
 ---

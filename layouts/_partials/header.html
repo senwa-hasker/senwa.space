@@ -1,0 +1,5 @@
+<div>
+    {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">{{ .Name }}</a>
+    {{ end }}
+</div>

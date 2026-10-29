@@ -1,53 +1,20 @@
-main:
-  - name: About
-    pageRef: /about
-    weight: 5
-    params:
-      icon: user
-
-  - name: Articles
-    pageRef: /articles
-    weight: 10
-    params:
-      icon: notebook
-
-  - name: Blog
-    pageRef: /blog
-    weight: 20
-    params:
-      icon: notes
-
-  - name: Books
-    pageRef: /books
-    weight: 30
-    params:
-      icon: book
-
-  - name: Projects
-    pageRef: /projects
-    weight: 40
-    params:
-      icon: code
-
-# footer social link
-social:
-  - name: GitHub
-    url: https://github.com/senwa-hasker
-    weight: 10
-    params:
-      icon: github|fill
-  - name: Twitter
-    url: https://twitter.com/TinyMotorcycles
-    weight: 20
-    params:
-      icon: twitter|fill
-  - name: AOTY
-    url: https://twitter.com/TinyMotorcycles
-    weight: 40
-    params:
-      icon: music-note
-  - name: Rackley Webring
-    pageRef: /rackley
-    weight: 50
-    params:
-      icon: star-angle
+menus:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 1
+    - name: About
+      pageRef: /about/
+      weight: 2
+    - name: Blog
+      pageRef: /blog/
+      weight: 3
+    - name: Articles
+      pageRef: /articles/
+      weight: 4
+    - name: Projects
+      pageRef: /projects/
+      weight: 5
+    - name: Books
+      pageRef: /books/
+      weight: 6

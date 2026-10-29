@@ -1,5 +1,6 @@
 ---
-title: "Books"
-description: "I write books! Here are all my current works, completed and in progress."
-layout: books
+date: '2026-10-28T22:59:38-03:00'
+draft: false
+title: 'Books'
+layout: list
 ---
